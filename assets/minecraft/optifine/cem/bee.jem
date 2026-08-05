@@ -1,0 +1,133 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "torso",
+			"id": "torso",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0],
+			"boxes": [
+				{"coordinates": [-3.5, 2, -5, 7, 7, 10], "textureOffset": [0, 0]}
+			],
+			"submodels": [
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 13.5, 0],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, 0.5, 0, 10, 1, 0],
+							"uvNorth": [0, 2, 10, 3],
+							"uvSouth": [0, 3, 10, 4],
+							"sizeAdd": 0.01
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 16, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "left_antenna",
+			"id": "left_antenna",
+			"invertAxis": "xy",
+			"translate": [0, -7, 5],
+			"boxes": [
+				{
+					"coordinates": [-2.5, 7, -8, 1, 2, 3],
+					"uvEast": [2, 3, 5, 5]
+				}
+			]
+		},
+		{
+			"part": "right_antenna",
+			"id": "right_antenna",
+			"invertAxis": "xy",
+			"translate": [0, -7, 5],
+			"boxes": [
+				{
+					"coordinates": [1.5, 7, -8, 1, 2, 3],
+					"uvWest": [6, 6, 9, 8]
+				}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [1.5, -9, 3],
+			"boxes": [
+				{
+					"coordinates": [-10.5, 9, -3, 9, 0, 6],
+					"uvUp": [24, 30, 15, 24]
+				}
+			]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-1.5, -9, 3],
+			"boxes": [
+				{
+					"coordinates": [1.5, 9, -3, 9, 0, 6],
+					"uvUp": [15, 24, 6, 18]
+				}
+			]
+		},
+		{
+			"part": "front_legs",
+			"id": "front_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, 2],
+			"boxes": [
+				{
+					"coordinates": [-1.5, 0, -2, 3, 2, 0],
+					"uvNorth": [28, 1, 31, 3]
+				}
+			]
+		},
+		{
+			"part": "middle_legs",
+			"id": "middle_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, 0],
+			"boxes": [
+				{
+					"coordinates": [-2.5, 0, 0, 5, 2, 0],
+					"uvNorth": [27, 3, 32, 5]
+				}
+			]
+		},
+		{
+			"part": "back_legs",
+			"id": "back_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, -2],
+			"boxes": [
+				{
+					"coordinates": [-2.5, 0, 2, 5, 2, 0],
+					"uvNorth": [27, 5, 32, 7]
+				}
+			]
+		},
+		{
+			"part": "stinger",
+			"id": "stinger",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0],
+			"boxes": [
+				{"coordinates": [0, 5, 5, 0, 1, 2], "textureOffset": [24, 7]}
+			]
+		}
+	]
+}

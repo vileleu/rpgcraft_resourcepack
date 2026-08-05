@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "./droid_bow_power",
+	"textures": {
+		"particle": "./robot_bow_power"
+	}
+}

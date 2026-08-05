@@ -1,0 +1,63 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "block/block",
+	"textures": {
+		"gem": "block/redstone_ore_gem_off",
+		"particle": "block/redstone_ore_off_3"
+	},
+	"elements": [
+		{
+			"from": [0, 16, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "texture": "#particle", "cullface": "up"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [7.99, 15.99, 6.99],
+			"to": [13.01, 20.01, 12.01],
+			"shade": false,
+			"light_emission": 1,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 18, 9]},
+			"faces": {
+				"north": {"uv": [5, 11, 10, 15], "texture": "#gem", "cullface": "up"},
+				"east": {"uv": [10, 11, 5, 15], "texture": "#gem", "cullface": "up"},
+				"south": {"uv": [5, 11, 10, 15], "texture": "#gem", "cullface": "up"},
+				"west": {"uv": [10, 11, 5, 15], "texture": "#gem", "cullface": "up"},
+				"up": {"uv": [5, 16, 0, 11], "rotation": 270, "texture": "#gem", "cullface": "up"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [4.99, 15.99, 8.99],
+			"to": [9.01, 18.01, 13.01],
+			"shade": false,
+			"light_emission": 1,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15, 9]},
+			"faces": {
+				"north": {"uv": [8, 7, 4, 9], "texture": "#gem", "cullface": "up"},
+				"east": {"uv": [4, 7, 8, 9], "texture": "#gem", "cullface": "up"},
+				"south": {"uv": [8, 7, 4, 9], "texture": "#gem", "cullface": "up"},
+				"west": {"uv": [4, 7, 8, 9], "texture": "#gem", "cullface": "up"},
+				"up": {"uv": [0, 11, 4, 7], "texture": "#gem", "cullface": "up"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [2.99, 15.99, 2.99],
+			"to": [6.01, 18.01, 6.01],
+			"shade": false,
+			"light_emission": 1,
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 15, 6]},
+			"faces": {
+				"north": {"uv": [16, 13, 13, 15], "texture": "#gem", "cullface": "up"},
+				"east": {"uv": [13, 13, 16, 15], "texture": "#gem", "cullface": "up"},
+				"south": {"uv": [13, 13, 16, 15], "texture": "#gem", "cullface": "up"},
+				"west": {"uv": [13, 13, 16, 15], "texture": "#gem", "cullface": "up"},
+				"up": {"uv": [13, 13, 16, 10], "texture": "#gem", "cullface": "up"}
+			}
+		}
+	]
+}

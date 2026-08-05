@@ -1,0 +1,14 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "multipart": [
+        {   "apply": { "model": "block/flower_pot" }
+		},
+        {   "apply": [
+            { "model": "block/potted_lily_of_the_valley" },
+            { "model": "block/potted_lily_of_the_valley", "y": 90 },
+            { "model": "block/potted_lily_of_the_valley", "y": 180 },
+            { "model": "block/potted_lily_of_the_valley", "y": 270 }
+			]
+        }
+    ]
+}

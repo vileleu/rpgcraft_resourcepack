@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "./robot_axe",
+ 	"textures": {
+		"0": "./droid_axe",
+		"particle": "./droid_axe"
+	}
+}

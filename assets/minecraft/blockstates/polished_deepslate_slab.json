@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "type=bottom": { "model": "block/polished_deepslate_slab" },
+        "type=top": { "model": "block/polished_deepslate_slab_top" },
+        "type=double": { "model": "block/polished_deepslate_slab_double" }
+    }
+}

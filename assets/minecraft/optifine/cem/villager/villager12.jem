@@ -1,0 +1,219 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [256, 256],
+	"texture": "textures/entity/villager/profession/npc_ocelot.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-2.5, 25, -2.5, 5, 4, 5],
+					"uvNorth": [205, 201, 210, 205],
+					"uvEast": [200, 201, 205, 205],
+					"uvSouth": [215, 201, 220, 205],
+					"uvWest": [210, 201, 215, 205],
+					"uvUp": [205, 196, 210, 201],
+					"uvDown": [210, 196, 215, 201]
+				}
+			],
+			"submodels": [
+				{
+					"id": "ears",
+					"invertAxis": "xy",
+					"translate": [0, 28, 0],
+					"rotate": [-22.5, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-3.5, -0.03806, -0.30866, 2, 3, 1],
+							"uvNorth": [211, 193, 213, 196],
+							"uvEast": [210, 193, 211, 196],
+							"uvSouth": [214, 193, 216, 196],
+							"uvWest": [213, 193, 214, 196],
+							"uvUp": [211, 192, 213, 193],
+							"uvDown": [213, 192, 215, 193]
+						},
+						{
+							"coordinates": [1.5, -0.03806, -0.30866, 2, 3, 1],
+							"uvNorth": [205, 193, 207, 196],
+							"uvEast": [204, 193, 205, 196],
+							"uvSouth": [208, 193, 210, 196],
+							"uvWest": [207, 193, 208, 196],
+							"uvUp": [205, 192, 207, 193],
+							"uvDown": [207, 192, 209, 193]
+						}
+					]
+				},
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [0, 9, -12],
+					"rotate": [-22.5, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-1.5, 10.99434, 13.66516, 3, 2, 2],
+							"uvNorth": [194, 203, 197, 205],
+							"uvEast": [192, 203, 194, 205],
+							"uvWest": [197, 203, 199, 205],
+							"uvUp": [197, 203, 194, 201],
+							"uvDown": [200, 201, 197, 203]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"tail.rz": "left_leg.rx/3",
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 16, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, -26, 0]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "headwear2",
+			"id": "headwear2",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"rotate": [90, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-3, 12, -2, 6, 12, 4], "textureOffset": [210, 214]},
+				{
+					"coordinates": [-1, 24, -1, 2, 2, 2],
+					"uvNorth": [216, 211, 218, 213],
+					"uvEast": [214, 211, 216, 213],
+					"uvSouth": [220, 211, 222, 213],
+					"uvWest": [218, 211, 220, 213],
+					"uvUp": [218, 211, 216, 209]
+				}
+			],
+			"submodels": [
+				{
+					"id": "tail",
+					"invertAxis": "xy",
+					"translate": [0, 13.75, 1.5],
+					"rotate": [-22.5, 0, 0],
+					"boxes": [
+						{"coordinates": [-0.5, -8, 0, 1, 8, 1], "textureOffset": [228, 231]}
+					]
+				},
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 33.5, 0],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, -0.5, 0, 10, 1, 0],
+							"uvNorth": [0, 2, 10, 3],
+							"uvSouth": [0, 3, 10, 4],
+							"sizeAdd": 0.01
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "bodywear",
+			"id": "bodywear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-3, 4, -2, 6, 20, 4], "textureOffset": [195, 232], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "arms",
+			"id": "arms",
+			"invertAxis": "xy",
+			"translate": [0, -21.05, 1.05],
+			"rotate": [43, 0, 0],
+			"submodels": [
+				{
+					"id": "left_arm",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-4.5, 25.25, -2.25],
+					"rotate": [-20, 0, 27.5],
+					"boxes": [
+						{"coordinates": [-2, -9.95, -3.05, 2, 8, 2], "textureOffset": [219, 240]}
+					]
+				},
+				{
+					"id": "right_arm",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [4.5, 25.25, -2.25],
+					"rotate": [-20, 0, -27.5],
+					"boxes": [
+						{"coordinates": [0, -9.95, -3.05, 2, 8, 2], "textureOffset": [219, 240]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0],
+			"boxes": [
+				{
+					"coordinates": [0.75, 0, -1, 2, 12, 2],
+					"uvNorth": [233.9, 238, 235.9, 250],
+					"uvEast": [232, 238, 234, 250],
+					"uvSouth": [238, 238, 240, 250],
+					"uvWest": [235.9, 238, 237.9, 250],
+					"uvDown": [238, 236, 236, 238]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0],
+			"boxes": [
+				{
+					"coordinates": [-2.75, 0, -1, 2, 12, 2],
+					"uvNorth": [233.9, 238, 235.9, 250],
+					"uvEast": [232, 238, 234, 250],
+					"uvSouth": [238, 238, 240, 250],
+					"uvWest": [235.9, 238, 237.9, 250],
+					"uvDown": [238, 236, 236, 238]
+				}
+			]
+		}
+	]
+}

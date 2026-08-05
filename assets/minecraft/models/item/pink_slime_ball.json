@@ -1,0 +1,7 @@
+{
+    "credit": "Created by Mickey Joe and CYKLOPPS for the Barely Default Datapack",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/pink_slime_ball"
+    }
+}

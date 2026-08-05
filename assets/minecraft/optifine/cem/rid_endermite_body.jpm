@@ -1,0 +1,22 @@
+{
+  "comment": "Created by Mickey Joe Alpha - https://www.YouTube.com/@MushirMickeyJoe",
+  "createdWith": "Cubik Studio",
+  "textureSize": [64,32],
+  "submodels": [
+    {
+      "id": "e0_Box6",
+      "translate": [3.0,4.0,-2.0],
+      "boxes": [
+        {
+          "coordinates": [-7.0,-5.0,0.0,7.0,5.0,7.0],
+          "uvDown": [50,20,57,27],
+          "uvUp": [43,20,50,27],
+          "uvNorth": [43,27,50,32],
+          "uvSouth": [57,27,64,32],
+          "uvWest": [50,27,57,32],
+          "uvEast": [36,27,43,32]
+        }
+      ]
+    }
+  ]
+}

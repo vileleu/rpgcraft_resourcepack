@@ -1,0 +1,22 @@
+{
+	"entity.player.big_fall": {
+		"replace": true,
+        "sounds": [
+            "damage/fallbig1",
+			"damage/fallbig2"
+        ]
+    },
+    "music_disc.pigstep": {
+        "sounds": [
+            { "name": "records/pigstep", "weight": 99 },
+            { "name": "records/barelydefaultrapremix", "weight": 1 }
+        ],
+		"replace": true
+    },
+    "random.bow": {
+        "sounds": [
+            "random/bow"
+        ], 
+        "replace": true
+    }
+}

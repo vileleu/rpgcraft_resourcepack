@@ -1,0 +1,11 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/copper_door_top_right",
+    "textures": {
+		"0": "block/oxidized_copper_door_top",
+		"1": "block/oxidized_copper_door_sides",
+		"2": "block/oxidized_copper_door_ends",
+		"3": "block/oxidized_copper_trapdoor_ends",
+		"particle": "block/oxidized_copper_door_top"
+    }
+}

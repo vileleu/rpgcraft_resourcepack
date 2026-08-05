@@ -1,0 +1,240 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"texture": "textures/entity/iron_golem/first_of_iron_ingot.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"submodels": [
+				{
+					"id": "the_whole_shabang",
+					"invertAxis": "xy",
+					"translate": [0, 31, 0],
+					"boxes": [
+						{
+							"coordinates": [-4, 12.55, -14.5, 8, 5, 6],
+							"uvNorth": [90, 23, 98, 28],
+							"uvEast": [84, 23, 90, 28],
+							"uvSouth": [104, 23, 112, 28],
+							"uvWest": [98, 23, 104, 28],
+							"uvUp": [98, 23, 90, 17]
+						},
+						{"coordinates": [-14, -15.45, -14.5, 28, 28, 28], "textureOffset": [0, 0]},
+						{
+							"coordinates": [-11, -22.45, -14.5, 24, 7, 0],
+							"uvNorth": [104, 14, 128, 21]
+						},
+						{
+							"coordinates": [-12, -21.45, 13.5, 22, 6, 0],
+							"uvSouth": [32, 72.1, 54, 78.1]
+						},
+						{
+							"coordinates": [-8, -9.45, -14.5, 16, 16, 16],
+							"uvEast": [0, 72, 16, 88],
+							"uvSouth": [32, 56, 48, 72],
+							"uvWest": [16, 72, 32, 88],
+							"uvUp": [16, 72, 0, 56],
+							"uvDown": [32, 56, 16, 72]
+						}
+					],
+					"submodels": [
+						{
+							"id": "donger",
+							"invertAxis": "xy",
+							"translate": [0, -31, 0],
+							"boxes": [
+								{
+									"coordinates": [-7, 11.55, -4.5, 14, 4, 9],
+									"uvNorth": [57, 65, 71, 69],
+									"uvEast": [48, 65, 57, 69],
+									"uvSouth": [66, 56, 80, 60],
+									"uvWest": [71, 65, 80, 69],
+									"uvDown": [66, 56, 52, 65]
+								}
+							],
+							"submodels": [
+								{
+									"id": "flute",
+									"invertAxis": "xy",
+									"translate": [0, 11.5, 0],
+									"boxes": [
+										{"coordinates": [-6, -5.95, -3.5, 12, 8, 7], "textureOffset": [80, 56]},
+										{
+											"coordinates": [-7, -9.95, -4.5, 14, 5, 9],
+											"uvNorth": [114, 53, 128, 58],
+											"uvEast": [114, 58, 123, 63],
+											"uvSouth": [114, 43, 128, 48],
+											"uvWest": [114, 48, 123, 53],
+											"uvUp": [128, 25, 114, 34],
+											"uvDown": [128, 34, 114, 43]
+										}
+									],
+									"submodels": [
+										{
+											"id": "grass2",
+											"invertAxis": "xy",
+											"translate": [-6.84776, -2.5, -3.26537],
+											"rotate": [0, 22.5, 0],
+											"boxes": [
+												{
+													"coordinates": [0, -2.5, 0, 4, 5, 0],
+													"uvNorth": [86, 74, 90, 79]
+												}
+											]
+										},
+										{
+											"id": "grass",
+											"invertAxis": "xy",
+											"translate": [6, -7.5, -3.5],
+											"rotate": [0, -22.5, 0],
+											"boxes": [
+												{
+													"coordinates": [-4, 2.5, 0, 6, 5, 0],
+													"uvNorth": [79, 74, 85, 79]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "head2",
+							"invertAxis": "xy",
+							"translate": [0, -1.45, -6.5],
+							"boxes": [
+								{
+									"coordinates": [-7, -7, -7, 14, 14, 14],
+									"uvNorth": [14, 0, 28, 14],
+									"uvEast": [0, 0, 14, 14],
+									"uvSouth": [14, 14, 28, 28],
+									"uvWest": [0, 14, 14, 28],
+									"uvUp": [98, 14, 84, 0],
+									"uvDown": [112, 0, 98, 14]
+								}
+							]
+						},
+						{
+							"id": "grass3",
+							"invertAxis": "xy",
+							"translate": [10, 10, -12.5],
+							"rotate": [0, -22.5, 0],
+							"boxes": [
+								{
+									"coordinates": [-2, 2.5, 0, 4, 5, 0],
+									"uvNorth": [113, 8, 117, 13]
+								}
+							]
+						},
+						{
+							"id": "grass4",
+							"invertAxis": "xy",
+							"translate": [0.9, 16, 9.5],
+							"rotate": [0, 45, 0],
+							"boxes": [
+								{
+									"coordinates": [-3.6, -3.5, 0, 7, 7, 0],
+									"uvNorth": [118, 6, 125, 13]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "right_leg2",
+					"invertAxis": "xy",
+					"translate": [13.6, 29.5, 0],
+					"boxes": [
+						{
+							"coordinates": [0.4, -29.5, -4.5, 12, 48, 9],
+							"uvNorth": [53, 80, 65, 128],
+							"uvEast": [44, 80, 53, 128],
+							"uvSouth": [74, 80, 86, 128],
+							"uvWest": [65, 80, 74, 128],
+							"uvUp": [66, 80, 54, 71],
+							"uvDown": [78, 71, 66, 80]
+						}
+					],
+					"submodels": [
+						{
+							"id": "body_sub_5",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [12.4, -18.5, -4.5, 6, 30, 9],
+									"uvNorth": [8, 98, 2, 128],
+									"uvSouth": [23, 98, 17, 128],
+									"uvWest": [17, 98, 8, 128],
+									"uvUp": [2, 98, 8, 89],
+									"uvDown": [8, 89, 14, 98]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "left_leg2",
+					"invertAxis": "xy",
+					"translate": [-13.75, 29.5, -2],
+					"boxes": [
+						{"coordinates": [-12.5, -29.5, -2.5, 12, 48, 9], "textureOffset": [86, 71]},
+						{
+							"coordinates": [-18.5, -17.5, -2.5, 6, 30, 9],
+							"uvNorth": [23, 98, 29, 128],
+							"uvSouth": [38, 98, 44, 128],
+							"uvWest": [29, 98, 38, 128],
+							"uvUp": [29, 98, 23, 89],
+							"uvDown": [35, 89, 29, 98]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"the_whole_shabang.rx": "left_arm.rx/5",
+					"donger.rx": "(left_leg.rx)/32",
+					"flute.rx": "left_arm.rx/2",
+					"left_leg2.rx": "left_leg.rx/2",
+					"right_leg2.rx": "right_leg.rx/2",
+					"head2.rx": "head.rx",
+					"head2.ry": "head.ry*3.5"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -31, 2]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-4, -13, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [5, -13, 0]
+		}
+	]
+}

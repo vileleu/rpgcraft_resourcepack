@@ -1,0 +1,12 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "hanging=false": [
+            { "model": "block/soul_lantern" },
+            { "model": "block/soul_lantern", "y": 90 }
+        ],
+        "hanging=true": [
+            { "model": "block/hanging_soul_lantern" }
+        ]
+    }
+}

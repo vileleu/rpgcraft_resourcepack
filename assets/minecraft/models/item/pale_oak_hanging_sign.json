@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "item/oak_hanging_sign",
+    "textures": {
+        "particle": "item/pale_oak_hanging_sign"
+    }
+}

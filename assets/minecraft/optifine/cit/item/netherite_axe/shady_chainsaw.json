@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "optifine/cit/item/chainsaw",
+	"textures": {
+		"particle": "./shady_chainsaw",
+		"blade": "./shady_chainsaw_blade"
+	}
+}

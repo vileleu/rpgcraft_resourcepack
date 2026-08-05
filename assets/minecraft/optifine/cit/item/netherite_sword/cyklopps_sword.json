@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./sparkler",
+	"textures": {
+		"1": "./cyklopps_sword_flame",
+		"particle": "./cyklopps_sword"
+	}
+}

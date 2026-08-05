@@ -1,0 +1,69 @@
+{
+  "comment": "Created by Mickey Joe Alpha - https://www.YouTube.com/@MushirMickeyJoe",
+  "createdWith": "Cubik Studio",
+  "textureSize": [64,32],
+  "submodels": [
+    {
+      "id": "e0_Box1",
+      "translate": [-5.5,-5.5,6.5],
+      "boxes": [
+        {
+          "coordinates": [-5.0,-4.0,0.0,5.0,4.0,5.0],
+          "uvDown": [54,23,59,28],
+          "uvUp": [49,23,54,28],
+          "uvNorth": [49,28,54,32],
+          "uvSouth": [59,28,64,32],
+          "uvWest": [54,28,59,32],
+          "uvEast": [44,28,49,32]
+        }
+      ]
+    },
+    {
+      "id": "e1_Box2",
+      "translate": [-4.5,-8.5,8.5],
+      "rotate": [22.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-2.0,-3.0,0.0,2.0,3.0,1.0],
+          "uvDown": [57,19,59,20],
+          "uvUp": [55,19,57,20],
+          "uvNorth": [55,20,57,23],
+          "uvSouth": [58,20,60,23],
+          "uvWest": [57,20,58,23],
+          "uvEast": [54,20,55,23]
+        }
+      ]
+    },
+    {
+      "id": "e2_Box2",
+      "translate": [-9.5,-8.5,8.5],
+      "rotate": [22.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-2.0,-3.0,0.0,2.0,3.0,1.0],
+          "uvDown": [51,19,53,20],
+          "uvUp": [49,19,51,20],
+          "uvNorth": [49,20,51,23],
+          "uvSouth": [52,20,54,23],
+          "uvWest": [51,20,52,23],
+          "uvEast": [48,20,49,23]
+        }
+      ]
+    },
+    {
+      "id": "e3_Box4",
+      "translate": [-6.5,-5.125,5.59375],
+      "rotate": [22.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-2.0,0.0,3.0,2.0,2.0],
+          "uvDown": [41,28,44,30],
+          "uvUp": [38,28,41,30],
+          "uvNorth": [38,30,41,32],
+          "uvWest": [41,30,43,32],
+          "uvEast": [36,30,38,32]
+        }
+      ]
+    }
+  ]
+}

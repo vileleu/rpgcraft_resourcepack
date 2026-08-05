@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/cross",
+	"textures": {
+		"particle": "block/dead_fire_coral",
+		"cross": "block/dead_fire_coral"
+	}
+}

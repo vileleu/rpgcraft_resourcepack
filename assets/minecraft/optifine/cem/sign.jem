@@ -1,0 +1,39 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "textureSize": [64, 32],
+	"models": [
+		{
+			"part": "board",
+			"id": "board",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0],
+			"boxes": [
+				{
+					"coordinates": [-12, 14, -0.75, 24, 12, 1.5],
+					"uvNorth": [27, 24, 43, 32],
+					"uvEast": [26, 24, 27, 32],
+					"uvSouth": [44, 24, 60, 32],
+					"uvWest": [43, 24, 44, 32],
+					"uvUp": [27, 23, 43, 24],
+					"uvDown": [43, 23, 59, 24]
+				}
+			]
+		},
+		{
+			"part": "stick",
+			"id": "stick",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0],
+			"boxes": [
+				{
+					"coordinates": [-0.75, 0, -0.75, 1.5, 14, 1.5],
+					"uvNorth": [61, 23, 62, 32],
+					"uvEast": [60, 23, 61, 32],
+					"uvSouth": [63, 23, 64, 32],
+					"uvWest": [62, 23, 63, 32],
+					"uvDown": [62, 22, 63, 23]
+				}
+			]
+		}
+	]
+}

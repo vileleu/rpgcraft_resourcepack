@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "item/iron_horse_armor",
+    "textures": {
+		"0": "item/golden_horse_armor",
+		"particle": "item/golden_horse_armor"
+    }
+}

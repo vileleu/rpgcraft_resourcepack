@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/redstone_ore_off_3",
+    "textures": {
+		"gem": "block/redstone_ore_gem_off",
+		"particle": "block/deepslate_redstone_ore_off_3"
+    }
+}

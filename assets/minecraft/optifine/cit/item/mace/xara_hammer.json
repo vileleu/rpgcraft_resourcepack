@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./romeo_hammer",
+	"textures": {
+		"particle": "./xara_hammer"
+	}
+}

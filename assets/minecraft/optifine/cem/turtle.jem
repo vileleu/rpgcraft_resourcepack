@@ -1,0 +1,130 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [128, 64],
+	"texture": "textures/entity/turtle/big_sea_turtle.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -5, 10],
+			"boxes": [
+				{"coordinates": [-3, 1, -13, 6, 5, 6], "textureOffset": [3, 0]}
+			],
+			"animations": [
+				{
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 16, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -13, 10],
+			"submodels": [
+				{
+					"id": "body_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 13, -10],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-9.5, -23, -10, 19, 20, 6], "textureOffset": [7, 37]},
+						{"coordinates": [-5.5, -21, -13, 11, 18, 3], "textureOffset": [31, 1]}
+					],
+					"submodels": [
+						{
+							"id": "health_bar_rotation",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [90, 0, 0],
+							"submodels": [
+								{
+									"id": "health_bar",
+									"invertAxis": "xy",
+									"translate": [0, 0.5, 10],
+									"texture": "textures/entity/health_bar.png",
+									"textureSize": [16, 16],
+									"boxes": [
+										{
+											"coordinates": [-5, -0.5, 0, 10, 1, 0],
+											"uvNorth": [0, 2, 10, 3],
+											"uvSouth": [0, 3, 10, 4],
+											"sizeAdd": 0.01
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"body_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "body2",
+			"id": "body2",
+			"invertAxis": "xy",
+			"translate": [0, -13, 10],
+			"submodels": [
+				{
+					"id": "body2_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 13, -10],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-4.5, -21, -14, 9, 18, 1], "textureOffset": [70, 33]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"body2_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-3.5, -2, -11],
+			"boxes": [
+				{"coordinates": [1.5, 1, 11, 4, 1, 10], "textureOffset": [1, 23]}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [3.5, -2, -11],
+			"boxes": [
+				{"coordinates": [-5.5, 1, 11, 4, 1, 10], "textureOffset": [1, 12]}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-5, -3, 4],
+			"boxes": [
+				{"coordinates": [5, 2, -6, 13, 1, 5], "textureOffset": [27, 30]}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [5, -3, 4],
+			"boxes": [
+				{"coordinates": [-18, 2, -6, 13, 1, 5], "textureOffset": [27, 24]}
+			]
+		}
+	]
+}

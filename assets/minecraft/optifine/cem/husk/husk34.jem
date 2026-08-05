@@ -1,0 +1,132 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"texture": "textures/entity/zombie/husk/merneith.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4.5, 23.5, -4.5, 9, 7, 9],
+					"uvNorth": [45, 11, 54, 18],
+					"uvEast": [36, 11, 45, 18],
+					"uvSouth": [63, 11, 72, 18],
+					"uvWest": [54, 11, 63, 18]
+				},
+				{
+					"coordinates": [-4.5, 20.5, -4.5, 9, 3, 9],
+					"uvNorth": [81, 12, 90, 15],
+					"uvEast": [72, 12, 81, 15],
+					"uvSouth": [99, 12, 108, 15],
+					"uvWest": [90, 12, 99, 15]
+				},
+				{
+					"coordinates": [-0.5, 29.5, -5.5, 1, 3, 1],
+					"uvNorth": [28, 6, 29, 9],
+					"uvDown": [30, 5, 29, 6]
+				},
+				{
+					"coordinates": [-0.5, 32.5, -6.5, 1, 0, 1],
+					"uvUp": [29, 4, 28, 5]
+				},
+				{
+					"coordinates": [-4.5, 31.5, -4.5, 9, 3, 9],
+					"uvNorth": [81, 9, 90, 12],
+					"uvEast": [72, 9, 81, 12],
+					"uvSouth": [99, 9, 108, 12],
+					"uvWest": [90, 9, 99, 12],
+					"uvUp": [90, 9, 81, 0]
+				},
+				{
+					"coordinates": [-4.5, 23.5, -4.5, 9, 9, 9],
+					"uvNorth": [9, 9, 18, 18],
+					"uvEast": [0, 9, 9, 18],
+					"uvSouth": [27, 9, 36, 18],
+					"uvWest": [18, 9, 27, 18],
+					"uvDown": [27, 0, 18, 9],
+					"sizeAdd": -0.5
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4.5, 11.5, -2.5, 9, 13, 5], "textureOffset": [20, 18], "sizeAdd": -0.5},
+				{"coordinates": [-4.5, 11.5, -2.5, 9, 13, 5], "textureOffset": [20, 36]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-7.5, 11.5, -2.5, 4, 13, 5], "textureOffset": [48, 18], "sizeAdd": -0.5}
+			],
+			"submodels": [
+				{
+					"id": "left_arm_flipped",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0.5, 0.5],
+					"boxes": [
+						{"coordinates": [-7.5, 11, -3, 4, 13, 5], "textureOffset": [48, 36], "sizeAdd": -0.01}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [3.5, 11.5, -2.5, 4, 13, 5], "textureOffset": [48, 18], "sizeAdd": -0.5}
+			],
+			"submodels": [
+				{
+					"id": "right_arm_sub_0",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [3.5, 11.5, -2.5, 4, 13, 5], "textureOffset": [48, 36], "sizeAdd": -0.01}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-4.5, -0.5, -2.5, 5, 13, 5], "textureOffset": [0, 18], "sizeAdd": -0.5},
+				{"coordinates": [-4.5, -0.5, -2.5, 5, 13, 5], "textureOffset": [0, 36], "sizeAdd": -0.01}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-0.5, -0.5, -2.5, 5, 13, 5], "textureOffset": [0, 18], "sizeAdd": -0.5},
+				{"coordinates": [-0.5, -0.5, -2.5, 5, 13, 5], "textureOffset": [0, 36], "sizeAdd": -0.01}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "models": 
+  [
+    {
+      "model": "rid_dolphin_tail_fin.jpm",
+      "part": "tail_fin", 
+	  "attach": false,
+      "translate": [ 8, 0.5, -1.5],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

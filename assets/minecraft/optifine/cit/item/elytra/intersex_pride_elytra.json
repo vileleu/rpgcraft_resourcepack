@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/elytra",
+	"textures": {
+		"0": "item/elytra/intersex_pride_elytra",
+		"particle": "item/elytra/intersex_pride_elytra"
+	}
+}

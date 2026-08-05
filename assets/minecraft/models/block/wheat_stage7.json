@@ -1,0 +1,70 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "block/wheat_stage7"
+	},
+	"elements": [
+		{
+			"name": "Element",
+			"from": [4, -1, 0],
+			"to": [4.001, 15, 16],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [16, 8, 8, 16], "texture": "#particle"},
+				"west": {"uv": [8, 8, 16, 16], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [12, -1, 0],
+			"to": [12.001, 15, 16],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [8, 8, 16, 16], "texture": "#particle"},
+				"west": {"uv": [16, 8, 8, 16], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [0, -1, 4],
+			"to": [16, 15, 4.001],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#particle"},
+				"south": {"uv": [16, 8, 8, 16], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [0, -1, 12],
+			"to": [16, 15, 12.001],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 8, 8, 16], "texture": "#particle"},
+				"south": {"uv": [8, 8, 16, 16], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "PlaneZ5",
+			"from": [0, -1, 8],
+			"to": [16, 31, 8.001],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#particle"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "PlaneX7",
+			"from": [8, -1, 0],
+			"to": [8.001, 31, 16],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [0, 0, 8, 16], "texture": "#particle"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#particle"}
+			}
+		}
+	]
+}

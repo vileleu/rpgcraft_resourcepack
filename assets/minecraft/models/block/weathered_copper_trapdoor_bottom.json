@@ -1,0 +1,11 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/copper_trapdoor_bottom",
+    "textures": {
+		"2": "block/weathered_copper_trapdoor_ends",
+		"3": "block/weathered_copper_bulb",
+		"particle": "block/weathered_copper_trapdoor",
+		"front": "block/weathered_copper_trapdoor",
+		"side": "block/weathered_copper_door_ends"
+    }
+}

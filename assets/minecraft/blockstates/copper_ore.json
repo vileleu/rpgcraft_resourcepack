@@ -1,0 +1,13 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/copper_ore_0" },
+            { "model": "block/copper_ore" },
+            { "model": "block/copper_ore_2" },
+            { "model": "block/copper_ore_0_mirrored" },
+            { "model": "block/copper_ore_mirrored" },
+            { "model": "block/copper_ore_2_mirrored" }
+        ]
+    }
+}

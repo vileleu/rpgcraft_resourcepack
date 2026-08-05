@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./phantom_bow",
+	"textures": {
+        "particle": "./red_phantom_bow",
+        "layer0": "./red_phantom_bow"
+	}
+}

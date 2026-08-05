@@ -1,0 +1,97 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -10, -2],
+			"submodels": [
+				{
+					"id": "body_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 10, 2],
+					"rotate": [90, 0, 0],
+					"submodels": [
+						{
+							"id": "head2",
+							"invertAxis": "xy",
+							"translate": [0, -2, -5],
+							"submodels": [
+								{
+									"id": "head_chill",
+									"invertAxis": "xy",
+									"translate": [0, -8, 3],
+									"boxes": [
+										{"coordinates": [-3.5, 4, -9, 7, 7, 7], "textureOffset": [0, 0]}
+									]
+								},
+								{
+									"id": "head_aggro",
+									"invertAxis": "xy",
+									"translate": [0, -8, 3],
+									"boxes": [
+										{"coordinates": [-3.5, 4, -9, 7, 7, 7], "textureOffset": [0, 50]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head2.rx": "head.rx/2",
+					"head2.ry": "head.ry/2",
+					"var.glowing_eyes": "max(if(is_aggressive, 10, var.glowing_eyes - 1 * frame_time), 0)",
+					"head_chill.visible": "var.glowing_eyes == 0",
+					"head_aggro.visible": "var.glowing_eyes > 0"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [-1, -10.5, 7]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-2.5, -8, -7]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [0.5, -8, -7]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-3, -9.25, 4.5]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [0.5, -8, 4]
+		},
+		{
+			"part": "mane",
+			"id": "mane",
+			"invertAxis": "xy",
+			"translate": [-1, -9.25, -2],
+			"rotate": [10, 0, 0]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

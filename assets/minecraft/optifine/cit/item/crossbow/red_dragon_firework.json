@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./nerf_dragon_firework",
+	"textures": {
+		"1": "./red_dragon",
+		"4": "./red_dragon_wings",
+		"particle": "./red_dragon"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "minecraft:block/cross",
+  "textures": {
+ 		"particle": "block/nether_sprouts",
+		"cross": "block/nether_sprouts"
+	}
+}

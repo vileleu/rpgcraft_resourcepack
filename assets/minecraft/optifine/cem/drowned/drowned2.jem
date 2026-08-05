@@ -1,0 +1,186 @@
+{
+	"credit": "Animated by Toxteer - Designed by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [64, 64],
+	"texture": "textures/entity/zombie/monster_drowned.png",
+	"models": [
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "mickey_joes_drowned",
+					"invertAxis": "xy",
+					"translate": [0, 24, -5],
+					"rotate": [45, 0, 0],
+					"texture": "textures/entity/zombie/monster_drowned_squid.png",
+					"boxes": [
+						{"coordinates": [-4, 0, -4, 8, 3, 8], "textureOffset": [0, 0]},
+						{"coordinates": [-5, 6, -5, 10, 10, 10], "textureOffset": [0, 22]},
+						{
+							"coordinates": [-3, 3, -3, 6, 3, 6],
+							"uvNorth": [46, 39, 52, 42],
+							"uvEast": [40, 39, 46, 42],
+							"uvSouth": [58, 39, 64, 42],
+							"uvWest": [52, 39, 58, 42]
+						}
+					],
+					"submodels": [
+						{
+							"id": "lefteye",
+							"invertAxis": "xy",
+							"translate": [-2.5, 4.70711, -0.7071],
+							"rotate": [0, 145, 0],
+							"boxes": [
+								{"coordinates": [-0.94681, -1.7071, -2.10796, 3, 2, 2], "textureOffset": [35, 0]}
+							]
+						},
+						{
+							"id": "righteye",
+							"invertAxis": "xy",
+							"translate": [3.5, 4.70711, 0.70711],
+							"rotate": [0, 45, 0],
+							"boxes": [
+								{"coordinates": [-1, -1.7071, -1.5, 3, 2, 2], "textureOffset": [24, 0]}
+							]
+						},
+						{
+							"id": "tentacle1",
+							"invertAxis": "xy",
+							"translate": [4.5, 1.05025, -1.70711],
+							"boxes": [
+								{"coordinates": [-1, -6, 0, 2, 6, 2], "textureOffset": [48, 0]}
+							]
+						},
+						{
+							"id": "tentacle2",
+							"invertAxis": "xy",
+							"translate": [2.75473, 0.29483, -3.23943],
+							"boxes": [
+								{"coordinates": [-1.78543, -5.72763, -2.10978, 2, 6, 2], "textureOffset": [48, 0]}
+							]
+						},
+						{
+							"id": "tentacle3",
+							"invertAxis": "xy",
+							"translate": [-2.0307, 0.5672, -3.34921],
+							"boxes": [
+								{"coordinates": [-1, -6, -2, 2, 6, 2], "textureOffset": [48, 0]}
+							]
+						},
+						{
+							"id": "tentacle4",
+							"invertAxis": "xy",
+							"translate": [-4.5, 0.18463, -1.59798],
+							"boxes": [
+								{"coordinates": [-1, -5.13438, -0.10913, 2, 6, 2], "textureOffset": [48, 0]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"tentacle1.rz": "(-0.15 + sin(time / 8)/8)",
+					"tentacle2.rx": "(-0.10 + sin(time / 8)/6)*(-1)",
+					"tentacle2.rz": "(0.05 + sin(time / 32)/24)*(-1)",
+					"tentacle3.rx": "(-0.10 + sin(time / 8)/6)*(-1)",
+					"tentacle3.rz": "(0.05 + sin(time / 32)/24)",
+					"tentacle4.rz": "(-0.15 + sin(time / 8)/8)*(-1)",
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16]},
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 32], "sizeAdd": 0.25}
+			],
+			"submodels": [
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 40.5, 0],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, -0.5, 0, 10, 1, 0.01],
+							"uvNorth": [0, 0, 10, 1],
+							"uvSouth": [0, 1, 10, 2]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [40, 16]},
+				{"coordinates": [-8, 16, -2, 4, 8, 4], "textureOffset": [40, 4], "sizeAdd": 0.25}
+			],
+			"submodels": [
+				{
+					"id": "coral",
+					"invertAxis": "xy",
+					"translate": [3.25, 21, -5.25],
+					"rotate": [0, 25, 0],
+					"boxes": [
+						{
+							"coordinates": [-18, 1, -1, 8, 9, 0],
+							"uvNorth": [48, 48, 56, 57]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [4, 12, -2, 4, 12, 4], "textureOffset": [32, 48]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -2, 4, 12, 4], "textureOffset": [0, 16]},
+				{"coordinates": [-4.1, 0, -2, 4, 12, 4], "textureOffset": [0, 48], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [16, 48]},
+				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [0, 32], "sizeAdd": 0.25}
+			]
+		}
+	]
+}

@@ -1,0 +1,160 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"texture": "textures/entity/zombie/spongedrowned.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "body_wet",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"texture": "textures/entity/zombie/spongedrowned_wet.png",
+					"boxes": [
+						{"coordinates": [-9, -12, -5, 18, 24, 8], "textureOffset": [12, 0]}
+					]
+				},
+				{
+					"id": "body_dry",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"boxes": [
+						{"coordinates": [-9, -12, -5, 18, 24, 8], "textureOffset": [12, 0]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0,
+					"varb.wet": "is_in_water",
+					"body_dry.visible": "!varb.wet",
+					"body_wet.visible": "varb.wet",
+					"left_arm_dry.visible": "!varb.wet",
+					"left_arm_wet.visible": "varb.wet",
+					"right_arm_dry.visible": "!varb.wet",
+					"right_arm_wet.visible": "varb.wet",
+					"right_leg_dry.visible": "!varb.wet",
+					"right_leg_wet.visible": "varb.wet",
+					"left_leg_dry.visible": "!varb.wet",
+					"left_leg_wet.visible": "varb.wet"
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"submodels": [
+				{
+					"id": "left_arm_wet",
+					"invertAxis": "xy",
+					"translate": [-9, 22, 0],
+					"texture": "textures/entity/zombie/spongedrowned_wet.png",
+					"boxes": [
+						{"coordinates": [-4, -10, -2, 4, 12, 4], "textureOffset": [32, 32]}
+					]
+				},
+				{
+					"id": "left_arm_dry",
+					"invertAxis": "xy",
+					"translate": [-9, 22, 0],
+					"boxes": [
+						{"coordinates": [-4, -10, -2, 4, 12, 4], "textureOffset": [32, 32]}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"submodels": [
+				{
+					"id": "right_arm_wet",
+					"invertAxis": "xy",
+					"translate": [9, 22, 0],
+					"texture": "textures/entity/zombie/spongedrowned_wet.png",
+					"boxes": [
+						{"coordinates": [0, -10, -2, 4, 12, 4], "textureOffset": [48, 32]}
+					]
+				},
+				{
+					"id": "right_arm_dry",
+					"invertAxis": "xy",
+					"translate": [9, 22, 0],
+					"boxes": [
+						{"coordinates": [0, -10, -2, 4, 12, 4], "textureOffset": [48, 32]}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1.9, -12, 0],
+			"submodels": [
+				{
+					"id": "left_leg_dry",
+					"invertAxis": "xy",
+					"translate": [-5, 12, 0],
+					"boxes": [
+						{"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [32, 48]}
+					]
+				},
+				{
+					"id": "left_leg_wet",
+					"invertAxis": "xy",
+					"translate": [-5, 12, 0],
+					"texture": "textures/entity/zombie/spongedrowned_wet.png",
+					"boxes": [
+						{"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [32, 48]}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"submodels": [
+				{
+					"id": "right_leg_wet",
+					"invertAxis": "xy",
+					"translate": [4.9, 12, 0],
+					"texture": "textures/entity/zombie/spongedrowned_wet.png",
+					"boxes": [
+						{"coordinates": [-1.9, -12, -2, 4, 12, 4], "textureOffset": [48, 48]}
+					]
+				},
+				{
+					"id": "right_leg_dry",
+					"invertAxis": "xy",
+					"translate": [4.9, 12, 0],
+					"boxes": [
+						{"coordinates": [-1.9, -12, -2, 4, 12, 4], "textureOffset": [48, 48]}
+					]
+				}
+			]
+		}
+	]
+}

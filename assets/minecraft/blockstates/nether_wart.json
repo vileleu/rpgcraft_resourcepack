@@ -1,0 +1,53 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "multipart": [
+		{     "when": { "age": "0" },
+              "apply": [
+		    { "model": "block/nether_wart_age_0", "weight": 2 },
+            { "model": "block/nether_wart_age_0", "weight": 2, "y": 90 },
+			{ "model": "block/nether_wart_age_0", "weight": 2, "y": 180 },
+			{ "model": "block/nether_wart_age_0", "weight": 2, "y": 270 },
+		    { "model": "block/nether_wart_age_0", "weight": 1 },
+            { "model": "block/nether_wart_age_0", "weight": 1, "y": 90 },
+			{ "model": "block/nether_wart_age_0", "weight": 1, "y": 180 },
+			{ "model": "block/nether_wart_age_0", "weight": 1, "y": 270 }
+			]
+        },
+		{     "when": { "age": "1" },
+              "apply": [
+		    { "model": "block/nether_wart_age_1_0", "weight": 2 },
+            { "model": "block/nether_wart_age_1_0", "weight": 2, "y": 90 },
+			{ "model": "block/nether_wart_age_1_0", "weight": 2, "y": 180 },
+			{ "model": "block/nether_wart_age_1_0", "weight": 2, "y": 270 },
+		    { "model": "block/nether_wart_age_1_1", "weight": 1 },
+            { "model": "block/nether_wart_age_1_1", "weight": 1, "y": 90 },
+			{ "model": "block/nether_wart_age_1_1", "weight": 1, "y": 180 },
+			{ "model": "block/nether_wart_age_1_1", "weight": 1, "y": 270 }
+			]
+        },
+		{     "when": { "age": "2" },
+              "apply": [
+		    { "model": "block/nether_wart_age_2_0", "weight": 2 },
+            { "model": "block/nether_wart_age_2_0", "weight": 2, "y": 90 },
+			{ "model": "block/nether_wart_age_2_0", "weight": 2, "y": 180 },
+			{ "model": "block/nether_wart_age_2_0", "weight": 2, "y": 270 },
+		    { "model": "block/nether_wart_age_2_1", "weight": 1 },
+            { "model": "block/nether_wart_age_2_1", "weight": 1, "y": 90 },
+			{ "model": "block/nether_wart_age_2_1", "weight": 1, "y": 180 },
+			{ "model": "block/nether_wart_age_2_1", "weight": 1, "y": 270 }
+			]
+        },
+		{     "when": { "age": "3" },
+              "apply": [
+		    { "model": "block/nether_wart_age_3_0", "weight": 2 },
+            { "model": "block/nether_wart_age_3_0", "weight": 2, "y": 90 },
+			{ "model": "block/nether_wart_age_3_0", "weight": 2, "y": 180 },
+			{ "model": "block/nether_wart_age_3_0", "weight": 2, "y": 270 },
+		    { "model": "block/nether_wart_age_3_1", "weight": 1 },
+            { "model": "block/nether_wart_age_3_1", "weight": 1, "y": 90 },
+			{ "model": "block/nether_wart_age_3_1", "weight": 1, "y": 180 },
+			{ "model": "block/nether_wart_age_3_1", "weight": 1, "y": 270 }
+			]
+		}
+    ]
+}

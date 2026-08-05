@@ -1,0 +1,187 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [64, 32],
+	"texture": "textures/entity/blaze.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -26, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 24, -4, 8, 6, 8],
+					"uvNorth": [40, 8, 48, 14],
+					"uvEast": [32, 8, 40, 14],
+					"uvSouth": [56, 8, 64, 14],
+					"uvWest": [48, 8, 56, 14],
+					"uvUp": [48, 8, 40, 0],
+					"uvDown": [56, 0, 48, 8]
+				},
+				{
+					"coordinates": [-3, 22, -4, 6, 1, 3],
+					"uvNorth": [39, 19, 45, 20],
+					"uvEast": [36, 19, 39, 20],
+					"uvSouth": [48, 19, 54, 20],
+					"uvWest": [45, 19, 48, 20],
+					"uvUp": [45, 19, 39, 16],
+					"uvDown": [51, 16, 45, 19]
+				},
+				{
+					"coordinates": [-4, 22, -1, 8, 2, 5],
+					"uvNorth": [43, 21, 51, 23],
+					"uvEast": [38, 21, 43, 23],
+					"uvSouth": [56, 21, 64, 23],
+					"uvWest": [51, 21, 56, 23],
+					"uvUp": [51, 21, 43, 16],
+					"uvDown": [59, 16, 51, 21]
+				},
+				{
+					"coordinates": [-2, 23, -4, 4, 1, 0],
+					"uvNorth": [42, 14, 46, 15]
+				}
+			],
+			"submodels": [
+				{
+					"id": "head_inverse",
+					"invertAxis": "xy",
+					"translate": [0, 26, 0],
+					"submodels": [
+						{
+							"id": "health_bar",
+							"invertAxis": "xy",
+							"translate": [0, 11.5, 0],
+							"texture": "textures/entity/health_bar.png",
+							"textureSize": [16, 16],
+							"boxes": [
+								{
+									"coordinates": [-5, -0.5, 0, 10, 1, 0.01],
+									"uvNorth": [0, 0, 10, 1],
+									"uvSouth": [0, 1, 10, 2]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0",
+					"head_inverse.rx": "-head.rx",
+					"head_inverse.ry": "-head.ry"
+				}
+			]
+		},
+		{
+			"part": "stick1",
+			"id": "stick1",
+			"invertAxis": "xy",
+			"translate": [-7, -26, 7],
+			"boxes": [
+				{"coordinates": [6, 18, -8, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick2",
+			"id": "stick2",
+			"invertAxis": "xy",
+			"translate": [7, -26, 7],
+			"boxes": [
+				{"coordinates": [-8, 18, -8, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick3",
+			"id": "stick3",
+			"invertAxis": "xy",
+			"translate": [7, -26, -7],
+			"boxes": [
+				{"coordinates": [-8, 18, 6, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick4",
+			"id": "stick4",
+			"invertAxis": "xy",
+			"translate": [-7, -26, -7],
+			"boxes": [
+				{"coordinates": [6, 18, 6, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick5",
+			"id": "stick5",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 5],
+			"boxes": [
+				{"coordinates": [4, 14, -6, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick6",
+			"id": "stick6",
+			"invertAxis": "xy",
+			"translate": [5, -22, 5],
+			"boxes": [
+				{"coordinates": [-6, 14, -6, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick7",
+			"id": "stick7",
+			"invertAxis": "xy",
+			"translate": [5, -22, -5],
+			"boxes": [
+				{"coordinates": [-6, 14, 4, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick8",
+			"id": "stick8",
+			"invertAxis": "xy",
+			"translate": [-5, -22, -5],
+			"boxes": [
+				{"coordinates": [4, 14, 4, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick9",
+			"id": "stick9",
+			"invertAxis": "xy",
+			"translate": [-3, -14, 3],
+			"boxes": [
+				{"coordinates": [2, 6, -4, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick10",
+			"id": "stick10",
+			"invertAxis": "xy",
+			"translate": [3, -14, 3],
+			"boxes": [
+				{"coordinates": [-4, 6, -4, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick11",
+			"id": "stick11",
+			"invertAxis": "xy",
+			"translate": [3, -14, -3],
+			"boxes": [
+				{"coordinates": [-4, 6, 2, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick12",
+			"id": "stick12",
+			"invertAxis": "xy",
+			"translate": [-3, -14, -3],
+			"boxes": [
+				{"coordinates": [2, 6, 2, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		}
+	]
+}

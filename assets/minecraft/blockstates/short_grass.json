@@ -1,0 +1,16 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/short_grass", "weight": 4 },
+            { "model": "block/short_grass", "weight": 4, "y": 90 },
+            { "model": "block/short_grass", "weight": 4, "y": 180 },
+			{ "model": "block/short_grass", "weight": 4, "y": 270 },
+            { "model": "block/clovers", "weight": 5 },
+            { "model": "block/short_grass_flowering", "weight": 2 },
+            { "model": "block/short_grass_flowering", "weight": 2, "y": 90 },
+            { "model": "block/short_grass_flowering", "weight": 2, "y": 180 },
+			{ "model": "block/short_grass_flowering", "weight": 2, "y": 270 }
+        ]
+    }
+}

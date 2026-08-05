@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/elytra",
+	"textures": {
+		"0": "item/elytra/poisonous_polytra",
+		"particle": "item/elytra/poisonous_polytra"
+	}
+}

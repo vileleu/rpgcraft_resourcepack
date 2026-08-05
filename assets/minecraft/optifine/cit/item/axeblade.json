@@ -1,0 +1,42 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "builtin/generated",
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 12, 1],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 12, 1],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 7, 1.13],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 7, 1.13],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"ground": {
+			"rotation":  [ 0, -25.5, 0 ],
+			"translation":  [ 3, 8, 1.5 ],
+			"scale":  [ 1.25, 1.25, 0.62 ]
+		},
+		"gui": {
+			"rotation": [0, -22.5, 0],
+			"translation": [1.5, 2.25, 0],
+			"scale": [1.28, 1.28, 0.64]
+		},
+		"fixed": {
+			"scale": [1.99, 1.99, 1],
+			"translation": [-3.5, 3.5, 0],
+			"rotation": [0, 180, 0]
+		}
+	}
+}

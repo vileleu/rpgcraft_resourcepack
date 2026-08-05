@@ -1,0 +1,16 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "multipart": [
+        {   "apply": { "model": "block/flower_pot" }
+		},
+        {   "apply": [
+            { "model": "block/potted_allium_0" },
+			{ "model": "block/potted_allium_1" },
+			{ "model": "block/potted_allium_2" },
+			{ "model": "block/potted_allium_3" },
+			{ "model": "block/potted_allium_4" },
+			{ "model": "block/potted_allium_5" }
+			]
+        }
+    ]
+}

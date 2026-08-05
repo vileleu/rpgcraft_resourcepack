@@ -1,0 +1,13 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/gold_ore"
+      },
+      {
+        "model": "minecraft:block/gold_ore_mirrored"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./the_first_goliath_arrow",
+	"textures": {
+		"particle": "./goliath"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "block/campfire",
+  "textures": {
+	"particle": "block/campfire_log",
+	"lit_log": "block/soul_campfire_log_lit",
+	"fire": "block/soul_campfire_fire"
+  }
+}

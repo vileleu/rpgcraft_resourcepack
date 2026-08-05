@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "./robot_sword_sharpness",
+ 	"textures": {
+		"0": "./droid_sword",
+		"particle": "./droid_sword"
+	}
+}

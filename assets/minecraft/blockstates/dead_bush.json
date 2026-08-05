@@ -1,0 +1,10 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/dead_bush" },
+            { "model": "block/dead_bush_0" },
+            { "model": "block/dead_bush_1" }
+        ]
+    }
+}

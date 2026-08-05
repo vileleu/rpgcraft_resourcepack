@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "./arm_buster_exe_pulling_1",
+	"textures": {
+		"2": "./arm_buster_flame_siphon",
+		"3": "./arm_buster_flame_arrow_charging",
+		"particle": "./arm_buster_exe_flame"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/elytra",
+	"textures": {
+		"0": "item/elytra/gift_wrap_elytra",
+		"particle": "item/elytra/gift_wrap_elytra"
+	}
+}

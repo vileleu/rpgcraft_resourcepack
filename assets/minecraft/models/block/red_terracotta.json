@@ -1,0 +1,8 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/red_terracotta",
+    "side": "minecraft:block/red_terracotta_side"
+  }
+}

@@ -1,0 +1,139 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "block/block",
+	"texture_size": [64, 64],
+	"textures": {
+		"particle": "item/furnace_minecart"
+	},
+	"elements": [
+		{
+			"name": "bottom",
+			"from": [0.05, 0.5, -1.55],
+			"to": [16.05, 8.5, 18.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.05, 6, 10.5]},
+			"faces": {
+				"north": {"uv": [0, 6, 2, 2], "rotation": 90, "texture": "#particle"},
+				"east": {"uv": [5, 0, 0, 2], "texture": "#particle"},
+				"south": {"uv": [0, 6, 2, 2], "rotation": 90, "texture": "#particle"},
+				"west": {"uv": [5, 0, 0, 2], "texture": "#particle"},
+				"up": {"uv": [12, 6, 7, 2], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [2, 6, 7, 2], "rotation": 90, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [1.05, 14.5, -0.55],
+			"to": [15.05, 16.5, 17.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.05, 6, 10.5]},
+			"faces": {
+				"north": {"uv": [0, 14.5, 0.5, 11], "rotation": 90, "texture": "#particle"},
+				"east": {"uv": [0.5, 10.5, 5, 11], "texture": "#particle"},
+				"south": {"uv": [5.5, 14.5, 5, 11], "rotation": 90, "texture": "#particle"},
+				"west": {"uv": [9.5, 10.5, 5, 11], "texture": "#particle"},
+				"up": {"uv": [10, 14.5, 5.5, 11], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [5, 14.5, 0.5, 11], "rotation": 90, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [6.05, 16.5, 6.45],
+			"to": [10.05, 22.5, 10.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.05, 6, 10.5]},
+			"faces": {
+				"north": {"uv": [5, 7.5, 6.5, 8.5], "rotation": 270, "texture": "#particle"},
+				"east": {"uv": [5, 7.5, 4, 6], "rotation": 180, "texture": "#particle"},
+				"south": {"uv": [2.5, 7.5, 4, 8.5], "rotation": 90, "texture": "#particle"},
+				"west": {"uv": [6, 6, 5, 7.5], "texture": "#particle"},
+				"up": {"uv": [6.5, 7.5, 7.5, 8.5], "rotation": 90, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [9.05, 22.5, 9.45],
+			"to": [7.05, 18.5, 7.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.05, 6, 10.5]},
+			"faces": {
+				"north": {"uv": [8, 6.75, 7, 7.25], "rotation": 270, "texture": "#particle"},
+				"east": {"uv": [6.75, 7.25, 6.25, 6.25], "rotation": 180, "texture": "#particle"},
+				"south": {"uv": [7, 6.75, 8, 7.25], "rotation": 90, "texture": "#particle"},
+				"west": {"uv": [6.75, 6.25, 6.25, 7.25], "texture": "#particle"},
+				"up": {"uv": [6.75, 6.5, 7, 6.75], "rotation": 90, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [2.04, 8.49, 0.44],
+			"to": [14.06, 14.51, 16.46],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.05, 6, 10.5]},
+			"faces": {
+				"north": {"uv": [1.5, 10.5, 0, 7.5], "rotation": 270, "texture": "#particle"},
+				"east": {"uv": [4, 7.5, 0, 6], "rotation": 180, "texture": "#particle"},
+				"south": {"uv": [1.5, 10.5, 0, 7.5], "rotation": 270, "texture": "#particle"},
+				"west": {"uv": [4, 7.5, 0, 6], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "wheel1",
+			"from": [15.05, -0.5, 11.45],
+			"to": [17.05, 3.5, 15.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3.95, 6, 10.5]},
+			"faces": {
+				"north": {"uv": [6, 1, 7, 1.5], "rotation": 90, "texture": "#particle"},
+				"east": {"uv": [7, 0, 8, 1], "texture": "#particle"},
+				"south": {"uv": [6, 1.5, 7, 1], "rotation": 90, "texture": "#particle"},
+				"west": {"uv": [6, 0, 7, 1], "texture": "#particle"},
+				"up": {"uv": [6, 1.5, 7, 1], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [6, 1.5, 7, 1], "rotation": 90, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "wheel1",
+			"from": [15.05, -0.5, 1.45],
+			"to": [17.05, 3.5, 5.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3.95, 6, 0.5]},
+			"faces": {
+				"north": {"uv": [6, 1, 7, 1.5], "rotation": 90, "texture": "#particle"},
+				"east": {"uv": [7, 0, 8, 1], "texture": "#particle"},
+				"south": {"uv": [6, 1.5, 7, 1], "rotation": 90, "texture": "#particle"},
+				"west": {"uv": [6, 0, 7, 1], "texture": "#particle"},
+				"up": {"uv": [6, 1.5, 7, 1], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [6, 1.5, 7, 1], "rotation": 90, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "wheel1",
+			"from": [-1.05, -0.5, 1.45],
+			"to": [0.95, 3.5, 5.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [19.95, 6, 0.5]},
+			"faces": {
+				"north": {"uv": [6, 1.5, 7, 1], "rotation": 90, "texture": "#particle"},
+				"east": {"uv": [7, 0, 6, 1], "texture": "#particle"},
+				"south": {"uv": [6, 1, 7, 1.5], "rotation": 90, "texture": "#particle"},
+				"west": {"uv": [8, 0, 7, 1], "texture": "#particle"},
+				"up": {"uv": [6, 1, 7, 1.5], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [6, 1, 7, 1.5], "rotation": 90, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "wheel1",
+			"from": [-1.05, -0.5, 11.45],
+			"to": [0.95, 3.5, 15.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [19.95, 6, 10.5]},
+			"faces": {
+				"north": {"uv": [6, 1.5, 7, 1], "rotation": 90, "texture": "#particle"},
+				"east": {"uv": [7, 0, 6, 1], "texture": "#particle"},
+				"south": {"uv": [6, 1, 7, 1.5], "rotation": 90, "texture": "#particle"},
+				"west": {"uv": [8, 0, 7, 1], "texture": "#particle"},
+				"up": {"uv": [6, 1, 7, 1.5], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [6, 1, 7, 1.5], "rotation": 90, "texture": "#particle"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 0.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

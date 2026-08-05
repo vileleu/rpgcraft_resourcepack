@@ -1,0 +1,7 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "minecraft:block/mangrove_log",
+  "textures": {
+    "side": "minecraft:block/mangrove_log_horizontal"
+  }
+}

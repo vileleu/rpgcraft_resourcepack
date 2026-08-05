@@ -1,0 +1,101 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "multipart": [
+		{     "when": { "lit": "true" },
+              "apply": [
+		    { "model": "block/redstone_ore_0", "weight": 2 },
+			{ "model": "block/redstone_ore_1", "weight": 1 },
+			{ "model": "block/redstone_ore_2", "weight": 2 },
+			{ "model": "block/redstone_ore_3", "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "true" },
+              "apply": [
+		    { "model": "block/redstone_ore_0", "x": 270, "weight": 2 },
+			{ "model": "block/redstone_ore_1", "x": 270, "weight": 1 },
+			{ "model": "block/redstone_ore_2", "x": 270, "weight": 2 },
+			{ "model": "block/redstone_ore_3", "x": 270, "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "true" },
+              "apply": [
+		    { "model": "block/redstone_ore_0", "x": 270, "y": 90, "weight": 2 },
+			{ "model": "block/redstone_ore_1", "x": 270, "y": 90, "weight": 1 },
+			{ "model": "block/redstone_ore_2", "x": 270, "y": 90, "weight": 2 },
+			{ "model": "block/redstone_ore_3", "x": 270, "y": 90, "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "true" },
+              "apply": [
+		    { "model": "block/redstone_ore_0", "x": 270, "y": 180, "weight": 2 },
+			{ "model": "block/redstone_ore_1", "x": 270, "y": 180, "weight": 1 },
+			{ "model": "block/redstone_ore_2", "x": 270, "y": 180, "weight": 2 },
+			{ "model": "block/redstone_ore_3", "x": 270, "y": 180, "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "true" },
+              "apply": [
+		    { "model": "block/redstone_ore_0", "x": 270, "y": 270, "weight": 2 },
+			{ "model": "block/redstone_ore_1", "x": 270, "y": 270, "weight": 1 },
+			{ "model": "block/redstone_ore_2", "x": 270, "y": 270, "weight": 2 },
+			{ "model": "block/redstone_ore_3", "x": 270, "y": 270, "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "true" },
+              "apply": [
+		    { "model": "block/redstone_ore_0", "x": 180, "weight": 2 },
+			{ "model": "block/redstone_ore_1", "x": 180, "weight": 1 },
+			{ "model": "block/redstone_ore_2", "x": 180, "weight": 2 },
+			{ "model": "block/redstone_ore_3", "x": 180, "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "false" },
+              "apply": [
+		    { "model": "block/redstone_ore_off_0", "weight": 2 },
+			{ "model": "block/redstone_ore_off_1", "weight": 1 },
+			{ "model": "block/redstone_ore_off_2", "weight": 2 },
+			{ "model": "block/redstone_ore_off_3", "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "false" },
+              "apply": [
+		    { "model": "block/redstone_ore_off_0", "x": 270, "weight": 2 },
+			{ "model": "block/redstone_ore_off_1", "x": 270, "weight": 1 },
+			{ "model": "block/redstone_ore_off_2", "x": 270, "weight": 2 },
+			{ "model": "block/redstone_ore_off_3", "x": 270, "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "false" },
+              "apply": [
+		    { "model": "block/redstone_ore_off_0", "x": 270, "y": 90, "weight": 2 },
+			{ "model": "block/redstone_ore_off_1", "x": 270, "y": 90, "weight": 1 },
+			{ "model": "block/redstone_ore_off_2", "x": 270, "y": 90, "weight": 2 },
+			{ "model": "block/redstone_ore_off_3", "x": 270, "y": 90, "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "false" },
+              "apply": [
+		    { "model": "block/redstone_ore_off_0", "x": 270, "y": 180, "weight": 2 },
+			{ "model": "block/redstone_ore_off_1", "x": 270, "y": 180, "weight": 1 },
+			{ "model": "block/redstone_ore_off_2", "x": 270, "y": 180, "weight": 2 },
+			{ "model": "block/redstone_ore_off_3", "x": 270, "y": 180, "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "false" },
+              "apply": [
+		    { "model": "block/redstone_ore_off_0", "x": 270, "y": 270, "weight": 2 },
+			{ "model": "block/redstone_ore_off_1", "x": 270, "y": 270, "weight": 1 },
+			{ "model": "block/redstone_ore_off_2", "x": 270, "y": 270, "weight": 2 },
+			{ "model": "block/redstone_ore_off_3", "x": 270, "y": 270, "weight": 2 }
+			]
+        },
+		{     "when": { "lit": "false" },
+              "apply": [
+		    { "model": "block/redstone_ore_off_0", "x": 180, "weight": 2 },
+			{ "model": "block/redstone_ore_off_1", "x": 180, "weight": 1 },
+			{ "model": "block/redstone_ore_off_2", "x": 180, "weight": 2 },
+			{ "model": "block/redstone_ore_off_3", "x": 180, "weight": 2 }
+			]
+        }
+    ]
+}

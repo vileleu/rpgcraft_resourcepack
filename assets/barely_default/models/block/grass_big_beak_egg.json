@@ -1,0 +1,10 @@
+{
+    "credit": "Created by Mickey Joe and CYKLOPPS for the Barely Default Datapack",
+	"parent": "barely_default:block/big_beak_egg",
+	"textures": {
+		"top": "barely_default:block/grass_big_beak_egg_top",
+		"east": "barely_default:block/grass_big_beak_egg_east",
+		"bottom": "barely_default:block/grass_big_beak_egg_bottom",
+		"particle": "barely_default:block/grass_big_beak_egg_north"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./oak_ballista_firework",
+	"textures": {
+		"0": "./mangrove_ballista",
+		"particle": "./mangrove_ballista"
+	}
+}

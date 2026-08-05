@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "axis=y":  { "model": "block/quartz_pillar_vertical" },
+        "axis=z":   { "model": "block/quartz_pillar_horizontal", "x": 90 },
+        "axis=x":   { "model": "block/quartz_pillar_horizontal", "x": 90, "y": 90 }
+    }
+}

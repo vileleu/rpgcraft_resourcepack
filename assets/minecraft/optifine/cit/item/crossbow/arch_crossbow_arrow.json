@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./crossbow_of_dominance_arrow",
+	"textures": {
+		"particle": "./arch_crossbow"
+	}
+}

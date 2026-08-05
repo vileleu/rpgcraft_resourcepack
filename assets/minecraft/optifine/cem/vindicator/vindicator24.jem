@@ -1,0 +1,303 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [128, 128],
+	"texture": "textures/entity/illager/relatively_improved_vindicator.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"animations": [
+				{
+					"brow.rz": "torad(lerp(random(id), -5.5, 5.5))",
+					"brow2.ry": "brow.rz",
+					"var.ballin": "max(if(right_arm.visible, 1, var.ballin - 2 * frame_time), 0)",
+					"snowy_body.visible": "var.ballin == 0",
+					"head2.visible": "var.ballin == 0",
+					"left_leg.visible": "var.ballin == 0",
+					"right_leg.visible": "var.ballin == 0",
+					"snowball.visible": "var.ballin > 0",
+					"rolling.rx": "limb_swing/3",
+					"head2.ry": "head.ry"
+				}
+			]
+		},
+		{
+			"part": "hat",
+			"id": "hat",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, -26, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "snowy_body",
+					"invertAxis": "xy",
+					"translate": [0, 1, 0],
+					"texture": "textures/entity/illager/snowvindicator.png",
+					"boxes": [
+						{
+							"coordinates": [-7, 9.9, -7, 14, 14, 14],
+							"uvNorth": [14, 10, 28, 24],
+							"uvEast": [14, 24, 0, 10],
+							"uvSouth": [14, 24, 0, 10],
+							"uvWest": [14, 24, 0, 10],
+							"uvUp": [14, 24, 0, 10],
+							"uvDown": [14, 24, 0, 10]
+						}
+					]
+				},
+				{
+					"id": "snowball",
+					"invertAxis": "xy",
+					"translate": [0, 11.9, 0],
+					"texture": "textures/entity/illager/snowvindicator.png",
+					"submodels": [
+						{
+							"id": "rolling",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, 0.1, 0],
+							"boxes": [
+								{
+									"coordinates": [-12, -12.1, -12, 24, 24, 24],
+									"uvNorth": [40, 40, 16, 64],
+									"uvEast": [64, 40, 40, 64],
+									"uvSouth": [64, 40, 40, 64],
+									"uvWest": [64, 40, 40, 64],
+									"uvUp": [64, 16, 40, 40],
+									"uvDown": [64, 40, 40, 64]
+								}
+							],
+							"submodels": [
+								{
+									"id": "probably_crushed_head",
+									"invertAxis": "xy",
+									"translate": [0, 14.9, 0],
+									"texture": "textures/entity/illager/relatively_improved_vindicator.png",
+									"boxes": [
+										{
+											"coordinates": [-4, -3, -5, 8, 0, 10],
+											"uvUp": [74, 19, 66, 9]
+										}
+									],
+									"submodels": [
+										{
+											"id": "nose2",
+											"invertAxis": "xy",
+											"translate": [0, -4.05, -1],
+											"rotate": [90, 0, 0],
+											"boxes": [
+												{
+													"coordinates": [-1, -4, -2, 2, 4, 1],
+													"uvNorth": [26, 2, 28, 6],
+													"uvEast": [25, 2, 26, 6],
+													"uvWest": [28, 2, 29, 6],
+													"uvUp": [28, 2, 26, 1],
+													"uvDown": [30, 1, 28, 2]
+												}
+											]
+										},
+										{
+											"id": "brow_rotation",
+											"invertAxis": "xy",
+											"translate": [0, 4.35, -4],
+											"rotate": [0, -180, 0],
+											"submodels": [
+												{
+													"id": "brow2",
+													"invertAxis": "xy",
+													"translate": [0, -7.25, -6],
+													"boxes": [
+														{
+															"coordinates": [-5, 0, -1.5, 10, 0, 3],
+															"uvUp": [13, 13, 23, 16]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 25, 0],
+					"boxes": [
+						{
+							"coordinates": [-4, 0, -4.6, 8, 10, 8],
+							"uvNorth": [66, 8, 74, 18]
+						}
+					],
+					"submodels": [
+						{
+							"id": "brow",
+							"invertAxis": "xy",
+							"translate": [0, 5.75, -5.5],
+							"boxes": [
+								{
+									"coordinates": [-5, -1.5, 0, 10, 3, 0],
+									"uvNorth": [13, 13, 23, 16],
+									"uvEast": [0, 0, 0, 0],
+									"uvSouth": [0, 0, 0, 0],
+									"uvWest": [0, 0, 0, 0],
+									"uvUp": [0, 0, 0, 0],
+									"uvDown": [0, 0, 0, 0]
+								}
+							]
+						},
+						{
+							"id": "snowy_head2",
+							"invertAxis": "xy",
+							"translate": [0, -24, 0],
+							"texture": "textures/entity/illager/snowvindicator.png",
+							"boxes": [
+								{
+									"coordinates": [-5, 24, -5.1, 10, 10, 10],
+									"uvNorth": [10, 0, 20, 10],
+									"uvEast": [0, 0, 10, 10],
+									"uvSouth": [0, 0, 10, 10],
+									"uvWest": [0, 0, 10, 10],
+									"uvUp": [0, 0, 10, 10],
+									"uvDown": [0, 0, 10, 10],
+									"sizeAdd": 0.1
+								},
+								{
+									"coordinates": [4, 33, 2.9, -8, -8, -8],
+									"uvEast": [40, 40, 49, 48],
+									"uvWest": [30, 40, 39, 48],
+									"uvUp": [57, 49, 49, 40],
+									"uvDown": [8, 0, 0, 9],
+									"sizeAdd": -0.1
+								}
+							]
+						},
+						{
+							"id": "nose_rotation",
+							"invertAxis": "xy",
+							"translate": [0, 3, -4.6],
+							"rotate": [37.5, 0, 0],
+							"boxes": [
+								{"coordinates": [-1, -4, -2, 2, 4, 2], "textureOffset": [24, 0]}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "arms",
+			"id": "arms",
+			"invertAxis": "xy",
+			"translate": [0, -20.5, -0.3],
+			"submodels": [
+				{
+					"id": "arms_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 22.5, 0.35],
+					"rotate": [43, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"arms_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-8, 10, -2, 4, 12, 4], "textureOffset": [30, 20]},
+				{
+					"coordinates": [-8, 10, -2, 4, 12, 4],
+					"uvNorth": [8, 95, 4, 107],
+					"uvEast": [12, 95, 8, 107],
+					"uvSouth": [16, 95, 12, 107],
+					"uvWest": [4, 95, 0, 107],
+					"sizeAdd": 0.25
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [4, 10, -2, 4, 12, 4], "textureOffset": [30, 20]}
+			],
+			"submodels": [
+				{
+					"id": "right_arm_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [4, 10, -2, 4, 12, 4],
+							"uvNorth": [4, 95, 8, 107],
+							"uvEast": [0, 95, 4, 107],
+							"uvSouth": [12, 95, 16, 107],
+							"uvWest": [8, 95, 12, 107],
+							"sizeAdd": 0.25
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [2, -12, 0],
+			"boxes": [
+				{"coordinates": [-4.5, 0, -2, 4, 11, 4], "textureOffset": [34, 36]},
+				{
+					"coordinates": [-4.5, 0, -2, 4, 11, 4],
+					"uvNorth": [42, 55, 38, 66],
+					"uvEast": [46, 55, 42, 66],
+					"uvSouth": [50, 55, 46, 66],
+					"uvWest": [38, 55, 34, 66],
+					"sizeAdd": 0.25
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0],
+			"boxes": [
+				{"coordinates": [0.5, 0, -2, 4, 11, 4], "textureOffset": [34, 36]},
+				{
+					"coordinates": [0.5, 0, -2, 4, 11, 4],
+					"uvNorth": [38, 55, 42, 66],
+					"uvEast": [34, 55, 38, 66],
+					"uvSouth": [46, 55, 50, 66],
+					"uvWest": [42, 55, 46, 66],
+					"sizeAdd": 0.25
+				}
+			]
+		}
+	]
+}

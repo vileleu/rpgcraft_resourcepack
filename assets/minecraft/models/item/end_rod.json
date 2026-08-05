@@ -1,0 +1,11 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/end_rod",
+	"display": {
+		"gui": {
+			"rotation": [-53, -48, -86],
+			"translation": [0, 0, 0],
+			"scale": [1, 1, 1]
+		}
+	}
+}

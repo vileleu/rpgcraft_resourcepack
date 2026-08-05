@@ -1,0 +1,253 @@
+{
+	"credit": "Animated by Toxteer - Designed by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [64, 64],
+	"texture": "textures/entity/zombie/monster_drowned.png",
+	"models": [
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"animations": [
+				{
+					"fin_left.rz": "left_leg.rx",
+					"fin_right.rz": "right_leg.rx",
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "mickey_joes_drowned",
+					"invertAxis": "xy",
+					"translate": [0, 48, -5],
+					"texture": "textures/entity/fish/pufferfish.png",
+					"boxes": [
+						{
+							"coordinates": [-4, -24, 1, 8, 8, 8],
+							"uvNorth": [16, 16, 32, 32],
+							"uvEast": [0, 16, 16, 32],
+							"uvSouth": [48, 16, 64, 32],
+							"uvWest": [32, 16, 48, 32],
+							"uvUp": [32, 16, 16, 0],
+							"uvDown": [48, 0, 32, 16]
+						},
+						{
+							"coordinates": [-4, -16, 5, 8, 1, 1],
+							"uvNorth": [30, 34, 46, 36]
+						}
+					],
+					"submodels": [
+						{
+							"id": "top_front_spikes",
+							"invertAxis": "xy",
+							"translate": [0, -16, 1],
+							"rotate": [-45, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-4, 0, 0, 8, 1, 0],
+									"uvNorth": [30, 34, 46, 36]
+								}
+							]
+						},
+						{
+							"id": "left_front_spikes",
+							"invertAxis": "xy",
+							"translate": [-4, -20, 1],
+							"rotate": [0, -45, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -4, 0, 1, 8, 0],
+									"uvNorth": [2, 34, 4, 50]
+								}
+							]
+						},
+						{
+							"id": "right_front_spikes",
+							"invertAxis": "xy",
+							"translate": [4, -20, 1],
+							"rotate": [0, 45, 0],
+							"boxes": [
+								{
+									"coordinates": [0, -4, 0, 1, 8, 0],
+									"uvNorth": [10, 34, 12, 50]
+								}
+							]
+						},
+						{
+							"id": "bottom_front_spikes",
+							"invertAxis": "xy",
+							"translate": [0, -24, 1],
+							"rotate": [45, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-4, -1, 0, 8, 1, 0],
+									"uvNorth": [30, 40, 46, 42]
+								}
+							]
+						},
+						{
+							"id": "top_back_spikes",
+							"invertAxis": "xy",
+							"translate": [0, -16, 9],
+							"rotate": [45, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-4, 0, 0, 8, 1, 0],
+									"uvNorth": [46, 36, 62, 38]
+								}
+							]
+						},
+						{
+							"id": "left_back_spikes",
+							"invertAxis": "xy",
+							"translate": [-4, -20, 9],
+							"rotate": [0, 45, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -4, 0, 1, 8, 0],
+									"uvNorth": [18, 34, 20, 50]
+								}
+							]
+						},
+						{
+							"id": "right_back_spikes",
+							"invertAxis": "xy",
+							"translate": [4, -20, 9],
+							"rotate": [0, -45, 0],
+							"boxes": [
+								{
+									"coordinates": [0, -4, 0, 1, 8, 0],
+									"uvNorth": [10, 34, 12, 50]
+								}
+							]
+						},
+						{
+							"id": "bottom_back_spikes",
+							"invertAxis": "xy",
+							"translate": [0, -24, 9],
+							"rotate": [-45, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-4, -1, 0, 8, 1, 0],
+									"uvNorth": [30, 40, 46, 42]
+								}
+							]
+						},
+						{
+							"id": "fin_left",
+							"invertAxis": "xy",
+							"translate": [-4, -17, 3],
+							"boxes": [
+								{
+									"coordinates": [-2, -1, -0.99, 2, 1, 2],
+									"uvUp": [56, 10, 52, 6]
+								}
+							]
+						},
+						{
+							"id": "fin_right",
+							"invertAxis": "xy",
+							"translate": [4, -17, 3],
+							"boxes": [
+								{
+									"coordinates": [0, -1, -0.99, 2, 1, 2],
+									"uvUp": [56, 4, 52, 0]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16]},
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 32], "sizeAdd": 0.25}
+			],
+			"submodels": [
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 35.5, 0],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, -0.5, 0, 10, 1, 0.01],
+							"uvNorth": [0, 0, 10, 1],
+							"uvSouth": [0, 1, 10, 2]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [40, 16]},
+				{"coordinates": [-8, 16, -2, 4, 8, 4], "textureOffset": [40, 4], "sizeAdd": 0.25}
+			],
+			"submodels": [
+				{
+					"id": "coral",
+					"invertAxis": "xy",
+					"translate": [3.25, 21, -5.25],
+					"rotate": [0, 25, 0],
+					"boxes": [
+						{
+							"coordinates": [-18, 1, -1, 8, 9, 0],
+							"uvNorth": [48, 48, 56, 57]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [4, 12, -2, 4, 12, 4], "textureOffset": [32, 48]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -2, 4, 12, 4], "textureOffset": [0, 16]},
+				{"coordinates": [-4.1, 0, -2, 4, 12, 4], "textureOffset": [0, 48], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [16, 48]},
+				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [0, 32], "sizeAdd": 0.25}
+			]
+		}
+	]
+}

@@ -1,0 +1,182 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"texture": "textures/entity/squid/squid_starry.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -25, 0],
+			"boxes": [
+				{"coordinates": [-4, 17, -4, 8, 3, 8], "textureOffset": [0, 0]},
+				{
+					"coordinates": [-5, 26, -5, 10, 10, 10],
+					"uvNorth": [30, 22, 40, 32],
+					"uvEast": [20, 22, 30, 32],
+					"uvSouth": [50, 22, 60, 32],
+					"uvWest": [40, 22, 50, 32],
+					"uvUp": [20, 32, 10, 22],
+					"uvDown": [10, 22, 0, 32]
+				},
+				{
+					"coordinates": [-5, 32, -5, 10, 4, 10],
+					"uvNorth": [36, 11, 46, 15],
+					"uvEast": [26, 11, 36, 15],
+					"uvWest": [26, 15, 36, 19],
+					"sizeAdd": 0.5
+				},
+				{
+					"coordinates": [-1.5, 34.25, -5.25, 3, 3, 0],
+					"uvNorth": [39, 8, 42, 11],
+					"sizeAdd": 0.5
+				},
+				{
+					"coordinates": [-4, 23, -4, 8, 3, 8],
+					"uvNorth": [8, 19, 16, 22],
+					"uvEast": [0, 19, 8, 22],
+					"uvSouth": [24, 19, 32, 22],
+					"uvWest": [16, 19, 24, 22],
+					"uvDown": [24, 11, 16, 19]
+				},
+				{
+					"coordinates": [-3, 20, -3, 6, 3, 6],
+					"uvNorth": [30, 0, 36, 3],
+					"uvEast": [24, 0, 30, 3],
+					"uvSouth": [42, 0, 48, 3],
+					"uvWest": [36, 0, 42, 3]
+				},
+				{
+					"coordinates": [-5, 20, -1, 2, 2, 2],
+					"uvNorth": [2, 0, 4, 2],
+					"uvSouth": [0, 0, 2, 2],
+					"uvWest": [0, 2, 2, 4],
+					"uvUp": [0, 0, 2, 2],
+					"uvDown": [0, 0, 2, 2]
+				},
+				{
+					"coordinates": [3, 20, -1, 2, 2, 2],
+					"uvNorth": [0, 0, 2, 2],
+					"uvEast": [2, 2, 4, 4],
+					"uvSouth": [2, 0, 4, 2],
+					"uvUp": [2, 0, 4, 2],
+					"uvDown": [0, 0, 2, 2]
+				}
+			]
+		},
+		{
+			"part": "tentacle1",
+			"id": "tentacle1",
+			"invertAxis": "xy",
+			"translate": [5, -18, 10],
+			"rotate": [0, 90, 0],
+			"boxes": [
+				{"coordinates": [-6, 1, -11.5, 2, 17, 2], "textureOffset": [48, 0]}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle2",
+			"id": "tentacle2",
+			"invertAxis": "xy",
+			"translate": [1.45, -18, 5.55],
+			"rotate": [0, 135, 0],
+			"boxes": [
+				{"coordinates": [-2.45, 1, -6.55, 2, 17, 2], "textureOffset": [48, 0]}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle3",
+			"id": "tentacle3",
+			"invertAxis": "xy",
+			"translate": [0, -18, 5],
+			"rotate": [0, 180, 0],
+			"boxes": [
+				{"coordinates": [-1, 1, -6.5, 2, 17, 2], "textureOffset": [48, 0]}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle4",
+			"id": "tentacle4",
+			"invertAxis": "xy",
+			"translate": [-1.45, -18, 5.55],
+			"rotate": [0, -135, 0],
+			"boxes": [
+				{"coordinates": [0.45, 1, -6.55, 2, 17, 2], "textureOffset": [48, 0]}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle5",
+			"id": "tentacle5",
+			"invertAxis": "xy",
+			"translate": [-5, -18, 10],
+			"rotate": [0, -90, 0],
+			"boxes": [
+				{"coordinates": [4, 1, -11.5, 2, 17, 2], "textureOffset": [48, 0]}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle6",
+			"id": "tentacle6",
+			"invertAxis": "xy",
+			"translate": [8.45, -18, -15.45],
+			"rotate": [0, -45, 0],
+			"boxes": [
+				{"coordinates": [-9.45, 1, 14.45, 2, 17, 2], "textureOffset": [48, 0]}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle7",
+			"id": "tentacle7",
+			"invertAxis": "xy",
+			"translate": [0, -18, -5],
+			"boxes": [
+				{"coordinates": [-1, 1, 3.5, 2, 17, 2], "textureOffset": [48, 0]}
+			]
+		},
+		{
+			"part": "tentacle8",
+			"id": "tentacle8",
+			"invertAxis": "xy",
+			"translate": [-8.45, -18, -15.45],
+			"rotate": [0, 45, 0],
+			"boxes": [
+				{"coordinates": [7.45, 1, 14.45, 2, 17, 2], "textureOffset": [48, 0]}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"cthe_firstit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./nerf_dragon_pulling_1",
+	"textures": {
+		"1": "./the_first_dragon",
+		"2": "./the_first_dragon_wings",
+		"particle": "./the_first_dragon_wings"
+	}
+}

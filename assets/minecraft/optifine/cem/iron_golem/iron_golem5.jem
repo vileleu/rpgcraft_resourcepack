@@ -1,0 +1,179 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"texture": "textures/entity/iron_golem/first_of_iron.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [-14, 22.55, -14.5, 28, 28, 28], "textureOffset": [0, 0]},
+				{
+					"coordinates": [-11, 16.55, -14.5, 21, 6, 0],
+					"uvNorth": [4, 0, 25, 6]
+				},
+				{
+					"coordinates": [-12, 14.55, 13.5, 23, 8, 0],
+					"uvSouth": [2, 20, 25, 28]
+				},
+				{
+					"coordinates": [-8, 15.55, -6.5, 16, 7, 14],
+					"uvNorth": [77, 56, 93, 63],
+					"uvEast": [63, 56, 77, 63],
+					"uvSouth": [107, 56, 123, 63],
+					"uvWest": [93, 56, 107, 63],
+					"uvDown": [109, 63, 93, 77]
+				},
+				{
+					"coordinates": [-8, 15.55, -6.5, 16, 3, 14],
+					"uvNorth": [82, 95, 98, 98],
+					"uvEast": [68, 95, 82, 98],
+					"uvSouth": [112, 95, 128, 98],
+					"uvWest": [98, 95, 112, 98],
+					"uvDown": [98, 81, 82, 95],
+					"sizeAdd": 0.25
+				},
+				{
+					"coordinates": [-3, 32.5, -9, 6, 8, 0],
+					"uvNorth": [89, 3, 95, 11]
+				}
+			],
+			"submodels": [
+				{
+					"id": "body_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-10, 26.55, -14.5, 20, 20, 12],
+							"uvEast": [108, 108, 96, 128],
+							"uvSouth": [128, 108, 108, 128],
+							"uvWest": [76, 108, 64, 128],
+							"uvUp": [76, 116, 96, 104],
+							"uvDown": [76, 116, 96, 128]
+						}
+					]
+				},
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 36, -9],
+					"boxes": [
+						{"coordinates": [-5.5, -5.5, -5.5, 11, 11, 11], "textureOffset": [84, 0]}
+					]
+				},
+				{
+					"id": "grass",
+					"invertAxis": "xy",
+					"translate": [12, 48, -12.5],
+					"rotate": [0, -22.5, 0],
+					"boxes": [
+						{
+							"coordinates": [-2, 2.5, 0, 4, 5, 0],
+							"uvNorth": [14, 14, 18, 19]
+						}
+					]
+				},
+				{
+					"id": "grass2",
+					"invertAxis": "xy",
+					"translate": [11.5, 47, 11.5],
+					"rotate": [0, 22.5, 0],
+					"boxes": [
+						{
+							"coordinates": [-3.5, 3.5, 0, 7, 4, 0],
+							"uvNorth": [1, 15, 8, 19]
+						}
+					]
+				},
+				{
+					"id": "grass3",
+					"invertAxis": "xy",
+					"translate": [-11, 48, 12.5],
+					"rotate": [0, -22.5, 0],
+					"boxes": [
+						{
+							"coordinates": [-2, 2.5, 0, 4, 5, 0],
+							"uvNorth": [9, 14, 13, 19]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head2.rx": "head.rx",
+					"head2.ry": "head.ry"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -36, 12]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [14, 5.5, -4.5, 9, 30, 9], "textureOffset": [0, 56]},
+				{
+					"coordinates": [14, 5.5, 4.5, 9, 4, 4],
+					"uvEast": [98, 81, 102, 85],
+					"uvSouth": [115, 81, 124, 85],
+					"uvWest": [111, 81, 115, 85],
+					"uvUp": [111, 81, 102, 77],
+					"uvDown": [120, 77, 111, 81]
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [-23, 5.5, -4.5, 9, 30, 9], "textureOffset": [36, 56]},
+				{
+					"coordinates": [-23, 5.5, 4.5, 9, 4, 4],
+					"uvEast": [98, 89, 102, 93],
+					"uvSouth": [115, 89, 124, 93],
+					"uvWest": [111, 89, 115, 93],
+					"uvUp": [111, 89, 102, 85],
+					"uvDown": [120, 85, 111, 89]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-4, -13, 0],
+			"boxes": [
+				{"coordinates": [3, 0, -3, 7, 16, 7], "textureOffset": [0, 95]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [4, -13, 0],
+			"boxes": [
+				{"coordinates": [-10, 9, -3, 7, 7, 7], "textureOffset": [28, 95]},
+				{"coordinates": [-10, 0, -3, 7, 1, 7], "textureOffset": [28, 117]},
+				{
+					"coordinates": [-8.5, 1, -1.75, 4, 8, 4],
+					"uvNorth": [32, 109, 36, 117],
+					"uvEast": [28, 109, 32, 117],
+					"uvSouth": [40, 109, 44, 117],
+					"uvWest": [36, 109, 40, 117]
+				}
+			]
+		}
+	]
+}

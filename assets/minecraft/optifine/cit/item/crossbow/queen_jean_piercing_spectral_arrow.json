@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./queen_jean_piercing_arrow",
+	"textures": {
+		"arrow": "item/spectral_arrow"
+	}
+}

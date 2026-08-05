@@ -1,0 +1,8 @@
+{
+    "credit": "Created by Mickey Joe and CYKLOPPS for the Barely Default Datapack",
+	"parent": "block/dragon_egg",
+	"textures": {
+		"particle": "barely_default:block/cooked_dragon_egg",
+		"all": "barely_default:block/cooked_dragon_egg"
+	}
+}

@@ -1,0 +1,160 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [128, 128],
+	"texture": "textures/entity/zombie/husk/ammut.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-3.5, 23.75, -4.75, 7, 7, 9],
+					"uvNorth": [9, 11, 16, 18],
+					"uvEast": [0, 11, 9, 18],
+					"uvSouth": [25, 11, 32, 18],
+					"uvWest": [16, 11, 25, 18],
+					"uvUp": [16, 11, 9, 2],
+					"uvDown": [23, 2, 16, 11],
+					"sizeAdd": -0.25
+				},
+				{
+					"coordinates": [-3.5, 23.75, -4.75, 7, 7, 9],
+					"uvNorth": [60, 11, 67, 18],
+					"uvEast": [51, 11, 60, 18],
+					"uvSouth": [76, 11, 83, 18],
+					"uvWest": [67, 11, 76, 18],
+					"uvUp": [67, 11, 60, 2],
+					"uvDown": [74, 2, 67, 11]
+				},
+				{
+					"coordinates": [-2.5, 23.75, -11.25, 5, 6, 7],
+					"uvNorth": [39, 12, 44, 18],
+					"uvEast": [32, 12, 39, 18],
+					"uvWest": [44, 12, 51, 18],
+					"uvUp": [44, 12, 39, 5],
+					"uvDown": [49, 5, 44, 12],
+					"sizeAdd": -0.25
+				},
+				{
+					"coordinates": [-2.5, 25.5, -11.25, 5, 2, 7],
+					"uvUp": [49, 12, 44, 5],
+					"uvDown": [49, 5, 44, 12],
+					"sizeAdd": -0.25
+				}
+			],
+			"animations": [
+				{
+					"tail.rz": "left_leg.rx/2",
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4.5, 11.5, -2.5, 9, 13, 5], "textureOffset": [20, 18], "sizeAdd": -0.5},
+				{"coordinates": [-4.5, 11.5, -2.5, 9, 13, 5], "textureOffset": [20, 36]}
+			],
+			"submodels": [
+				{
+					"id": "tail",
+					"invertAxis": "xy",
+					"translate": [0, 12.5, 2.25],
+					"boxes": [
+						{
+							"coordinates": [-1.5, -10.5, 0.25, 4, 11, 0],
+							"uvSouth": [66, 18, 70, 29]
+						}
+					]
+				},
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 34, 0],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, -0.5, 0, 10, 1, 0.01],
+							"uvNorth": [0, 0, 10, 1],
+							"uvSouth": [0, 1, 10, 2]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-7.5, 11.5, -2.5, 4, 13, 5], "textureOffset": [48, 18], "sizeAdd": -0.5}
+			],
+			"submodels": [
+				{
+					"id": "left_arm_flipped",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0.5, 0.5],
+					"boxes": [
+						{"coordinates": [-7.5, 11, -3, 4, 13, 5], "textureOffset": [48, 36], "sizeAdd": -0.01}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [3.5, 11.5, -2.5, 4, 13, 5], "textureOffset": [48, 18], "sizeAdd": -0.5}
+			],
+			"submodels": [
+				{
+					"id": "right_arm_sub_0",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [3.5, 11.5, -2.5, 4, 13, 5], "textureOffset": [48, 36], "sizeAdd": -0.01}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-4.5, -0.5, -2.5, 5, 13, 5], "textureOffset": [0, 18], "sizeAdd": -0.5}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-0.5, -0.5, -2.5, 5, 13, 5], "textureOffset": [0, 18], "sizeAdd": -0.5}
+			]
+		}
+	]
+}

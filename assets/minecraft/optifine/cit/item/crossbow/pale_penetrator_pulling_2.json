@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./acorn_acer_pulling_2",
+	"textures": {
+		"particle": "./pale_penetrator_barrel",
+		"base": "./pale_penetrator"
+		}
+	}
+}

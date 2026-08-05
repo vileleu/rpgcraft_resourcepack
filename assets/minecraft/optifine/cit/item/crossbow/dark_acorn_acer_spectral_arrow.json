@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./acorn_acer_spectral_arrow",
+	"textures": {
+		"particle": "./dark_acorn_acer_barrel",
+		"base": "./dark_acorn_acer"
+		}
+	}
+}

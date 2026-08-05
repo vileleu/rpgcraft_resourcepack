@@ -1,0 +1,9 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "minecraft:block/item_frame",
+  "textures": {
+	"particle": "block/glow_item_frame",
+	"texture": "block/glow_item_frame",
+    "back": "block/glow_item_frame_back"
+  }
+}

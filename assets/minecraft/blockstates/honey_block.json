@@ -1,0 +1,16 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/honey_block", "weight": 736 },
+            { "model": "block/honey_block_0", "weight": 1 },
+            { "model": "block/honey_block_0", "y": 90, "weight": 1 },
+            { "model": "block/honey_block_0", "y": 180, "weight": 1 },
+            { "model": "block/honey_block_0", "y": 270, "weight": 1 },
+            { "model": "block/honey_block_1", "weight": 1 },
+            { "model": "block/honey_block_1", "y": 90, "weight": 1 },
+            { "model": "block/honey_block_1", "y": 180, "weight": 1 },
+            { "model": "block/honey_block_1", "y": 270, "weight": 1 }
+        ]
+    }
+}

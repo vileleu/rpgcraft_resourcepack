@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/red_nether_bricks" },
+            { "model": "block/red_nether_bricks_1" }
+        ]
+    }
+}

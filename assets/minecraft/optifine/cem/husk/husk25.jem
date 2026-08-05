@@ -1,0 +1,169 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [128, 128],
+	"texture": "textures/entity/zombie/husk/tutankhamun.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4.5, 23.5, -4.5, 9, 9, 9], "textureOffset": [36, 0]},
+				{
+					"coordinates": [-6.5, 23.5, 1.5, 2, 7, 3],
+					"uvNorth": [83, 11, 85, 18],
+					"uvSouth": [88, 11, 90, 18],
+					"uvWest": [85, 11, 88, 18],
+					"uvUp": [85, 11, 83, 8],
+					"uvDown": [87, 8, 85, 11]
+				},
+				{
+					"coordinates": [4.5, 23.5, 1.5, 2, 7, 3],
+					"uvNorth": [85, 11, 83, 18],
+					"uvEast": [88, 11, 85, 18],
+					"uvSouth": [90, 11, 88, 18],
+					"uvUp": [83, 11, 85, 8],
+					"uvDown": [85, 8, 87, 11]
+				},
+				{
+					"coordinates": [-1.5, 30.05, -7.8, 3, 4, 4],
+					"uvEast": [72, 14, 76, 18],
+					"uvWest": [79, 14, 83, 18],
+					"sizeAdd": -0.17
+				},
+				{
+					"coordinates": [-1, 20, -4, 2, 4, 2],
+					"uvNorth": [2, 5, 4, 9],
+					"uvEast": [0, 5, 2, 9],
+					"uvSouth": [6, 5, 8, 9],
+					"uvWest": [4, 5, 6, 9],
+					"uvDown": [6, 3, 4, 5]
+				},
+				{
+					"coordinates": [-1, 20.5, 2.5, 2, 3, 2],
+					"uvNorth": [29, 6, 31, 9],
+					"uvEast": [27, 6, 29, 9],
+					"uvSouth": [33, 6, 35, 9],
+					"uvWest": [31, 6, 33, 9],
+					"uvDown": [33, 4, 31, 6]
+				},
+				{"coordinates": [-4.5, 23.5, -4.5, 9, 9, 9], "textureOffset": [0, 0], "sizeAdd": -0.5}
+			],
+			"animations": [
+				{
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4.5, 11.5, -2.5, 9, 13, 5], "textureOffset": [20, 18], "sizeAdd": -0.5},
+				{"coordinates": [-4.5, 11.5, -2.5, 9, 13, 5], "textureOffset": [20, 36]},
+				{
+					"coordinates": [-4.5, 1.5, -3.5, 9, 11, 5],
+					"uvEast": [0, 54, 5, 65],
+					"uvWest": [5, 54, 0, 65]
+				}
+			],
+			"submodels": [
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 37, 0],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, -0.5, 0, 10, 1, 0.01],
+							"uvNorth": [0, 0, 10, 1],
+							"uvSouth": [0, 1, 10, 2]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-8.5, 11.5, -2.5, 5, 13, 5], "textureOffset": [48, 18], "sizeAdd": -0.5}
+			],
+			"submodels": [
+				{
+					"id": "left_arm_flipped",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0.5, 0.5],
+					"boxes": [
+						{"coordinates": [-8.5, 11, -3, 5, 13, 5], "textureOffset": [48, 36], "sizeAdd": -0.01}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [3.5, 11.5, -2.5, 5, 13, 5], "textureOffset": [48, 18], "sizeAdd": -0.5}
+			],
+			"submodels": [
+				{
+					"id": "right_arm_sub_0",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [3.5, 11.5, -2.5, 5, 13, 5], "textureOffset": [48, 36], "sizeAdd": -0.01}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-4.5, -0.5, -2.5, 5, 13, 5], "textureOffset": [0, 18], "sizeAdd": -0.5},
+				{"coordinates": [-4.5, -0.5, -2.5, 5, 13, 5], "textureOffset": [0, 36], "sizeAdd": -0.01}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-0.5, -0.5, -2.5, 5, 13, 5], "textureOffset": [0, 18], "sizeAdd": -0.5},
+				{
+					"coordinates": [-0.5, -0.5, -2.5, 5, 13, 5],
+					"uvNorth": [5, 41, 10, 54],
+					"uvSouth": [15, 41, 20, 54],
+					"uvWest": [10, 41, 15, 54],
+					"uvUp": [10, 41, 5, 36],
+					"uvDown": [15, 36, 10, 41],
+					"sizeAdd": -0.01
+				}
+			]
+		}
+	]
+}

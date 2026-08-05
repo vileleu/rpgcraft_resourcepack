@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./nerf_dragon_arrow",
+	"textures": {
+		"2": "./ender_dragon_wings",
+		"particle": "./ender_dragon",
+		"arrow": "./ender_dragon_arrow"
+	}
+}

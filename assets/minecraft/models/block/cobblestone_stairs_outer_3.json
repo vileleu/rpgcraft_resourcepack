@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "block/cobblestone_3",
+    "top": "block/cobblestone_3",
+    "side": "block/cobblestone_3"
+  }
+}

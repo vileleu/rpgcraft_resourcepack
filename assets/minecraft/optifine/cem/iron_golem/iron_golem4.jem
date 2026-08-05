@@ -1,0 +1,107 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"texture": "textures/entity/iron_golem/first_of_iron_ore.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [-14, 15.55, -14.5, 28, 28, 28], "textureOffset": [0, 0]},
+				{"coordinates": [-7, 22.55, -13.5, 14, 14, 1], "textureOffset": [84, 0]},
+				{"coordinates": [-1, 23.5, -14.5, 2, 4, 2], "textureOffset": [114, 0]}
+			],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [-11, 18.55, -14.5, 22, 22, 1], "textureOffset": [72, 56]}
+					]
+				},
+				{
+					"id": "grass3",
+					"invertAxis": "xy",
+					"translate": [-8, 48, 6.5],
+					"rotate": [0, -22.5, 0],
+					"boxes": [
+						{
+							"coordinates": [-2, -4.5, 0, 4, 9, 0],
+							"uvNorth": [9, 18, 13, 27]
+						}
+					]
+				},
+				{
+					"id": "grass2",
+					"invertAxis": "xy",
+					"translate": [3.5, 47, 6.5],
+					"rotate": [0, 22.5, 0],
+					"boxes": [
+						{
+							"coordinates": [-3.5, -3.5, 0, 7, 7, 0],
+							"uvNorth": [1, 20, 8, 27]
+						}
+					]
+				},
+				{
+					"id": "grass",
+					"invertAxis": "xy",
+					"translate": [5, 48, -9.5],
+					"rotate": [0, -22.5, 0],
+					"boxes": [
+						{
+							"coordinates": [-2, -4.5, 0, 4, 9, 0],
+							"uvNorth": [14, 18, 18, 27]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -31, 2]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [14, 5.5, -4.5, 9, 30, 9], "textureOffset": [0, 56]},
+				{"coordinates": [14, 5.5, 4.5, 9, 9, 4], "textureOffset": [72, 82]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [-23, 5.5, -4.5, 9, 30, 9], "textureOffset": [36, 56]},
+				{"coordinates": [-23, 5.5, 4.5, 9, 9, 4], "textureOffset": [98, 82]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-4, -13, 0],
+			"boxes": [
+				{"coordinates": [4.5, 0, -4.5, 6, 16, 10], "textureOffset": [0, 95]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [5, -13, 0],
+			"boxes": [
+				{"coordinates": [-10.5, 0, -4.5, 6, 16, 10], "textureOffset": [32, 95]}
+			]
+		}
+	]
+}

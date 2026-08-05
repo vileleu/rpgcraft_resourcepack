@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/soul_soil" },
+            { "model": "block/soul_soil_1" }
+        ]
+    }
+}

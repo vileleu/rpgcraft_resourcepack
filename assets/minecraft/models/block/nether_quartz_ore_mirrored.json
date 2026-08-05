@@ -1,0 +1,304 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/nether_quartz_ore_gem"
+	},
+	"elements": [
+		{
+			"name": "gem",
+			"from": [7, 16, 6],
+			"to": [10, 23, 9],
+			"light_emission": 1,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 16, 7.5]},
+			"faces": {
+				"north": {"uv": [16, 3, 13, 10], "texture": "#particle", "cullface": "up"},
+				"east": {"uv": [13, 3, 16, 10], "texture": "#particle", "cullface": "up"},
+				"south": {"uv": [16, 3, 13, 10], "texture": "#particle", "cullface": "up"},
+				"west": {"uv": [13, 3, 16, 10], "texture": "#particle", "cullface": "up"},
+				"up": {"uv": [13, 3, 16, 0], "texture": "#particle", "cullface": "up"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [7, -7, 6],
+			"to": [10, 0, 9],
+			"light_emission": 1,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, -7, 7.5]},
+			"faces": {
+				"north": {"uv": [16, 9, 13, 2], "texture": "#particle", "cullface": "down"},
+				"east": {"uv": [13, 9, 16, 2], "texture": "#particle", "cullface": "down"},
+				"south": {"uv": [16, 9, 13, 2], "texture": "#particle", "cullface": "down"},
+				"west": {"uv": [13, 9, 16, 2], "texture": "#particle", "cullface": "down"},
+				"down": {"uv": [16, 0, 13, 3], "rotation": 90, "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [9, 15, 5],
+			"to": [11, 21, 7],
+			"light_emission": 1,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [9.5, 16, 5]},
+			"faces": {
+				"north": {"uv": [2, 2, 0, 8], "texture": "#particle", "cullface": "up"},
+				"east": {"uv": [0, 2, 2, 8], "texture": "#particle", "cullface": "up"},
+				"south": {"uv": [2, 2, 0, 8], "texture": "#particle", "cullface": "up"},
+				"west": {"uv": [0, 2, 2, 8], "texture": "#particle", "cullface": "up"},
+				"up": {"uv": [0, 2, 2, 0], "texture": "#particle", "cullface": "up"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [3, -6, 11],
+			"to": [5, 0, 13],
+			"light_emission": 1,
+			"rotation": {"angle": 0, "axis": "x", "origin": [3.5, -5, 11]},
+			"faces": {
+				"north": {"uv": [4, 10, 2, 4], "texture": "#particle", "cullface": "down"},
+				"east": {"uv": [2, 9, 4, 3], "texture": "#particle", "cullface": "down"},
+				"south": {"uv": [4, 10, 2, 4], "texture": "#particle", "cullface": "down"},
+				"west": {"uv": [2, 9, 4, 3], "texture": "#particle", "cullface": "down"},
+				"down": {"uv": [2, 0, 0, 2], "rotation": 90, "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [11, -5, 10],
+			"to": [13, 0, 12],
+			"light_emission": 1,
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.5, -4, 10]},
+			"faces": {
+				"north": {"uv": [2, 7, 0, 2], "texture": "#particle", "cullface": "down"},
+				"east": {"uv": [2, 9, 4, 4], "texture": "#particle", "cullface": "down"},
+				"south": {"uv": [2, 7, 0, 2], "texture": "#particle", "cullface": "down"},
+				"west": {"uv": [2, 9, 4, 4], "texture": "#particle", "cullface": "down"},
+				"down": {"uv": [2, 0, 0, 2], "rotation": 90, "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [3, -3, 3],
+			"to": [5, 0, 5],
+			"light_emission": 1,
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.5, -2, 3]},
+			"faces": {
+				"north": {"uv": [2, 6, 0, 3], "texture": "#particle", "cullface": "down"},
+				"east": {"uv": [2, 8, 4, 5], "texture": "#particle", "cullface": "down"},
+				"south": {"uv": [2, 6, 0, 3], "texture": "#particle", "cullface": "down"},
+				"west": {"uv": [2, 8, 4, 5], "texture": "#particle", "cullface": "down"},
+				"down": {"uv": [2, 0, 0, 2], "rotation": 90, "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [4, 15, 10],
+			"to": [6, 21, 12],
+			"light_emission": 1,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [4.5, 16, 10]},
+			"faces": {
+				"north": {"uv": [2, 2, 0, 8], "texture": "#particle", "cullface": "up"},
+				"east": {"uv": [0, 2, 2, 8], "texture": "#particle", "cullface": "up"},
+				"south": {"uv": [2, 2, 0, 8], "texture": "#particle", "cullface": "up"},
+				"west": {"uv": [0, 2, 2, 8], "texture": "#particle", "cullface": "up"},
+				"up": {"uv": [0, 2, 2, 0], "texture": "#particle", "cullface": "up"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [6, 14, 4],
+			"to": [9, 21, 7],
+			"light_emission": 1,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [6, 16, 5]},
+			"faces": {
+				"north": {"uv": [16, 3, 13, 10], "texture": "#particle", "cullface": "up"},
+				"east": {"uv": [13, 3, 16, 10], "texture": "#particle", "cullface": "up"},
+				"south": {"uv": [16, 3, 13, 10], "texture": "#particle", "cullface": "up"},
+				"west": {"uv": [13, 3, 16, 10], "texture": "#particle", "cullface": "up"},
+				"up": {"uv": [13, 3, 16, 0], "texture": "#particle", "cullface": "up"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [9, 14, 7],
+			"to": [12, 21, 10],
+			"light_emission": 1,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [9.5, 16, 10]},
+			"faces": {
+				"north": {"uv": [16, 3, 13, 10], "texture": "#particle", "cullface": "up"},
+				"east": {"uv": [13, 3, 16, 10], "texture": "#particle", "cullface": "up"},
+				"south": {"uv": [16, 3, 13, 10], "texture": "#particle", "cullface": "up"},
+				"west": {"uv": [13, 3, 16, 10], "texture": "#particle", "cullface": "up"},
+				"up": {"uv": [13, 3, 16, 0], "texture": "#particle", "cullface": "up"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [6, 5, 13],
+			"to": [9, 13, 16],
+			"light_emission": 1,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 5, 16]},
+			"faces": {
+				"north": {"uv": [16, 2, 13, 10], "texture": "#particle", "cullface": "south"},
+				"east": {"uv": [13, 2, 16, 10], "texture": "#particle", "cullface": "south"},
+				"south": {"uv": [16, 2, 13, 10], "texture": "#particle", "cullface": "south"},
+				"west": {"uv": [13, 2, 16, 10], "texture": "#particle", "cullface": "south"},
+				"up": {"uv": [16, 0, 13, 3], "texture": "#particle", "cullface": "south"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [11, 2, 14],
+			"to": [13, 10, 16],
+			"light_emission": 1,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [13, 2, 16]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "south"},
+				"east": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "south"},
+				"south": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "south"},
+				"west": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "south"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#particle", "cullface": "south"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [3, 2, 14],
+			"to": [5, 10, 16],
+			"light_emission": 1,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [5, 2, 16]},
+			"faces": {
+				"north": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "south"},
+				"east": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "south"},
+				"south": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "south"},
+				"west": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "south"},
+				"up": {"uv": [4, 0, 2, 2], "texture": "#particle", "cullface": "south"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [13.39104, 6.06147, 9],
+			"to": [15.39104, 14.06147, 11],
+			"light_emission": 1,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "east"},
+				"east": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "east"},
+				"south": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "east"},
+				"west": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "east"},
+				"up": {"uv": [2, 2, 4, 0], "rotation": 90, "texture": "#particle", "cullface": "east"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [13.39104, 5.06147, 4],
+			"to": [15.39104, 13.06147, 6],
+			"light_emission": 1,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "east"},
+				"east": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "east"},
+				"south": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "east"},
+				"west": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "east"},
+				"up": {"uv": [2, 2, 0, 0], "rotation": 90, "texture": "#particle", "cullface": "east"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [11.62567, 7.90923, 7],
+			"to": [14.62567, 15.90923, 10],
+			"light_emission": 1,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [13, 2, 16, 10], "texture": "#particle", "cullface": "east"},
+				"east": {"uv": [16, 2, 13, 10], "texture": "#particle", "cullface": "east"},
+				"south": {"uv": [13, 2, 16, 10], "texture": "#particle", "cullface": "east"},
+				"west": {"uv": [16, 2, 13, 10], "texture": "#particle", "cullface": "east"},
+				"up": {"uv": [13, 3, 16, 0], "rotation": 90, "texture": "#particle", "cullface": "east"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [11, 5.06147, 0.60896],
+			"to": [13, 13.06147, 2.60896],
+			"light_emission": 1,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [10, 2, 8]},
+			"faces": {
+				"north": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "north"},
+				"east": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "north"},
+				"south": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "north"},
+				"west": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "north"},
+				"up": {"uv": [4, 0, 2, 2], "rotation": 180, "texture": "#particle", "cullface": "north"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [3, 5.06147, 0.60896],
+			"to": [5, 13.06147, 2.60896],
+			"light_emission": 1,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7, 2, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "north"},
+				"east": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "north"},
+				"south": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "north"},
+				"west": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "north"},
+				"up": {"uv": [0, 0, 2, 2], "rotation": 180, "texture": "#particle", "cullface": "north"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [7, 7.90923, 1.37433],
+			"to": [10, 15.90923, 4.37433],
+			"light_emission": 1,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [16, 2, 13, 10], "texture": "#particle", "cullface": "north"},
+				"east": {"uv": [13, 2, 16, 10], "texture": "#particle", "cullface": "north"},
+				"south": {"uv": [16, 2, 13, 10], "texture": "#particle", "cullface": "north"},
+				"west": {"uv": [13, 2, 16, 10], "texture": "#particle", "cullface": "north"},
+				"up": {"uv": [16, 0, 13, 3], "rotation": 180, "texture": "#particle", "cullface": "north"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [1.37433, 7.90923, 6],
+			"to": [4.37433, 15.90923, 9],
+			"light_emission": 1,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [13, 2, 16, 10], "texture": "#particle", "cullface": "west"},
+				"east": {"uv": [16, 2, 13, 10], "texture": "#particle", "cullface": "west"},
+				"south": {"uv": [13, 2, 16, 10], "texture": "#particle", "cullface": "west"},
+				"west": {"uv": [16, 2, 13, 10], "texture": "#particle", "cullface": "west"},
+				"up": {"uv": [13, 3, 16, 0], "rotation": 270, "texture": "#particle", "cullface": "west"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [0.60896, 6.06147, 5],
+			"to": [2.60896, 14.06147, 7],
+			"light_emission": 1,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "west"},
+				"east": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "west"},
+				"south": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "west"},
+				"west": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "west"},
+				"up": {"uv": [2, 2, 4, 0], "rotation": 270, "texture": "#particle", "cullface": "west"}
+			}
+		},
+		{
+			"name": "gem",
+			"from": [0.60896, 5.06147, 10],
+			"to": [2.60896, 13.06147, 12],
+			"light_emission": 1,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "west"},
+				"east": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "west"},
+				"south": {"uv": [4, 2, 2, 10], "texture": "#particle", "cullface": "west"},
+				"west": {"uv": [2, 2, 4, 10], "texture": "#particle", "cullface": "west"},
+				"up": {"uv": [2, 2, 0, 0], "rotation": 270, "texture": "#particle", "cullface": "west"}
+			}
+		}
+	]
+}

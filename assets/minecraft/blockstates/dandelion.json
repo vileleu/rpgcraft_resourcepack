@@ -1,0 +1,52 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/dandelion_0"
+      },
+      {
+        "model": "minecraft:block/dandelion_0",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/dandelion_0",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/dandelion_0",
+        "y": 270
+      },
+	  {
+        "model": "minecraft:block/dandelion_1"
+      },
+      {
+        "model": "minecraft:block/dandelion_1",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/dandelion_1",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/dandelion_1",
+        "y": 270
+      },
+	  {
+        "model": "minecraft:block/dandelion_2"
+      },
+      {
+        "model": "minecraft:block/dandelion_2",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/dandelion_2",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/dandelion_2",
+        "y": 270
+      }
+    ]
+  }
+}

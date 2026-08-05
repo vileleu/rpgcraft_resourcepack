@@ -1,0 +1,88 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [256, 256],
+	"models": [
+		{
+			"part": "lid_left",
+			"id": "lid_left",
+			"invertAxis": "xy",
+			"translate": [-8, -5, 7]
+		},
+		{
+			"part": "lid_right",
+			"id": "lid_right",
+			"invertAxis": "xy",
+			"translate": [8, -5, 7],
+			"boxes": [
+				{"coordinates": [-21, 0, 5, 26, 5, 2], "textureOffset": [0, 172]},
+				{"coordinates": [-21, 0, -7, 26, 5, 2], "textureOffset": [56, 172]},
+				{"coordinates": [-23, 0, -7, 2, 5, 14], "textureOffset": [32, 179]},
+				{"coordinates": [5, 0, -7, 2, 5, 14], "textureOffset": [0, 179]},
+				{"coordinates": [-9, 3, 7, 2, 4, 1], "textureOffset": [39, 179]},
+				{
+					"coordinates": [-21, 0.1, -5, 26, 4, 10],
+					"uvNorth": [60, 189, 86, 193],
+					"uvEast": [50, 189, 60, 193],
+					"uvSouth": [96, 189, 122, 193],
+					"uvWest": [86, 189, 96, 193],
+					"uvUp": [86, 179, 60, 189]
+				},
+				{
+					"coordinates": [-21, 0, -5, 26, 4, 10],
+					"uvDown": [112, 179, 86, 189]
+				}
+			]
+		},
+		{
+			"part": "base_left",
+			"id": "base_left",
+			"invertAxis": "xy",
+			"translate": [-8, -19, 8]
+		},
+		{
+			"part": "base_right",
+			"id": "base_right",
+			"invertAxis": "xy",
+			"translate": [8, -14, 8],
+			"boxes": [
+				{"coordinates": [-21, 8, -5, 26, 6, 10], "textureOffset": [50, 210]},
+				{"coordinates": [5, 4, -7, 2, 10, 14], "textureOffset": [0, 210]},
+				{"coordinates": [-21, 4, 5, 26, 10, 2], "textureOffset": [0, 198]},
+				{"coordinates": [-21, 4, -7, 26, 10, 2], "textureOffset": [56, 198]},
+				{"coordinates": [-23, 4, -7, 2, 10, 14], "textureOffset": [32, 210]}
+			],
+			"submodels": [
+				{
+					"id": "tripwire_hook",
+					"invertAxis": "xy",
+					"translate": [-1, 9, -5],
+					"rotate": [-67.5, 0, 0],
+					"boxes": [
+						{"coordinates": [-15, -5, -1, 2, 5, 1], "textureOffset": [112, 233]},
+						{"coordinates": [-16, -6, -1, 4, 1, 1], "textureOffset": [118, 234]},
+						{"coordinates": [-16, -9, -1, 4, 1, 1], "textureOffset": [118, 236]},
+						{"coordinates": [-13, -8, -1, 1, 2, 1], "textureOffset": [118, 238]},
+						{"coordinates": [-16, -8, -1, 1, 2, 1], "textureOffset": [122, 238]},
+						{"coordinates": [-1, -5, -1, 2, 5, 1], "textureOffset": [112, 233]},
+						{"coordinates": [-2, -6, -1, 4, 1, 1], "textureOffset": [118, 234]},
+						{"coordinates": [-2, -9, -1, 4, 1, 1], "textureOffset": [118, 236]},
+						{"coordinates": [1, -8, -1, 1, 2, 1], "textureOffset": [118, 238]},
+						{"coordinates": [-2, -8, -1, 1, 2, 1], "textureOffset": [122, 238]}
+					]
+				}
+			]
+		},
+		{
+			"part": "knob_left",
+			"id": "knob_left",
+			"invertAxis": "xy",
+			"translate": [-8, -6, 8]
+		},
+		{
+			"part": "knob_right",
+			"id": "knob_right",
+			"invertAxis": "xy",
+			"translate": [8, -6, 8]
+		}
+	]
+}

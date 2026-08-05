@@ -1,0 +1,33 @@
+{
+    "credit": "Created by Mickey Joe and CYKLOPPS for the Barely Default Datapack",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/raw_copper"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/copper_butterfly_dead"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/exposed_copper_butterfly_dead"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/weathered_copper_butterfly_dead"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "item/oxidized_copper_butterfly_dead"
+        }
+    ]
+}

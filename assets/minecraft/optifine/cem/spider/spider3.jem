@@ -1,0 +1,259 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [128, 64],
+	"texture": "textures/entity/spider/stag_beetle.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -9, 3],
+			"submodels": [
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 10.5, -6],
+					"rotate": [-32.5, 0, 0],
+					"submodels": [
+						{
+							"id": "right_pincer",
+							"invertAxis": "xy",
+							"translate": [3, 2.42543, -3.52081],
+							"rotate": [22.5, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-3, 0.10655, -9.46902, 6, 0, 10],
+									"uvUp": [38, 22, 44, 12]
+								}
+							]
+						},
+						{
+							"id": "left_pincer",
+							"invertAxis": "xy",
+							"translate": [-3, 2.42543, -3.47081],
+							"rotate": [22.5, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-3, 0.08742, -9.51521, 6, 0, 10],
+									"uvUp": [44, 22, 38, 12]
+								}
+							]
+						},
+						{
+							"id": "right_feeler",
+							"invertAxis": "xy",
+							"translate": [6, 2.5, 3.5],
+							"rotate": [0, 22.5, 22.5],
+							"boxes": [
+								{
+									"coordinates": [0, 0, -3, 8, 0, 3],
+									"uvUp": [3, 37, 11, 34]
+								}
+							]
+						},
+						{
+							"id": "left_feeler",
+							"invertAxis": "xy",
+							"translate": [-6, 2.5, 3.5],
+							"rotate": [0, -22.5, -22.5],
+							"boxes": [
+								{
+									"coordinates": [-8, 0, -3, 8, 0, 3],
+									"uvUp": [11, 37, 3, 34]
+								}
+							]
+						},
+						{
+							"id": "head_chill",
+							"invertAxis": "xy",
+							"translate": [0, -10.5, 6],
+							"boxes": [
+								{
+									"coordinates": [-6, 8, -9.5, 12, 5, 7],
+									"uvNorth": [33, 7, 45, 12],
+									"uvEast": [26, 7, 33, 12],
+									"uvSouth": [52, 7, 64, 12],
+									"uvWest": [45, 7, 52, 12],
+									"uvUp": [45, 7, 33, 0],
+									"uvDown": [57, 0, 45, 7]
+								}
+							]
+						},
+						{
+							"id": "head_aggro",
+							"invertAxis": "xy",
+							"translate": [0, -10.5, 6],
+							"boxes": [
+								{
+									"coordinates": [-6, 8, -9.5, 12, 5, 7],
+									"uvNorth": [33, 7, 45, 12],
+									"uvEast": [26, 7, 33, 12],
+									"uvSouth": [52, 7, 64, 12],
+									"uvWest": [45, 7, 52, 12],
+									"uvUp": [69, 7, 57, 0],
+									"uvDown": [57, 0, 45, 7]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"left_pincer.ry": "leg2.ry/3",
+					"right_pincer.ry": "leg1.ry/3",
+					"var.glowing_eyes": "max(if(is_aggressive, 10, var.glowing_eyes - 1 * frame_time), 0)",
+					"head_chill.visible": "var.glowing_eyes == 0",
+					"head_aggro.visible": "var.glowing_eyes > 0",
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "neck",
+			"id": "neck",
+			"invertAxis": "xy",
+			"translate": [0, -9, 0],
+			"boxes": [
+				{"coordinates": [-5, 7, -3, 10, 7, 8], "textureOffset": [0, 18]}
+			],
+			"submodels": [
+				{
+					"id": "back",
+					"invertAxis": "xy",
+					"translate": [0, 11.75, 5],
+					"rotate": [10, 0, 0],
+					"submodels": [
+						{
+							"id": "gland",
+							"invertAxis": "xy",
+							"translate": [0, -1.25, 5.5],
+							"rotate": [0, 0, -45],
+							"boxes": [
+								{"coordinates": [-1.5, -2.5, -5.5, 4, 4, 9], "textureOffset": [36, 26]}
+							]
+						},
+						{
+							"id": "right_shell",
+							"invertAxis": "xy",
+							"translate": [2.5, 0, 2],
+							"rotate": [0, 5, -22.5],
+							"boxes": [
+								{"coordinates": [-3.5, -3, -6, 7, 6, 12], "textureOffset": [0, 0]}
+							]
+						},
+						{
+							"id": "left_shell",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [-2.5, 0, 2],
+							"rotate": [0, -5, 22.5],
+							"boxes": [
+								{"coordinates": [-3.5, -3, -6, 7, 6, 12], "textureOffset": [0, 0]}
+							]
+						}
+					]
+				},
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 18.5, -3.995],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, -0.5, -0.005, 10, 1, 0.01],
+							"uvNorth": [0, 0, 10, 1],
+							"uvSouth": [0, 1, 10, 2]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -9, -9]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-4, -9, -4],
+			"boxes": [
+				{"coordinates": [3, 8, 3, 16, 2, 2], "textureOffset": [29, 22]}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [4, -9, -4],
+			"boxes": [
+				{"coordinates": [-19, 8, 3, 16, 2, 2], "textureOffset": [29, 22]}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-4, -9, -1],
+			"boxes": [
+				{"coordinates": [3, 8, 0, 16, 2, 2], "textureOffset": [29, 22]}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [4, -9, -1],
+			"boxes": [
+				{"coordinates": [-19, 8, 0, 16, 2, 2], "textureOffset": [29, 22]}
+			]
+		},
+		{
+			"part": "leg5",
+			"id": "leg5",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-4, -9, 2],
+			"boxes": [
+				{"coordinates": [3, 8, -3, 16, 2, 2], "textureOffset": [29, 22]}
+			]
+		},
+		{
+			"part": "leg6",
+			"id": "leg6",
+			"invertAxis": "xy",
+			"translate": [4, -9, 2],
+			"boxes": [
+				{"coordinates": [-19, 8, -3, 16, 2, 2], "textureOffset": [29, 22]}
+			]
+		},
+		{
+			"part": "leg7",
+			"id": "leg7",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-4, -9, 5],
+			"boxes": [
+				{"coordinates": [3, 8, -6, 16, 2, 2], "textureOffset": [29, 22]}
+			]
+		},
+		{
+			"part": "leg8",
+			"id": "leg8",
+			"invertAxis": "xy",
+			"translate": [4, -9, 5],
+			"boxes": [
+				{"coordinates": [-19, 8, -6, 16, 2, 2], "textureOffset": [29, 22]}
+			]
+		}
+	]
+}

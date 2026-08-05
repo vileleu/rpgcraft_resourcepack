@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./nerf_dragon_pulling_2",
+	"textures": {
+		"1": "./light_dragon_wings",
+		"particle": "./light_dragon"
+	}
+}

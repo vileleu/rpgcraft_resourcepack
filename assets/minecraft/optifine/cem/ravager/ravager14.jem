@@ -1,0 +1,785 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [256, 256],
+	"texture": "textures/entity/illager/relatively_improved_ravager.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -14, 10],
+			"boxes": [
+				{"coordinates": [-8, 18, -24, 16, 23, 16], "textureOffset": [0, 0]},
+				{"coordinates": [-2, 17, -28, 4, 9, 4], "textureOffset": [64, 3]},
+				{
+					"coordinates": [-12.875, 22.975, -15, 5, 7, 2],
+					"uvNorth": [49, 8, 54, 15],
+					"uvSouth": [56, 8, 61, 15],
+					"uvWest": [54, 8, 56, 15],
+					"uvUp": [49, 6, 54, 8],
+					"uvDown": [54, 6, 59, 8]
+				},
+				{
+					"coordinates": [7.875, 22.975, -15, 5, 7, 2],
+					"uvNorth": [54, 8, 49, 15],
+					"uvEast": [56, 8, 54, 15],
+					"uvSouth": [61, 8, 56, 15],
+					"uvUp": [54, 6, 49, 8],
+					"uvDown": [59, 6, 54, 8]
+				},
+				{
+					"coordinates": [-8, 16, -23, 2, 2, 2],
+					"uvNorth": [2, 2, 4, 4],
+					"uvEast": [0, 2, 2, 4],
+					"uvSouth": [6, 2, 8, 4],
+					"uvWest": [4, 2, 6, 4],
+					"uvDown": [6, 0, 4, 2]
+				},
+				{
+					"coordinates": [-4, 16, -24, 2, 2, 2],
+					"uvNorth": [10, 2, 12, 4],
+					"uvEast": [8, 2, 10, 4],
+					"uvSouth": [14, 2, 16, 4],
+					"uvWest": [12, 2, 14, 4],
+					"uvDown": [14, 0, 12, 2]
+				},
+				{
+					"coordinates": [6, 16, -15, 2, 2, 2],
+					"uvNorth": [4, 2, 2, 4],
+					"uvEast": [6, 2, 4, 4],
+					"uvSouth": [8, 2, 6, 4],
+					"uvWest": [2, 2, 0, 4],
+					"uvDown": [4, 0, 6, 2]
+				},
+				{
+					"coordinates": [6, 16, -19, 2, 2, 2],
+					"uvNorth": [4, 2, 2, 4],
+					"uvEast": [6, 2, 4, 4],
+					"uvSouth": [8, 2, 6, 4],
+					"uvWest": [2, 2, 0, 4],
+					"uvDown": [4, 0, 6, 2]
+				},
+				{
+					"coordinates": [6, 16, -23, 2, 2, 2],
+					"uvNorth": [4, 2, 2, 4],
+					"uvEast": [6, 2, 4, 4],
+					"uvSouth": [8, 2, 6, 4],
+					"uvWest": [2, 2, 0, 4],
+					"uvDown": [4, 0, 6, 2]
+				},
+				{
+					"coordinates": [2, 16, -24, 2, 2, 2],
+					"uvNorth": [12, 2, 10, 4],
+					"uvEast": [14, 2, 12, 4],
+					"uvSouth": [16, 2, 14, 4],
+					"uvWest": [10, 2, 8, 4],
+					"uvDown": [12, 0, 14, 2]
+				},
+				{
+					"coordinates": [-8, 16, -19, 2, 2, 2],
+					"uvNorth": [2, 2, 4, 4],
+					"uvEast": [0, 2, 2, 4],
+					"uvSouth": [6, 2, 8, 4],
+					"uvWest": [4, 2, 6, 4],
+					"uvDown": [6, 0, 4, 2]
+				},
+				{
+					"coordinates": [-8, 16, -15, 2, 2, 2],
+					"uvNorth": [2, 2, 4, 4],
+					"uvEast": [0, 2, 2, 4],
+					"uvSouth": [6, 2, 8, 4],
+					"uvWest": [4, 2, 6, 4],
+					"uvDown": [6, 0, 4, 2]
+				}
+			],
+			"submodels": [
+				{
+					"id": "ear_tag",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-1, -3, -2.1],
+					"texture": "textures/entity/illager/ravager_profession_level.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [8.875, 22.975, -13, 4, 4, 0],
+							"uvNorth": [4, 0, 0, 4]
+						}
+					]
+				},
+				{
+					"id": "horn_detail",
+					"invertAxis": "xy",
+					"translate": [1, 0, 0],
+					"texture": "textures/entity/illager/ravager_robes.png",
+					"boxes": [
+						{
+							"coordinates": [-14, 27, -29.3, 0, 12, 14],
+							"uvWest": [81, 0, 95, 12]
+						}
+					],
+					"submodels": [
+						{
+							"id": "horn",
+							"invertAxis": "xy",
+							"translate": [4, 27, -19],
+							"rotate": [-60, 0, 0],
+							"boxes": [
+								{"coordinates": [-20, 0.40192, 4.9641, 4, 14, 4], "textureOffset": [98, 0], "sizeAdd": 0.01}
+							]
+						}
+					]
+				},
+				{
+					"id": "horns",
+					"invertAxis": "xy",
+					"translate": [5, 27, -19],
+					"rotate": [-60, 0, 0],
+					"boxes": [
+						{"coordinates": [6, 0.40192, 4.9641, 4, 14, 4], "textureOffset": [98, 9]}
+					],
+					"submodels": [
+						{
+							"id": "head_sub_1",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [3, 0.40192, 4.9641, 3, 4, 4],
+									"uvNorth": [102, 4, 105, 8],
+									"uvSouth": [109, 4, 112, 8],
+									"uvUp": [105, 4, 102, 0],
+									"uvDown": [108, 0, 105, 4]
+								}
+							]
+						},
+						{
+							"id": "left_horn",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [-5, -27, 19],
+							"boxes": [
+								{"coordinates": [-15, 27.40192, -14.0359, 4, 14, 4], "textureOffset": [81, 9]},
+								{
+									"coordinates": [-11, 27.40192, -14.0359, 3, 4, 4],
+									"uvNorth": [88, 4, 85, 8],
+									"uvSouth": [95, 4, 92, 8],
+									"uvUp": [85, 4, 88, 0],
+									"uvDown": [88, 0, 91, 4]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "brow",
+					"invertAxis": "xy",
+					"translate": [0, 30, -24.5],
+					"boxes": [
+						{
+							"coordinates": [-10, -2, 0, 20, 8, 0],
+							"uvNorth": [65, 28, 85, 36]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"tail_sway.rz": "leg1.rx/2",
+					"brow.rz": "torad(lerp(random(id), -7, 7))",
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "jaw",
+			"id": "jaw",
+			"invertAxis": "xy",
+			"translate": [0, -16, 8],
+			"boxes": [
+				{
+					"coordinates": [-6, 14, -24, 2, 2, 2],
+					"uvNorth": [10, 4, 12, 2],
+					"uvEast": [8, 4, 10, 2],
+					"uvSouth": [14, 4, 16, 2],
+					"uvWest": [12, 4, 14, 2],
+					"uvUp": [14, 2, 12, 0]
+				},
+				{"coordinates": [-8, 8, -8, 16, 17, 2.001], "textureOffset": [115, 0]},
+				{
+					"coordinates": [6, 14, -13, 2, 2, 2],
+					"uvNorth": [4, 6, 2, 8],
+					"uvEast": [6, 6, 4, 8],
+					"uvSouth": [8, 6, 6, 8],
+					"uvWest": [2, 6, 0, 8],
+					"uvUp": [2, 6, 4, 4]
+				},
+				{
+					"coordinates": [6, 14, -17, 2, 2, 2],
+					"uvNorth": [4, 6, 2, 8],
+					"uvEast": [6, 6, 4, 8],
+					"uvSouth": [8, 6, 6, 8],
+					"uvWest": [2, 6, 0, 8],
+					"uvUp": [2, 6, 4, 4]
+				},
+				{
+					"coordinates": [6, 14, -21, 2, 2, 2],
+					"uvNorth": [4, 6, 2, 8],
+					"uvEast": [6, 6, 4, 8],
+					"uvSouth": [8, 6, 6, 8],
+					"uvWest": [2, 6, 0, 8],
+					"uvUp": [2, 6, 4, 4]
+				},
+				{
+					"coordinates": [4, 14, -24, 2, 2, 2],
+					"uvNorth": [12, 4, 10, 2],
+					"uvEast": [14, 4, 12, 2],
+					"uvSouth": [16, 4, 14, 2],
+					"uvWest": [10, 4, 8, 2],
+					"uvUp": [12, 2, 14, 0]
+				},
+				{
+					"coordinates": [-1, 14, -24, 2, 2, 2],
+					"uvNorth": [10, 4, 12, 2],
+					"uvEast": [8, 4, 10, 2],
+					"uvSouth": [14, 4, 16, 2],
+					"uvWest": [12, 4, 14, 2],
+					"uvUp": [14, 2, 12, 0]
+				},
+				{"coordinates": [-8, 8, -24, 16, 6, 16], "textureOffset": [0, 40]},
+				{
+					"coordinates": [-8, 4, -22, 16, 4, 0],
+					"uvNorth": [0, 63, 16, 67]
+				},
+				{
+					"coordinates": [-8, 14, -21, 2, 2, 2],
+					"uvNorth": [2, 6, 4, 8],
+					"uvEast": [0, 6, 2, 8],
+					"uvSouth": [6, 6, 8, 8],
+					"uvWest": [4, 6, 6, 8],
+					"uvUp": [4, 6, 2, 4]
+				},
+				{
+					"coordinates": [-8, 14, -17, 2, 2, 2],
+					"uvNorth": [2, 6, 4, 8],
+					"uvEast": [0, 6, 2, 8],
+					"uvSouth": [6, 6, 8, 8],
+					"uvWest": [4, 6, 6, 8],
+					"uvUp": [4, 6, 2, 4]
+				},
+				{
+					"coordinates": [-8, 14, -13, 2, 2, 2],
+					"uvNorth": [2, 6, 4, 8],
+					"uvEast": [0, 6, 2, 8],
+					"uvSouth": [6, 6, 8, 8],
+					"uvWest": [4, 6, 6, 8],
+					"uvUp": [4, 6, 2, 4]
+				}
+			],
+			"submodels": [
+				{
+					"id": "left_jawmuscle",
+					"invertAxis": "xy",
+					"translate": [-8.2, 14, -16],
+					"rotate": [-12.5, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [0, -6, -1, 0, 16, 3],
+							"uvWest": [1, 40, 4, 56]
+						}
+					]
+				},
+				{
+					"id": "right_jawmuscle",
+					"invertAxis": "xy",
+					"translate": [8.2, 14, -16],
+					"rotate": [-12.5, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [0, -6, -1, 0, 16, 3],
+							"uvEast": [4, 40, 1, 56]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -23, -3.5],
+			"submodels": [
+				{
+					"id": "rotation",
+					"invertAxis": "xy",
+					"translate": [0, 23, 3.5],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-7, -6, -11, 14, 16, 24], "textureOffset": [65, 28]},
+						{
+							"coordinates": [-6, -19, -7, 12, 13, 18],
+							"uvNorth": [136, 38, 148, 51],
+							"uvEast": [118, 38, 136, 51],
+							"uvWest": [148, 38, 166, 51],
+							"uvUp": [148, 38, 136, 20],
+							"uvDown": [160, 20, 148, 38]
+						},
+						{"coordinates": [-10, -26, 11, 20, 20, 2], "textureOffset": [0, 69]},
+						{
+							"coordinates": [-7, -11, 0, 14, 5, 11],
+							"uvNorth": [56, 84, 70, 89],
+							"uvEast": [45, 84, 56, 89],
+							"uvWest": [70, 84, 81, 89],
+							"uvDown": [84, 73, 70, 84]
+						}
+					],
+					"submodels": [
+						{
+							"id": "burden",
+							"invertAxis": "xy",
+							"translate": [0, -23, -3.5],
+							"texture": "textures/entity/illager/ravager_toolsmith.png",
+							"boxes": [
+								{
+									"coordinates": [-5, 1, 16.5, 10, 8, 2],
+									"uvEast": [102, 2, 104, 10],
+									"uvSouth": [116, 2, 126, 10],
+									"uvWest": [114, 2, 116, 10],
+									"uvUp": [114, 2, 104, 0],
+									"uvDown": [124, 0, 114, 2]
+								},
+								{
+									"coordinates": [-3, 3, 18.5, 6, 4, 6],
+									"uvEast": [102, 17, 108, 21],
+									"uvWest": [114, 17, 120, 21],
+									"uvUp": [114, 17, 108, 11],
+									"uvDown": [120, 11, 114, 17]
+								},
+								{"coordinates": [-6, 2, 24.5, 12, 6, 5], "textureOffset": [127, 0]},
+								{"coordinates": [-2, 1, 29.5, 9, 8, 1], "textureOffset": [127, 12]},
+								{
+									"coordinates": [-10, 3, 26.5, 4, 4, 3],
+									"uvNorth": [151, 15, 155, 19],
+									"uvSouth": [158, 15, 162, 19],
+									"uvWest": [155, 15, 158, 19],
+									"uvUp": [155, 15, 151, 12],
+									"uvDown": [159, 12, 155, 15]
+								}
+							]
+						},
+						{
+							"id": "body_cloak",
+							"invertAxis": "xy",
+							"translate": [0.5, -22.5, -4],
+							"texture": "textures/entity/illager/ravager_robes.png",
+							"boxes": [
+								{"coordinates": [-8, 16, -7.5, 15, 17, 25], "textureOffset": [0, 0]}
+							]
+						},
+						{
+							"id": "tail_sway",
+							"invertAxis": "xy",
+							"translate": [0, -19, 1.5],
+							"submodels": [
+								{
+									"id": "tail",
+									"invertAxis": "xy",
+									"translate": [0, 0, -2],
+									"rotate": [-26.25, 0, 0],
+									"boxes": [
+										{"coordinates": [-4, -13, -4, 8, 16, 8], "textureOffset": [132, 79]}
+									],
+									"submodels": [
+										{
+											"id": "tail_bar3",
+											"invertAxis": "xy",
+											"translate": [1, 10, -2],
+											"texture": "textures/entity/illager/ravager_toolsmith.png",
+											"boxes": [
+												{
+													"coordinates": [-3, -23, 7, 4, 18, 4],
+													"uvNorth": [230, 28, 234, 46],
+													"uvEast": [226, 28, 230, 46],
+													"uvSouth": [238, 28, 242, 46],
+													"uvWest": [234, 28, 238, 46],
+													"uvDown": [238, 24, 234, 28]
+												},
+												{
+													"coordinates": [-2, -16, 6, 2, 0, 1],
+													"uvDown": [233, 4, 231, 5]
+												},
+												{
+													"coordinates": [-5, -18, -2, 8, 4, 8],
+													"uvNorth": [201, 43, 209, 47],
+													"uvEast": [193, 43, 201, 47],
+													"uvSouth": [217, 43, 225, 47],
+													"uvWest": [209, 43, 217, 47],
+													"sizeAdd": 0.01
+												}
+											]
+										},
+										{
+											"id": "tail2",
+											"invertAxis": "xy",
+											"translate": [0, -13, -0.25],
+											"rotate": [27.5, 0, 0],
+											"boxes": [
+												{"coordinates": [-3, -13, -3, 6, 16, 6], "textureOffset": [132, 104]}
+											],
+											"submodels": [
+												{
+													"id": "tail_bar2",
+													"invertAxis": "xy",
+													"translate": [1.5, 9, -3],
+													"texture": "textures/entity/illager/ravager_toolsmith.png",
+													"boxes": [
+														{"coordinates": [-3, -23, 7, 3, 18, 3], "textureOffset": [244, 29]},
+														{
+															"coordinates": [-4.5, -16, 0, 6, 4, 6],
+															"uvNorth": [190, 30, 196, 34],
+															"uvEast": [184, 30, 190, 34],
+															"uvSouth": [202, 30, 208, 34],
+															"uvWest": [196, 30, 202, 34],
+															"sizeAdd": 0.01
+														},
+														{
+															"coordinates": [-2.5, -14, 6, 2, 0, 1],
+															"uvDown": [233, 4, 231, 5]
+														}
+													]
+												},
+												{
+													"id": "tail3",
+													"invertAxis": "xy",
+													"translate": [0, -13.75, -0.75],
+													"rotate": [35, 0, 0],
+													"boxes": [
+														{"coordinates": [-2, -13, -2, 4, 16, 4], "textureOffset": [132, 127]}
+													],
+													"submodels": [
+														{
+															"id": "tail_bolt",
+															"invertAxis": "xy",
+															"translate": [0, 22, -3],
+															"texture": "textures/entity/illager/ravager_toolsmith.png",
+															"boxes": [
+																{"coordinates": [-4, -35, 2, 8, 2, 2], "textureOffset": [183, 0]},
+																{
+																	"coordinates": [-1, -40, 6, 2, 22, 2],
+																	"uvNorth": [245, 6, 247, 28],
+																	"uvEast": [243, 6, 245, 28],
+																	"uvSouth": [249, 6, 251, 28],
+																	"uvWest": [247, 6, 249, 28],
+																	"uvUp": [247, 6, 245, 4]
+																},
+																{"coordinates": [-2, -29, 1, 4, 4, 4], "textureOffset": [209, 24], "sizeAdd": 0.01},
+																{
+																	"coordinates": [-1, -27, 5, 2, 0, 1],
+																	"uvDown": [233, 4, 231, 5]
+																}
+															]
+														},
+														{
+															"id": "scoop",
+															"invertAxis": "xy",
+															"translate": [0, -12, 0],
+															"texture": "textures/entity/illager/ravager_toolsmith.png",
+															"boxes": [
+																{"coordinates": [-3, -8, -2, 6, 10, 4], "textureOffset": [162, 0]},
+																{
+																	"coordinates": [-2, -8, 2, 4, 3, 4],
+																	"uvEast": [163, 19, 167, 22],
+																	"uvSouth": [175, 19, 179, 22],
+																	"uvWest": [171, 19, 175, 22],
+																	"uvUp": [171, 19, 167, 15],
+																	"uvDown": [175, 15, 171, 19]
+																},
+																{"coordinates": [-6, -11, -13, 12, 9, 14], "textureOffset": [190, 0]},
+																{
+																	"coordinates": [-5, -10, -12, 10, 8, 11],
+																	"uvNorth": [225, 62, 235, 70],
+																	"uvEast": [214, 62, 225, 70],
+																	"uvSouth": [246, 62, 256, 70],
+																	"uvWest": [235, 62, 246, 70],
+																	"uvDown": [245, 51, 235, 62]
+																},
+																{
+																	"coordinates": [4, -2, -13, 2, 2, 1],
+																	"uvNorth": [230, 1, 232, 3],
+																	"uvEast": [229, 1, 230, 3],
+																	"uvSouth": [233, 1, 235, 3],
+																	"uvWest": [232, 1, 233, 3],
+																	"uvUp": [232, 1, 230, 0]
+																},
+																{
+																	"coordinates": [-6, -2, -13, 2, 2, 1],
+																	"uvNorth": [251, 1, 253, 3],
+																	"uvEast": [250, 1, 251, 3],
+																	"uvSouth": [254, 1, 256, 3],
+																	"uvWest": [253, 1, 254, 3],
+																	"uvUp": [253, 1, 251, 0]
+																},
+																{
+																	"coordinates": [1, -2, -13, 2, 2, 1],
+																	"uvNorth": [237, 1, 239, 3],
+																	"uvEast": [236, 1, 237, 3],
+																	"uvSouth": [240, 1, 242, 3],
+																	"uvWest": [239, 1, 240, 3],
+																	"uvUp": [239, 1, 237, 0]
+																},
+																{
+																	"coordinates": [-3, -2, -13, 2, 2, 1],
+																	"uvNorth": [244, 1, 246, 3],
+																	"uvEast": [243, 1, 244, 3],
+																	"uvSouth": [247, 1, 249, 3],
+																	"uvWest": [246, 1, 247, 3],
+																	"uvUp": [246, 1, 244, 0]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "health_bar_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 23, 3.5],
+					"rotate": [90, 0, 0],
+					"submodels": [
+						{
+							"id": "health_bar",
+							"invertAxis": "xy",
+							"translate": [0, 23.5, -13.495],
+							"texture": "textures/entity/health_bar.png",
+							"textureSize": [16, 16],
+							"boxes": [
+								{
+									"coordinates": [-5, -0.5, -0.005, 10, 1, 0.01],
+									"uvNorth": [0, 0, 10, 1],
+									"uvSouth": [0, 1, 10, 2]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-8, -37, -21],
+			"boxes": [
+				{"coordinates": [4, 0, 17, 8, 33, 8], "textureOffset": [0, 94]}
+			],
+			"submodels": [
+				{
+					"id": "leg_armor1",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/illager/ravager_toolsmith.png",
+					"boxes": [
+						{"coordinates": [3.5, -0.5, 16.5, 9, 34, 9], "textureOffset": [0, 0]},
+						{"coordinates": [3.5, 15, 16.5, 9, 4, 9], "textureOffset": [147, 23]},
+						{"coordinates": [6.5, 6, 27.75, 4, 19, 2], "textureOffset": [108, 22]},
+						{"coordinates": [12.5, 9, 18.5, 1, 16, 5], "textureOffset": [134, 22]},
+						{
+							"coordinates": [12.5, 25, 20.5, 1, 1, 1],
+							"uvNorth": [142, 25, 143, 26],
+							"uvEast": [142, 25, 143, 26],
+							"uvSouth": [142, 25, 143, 26],
+							"uvWest": [142, 25, 143, 26]
+						},
+						{
+							"coordinates": [11.5, 26, 19.5, 3, 3, 3],
+							"uvNorth": [124, 25, 127, 28],
+							"uvEast": [121, 25, 124, 28],
+							"uvSouth": [130, 25, 133, 28],
+							"uvUp": [127, 25, 124, 22],
+							"uvDown": [130, 22, 127, 25]
+						}
+					],
+					"submodels": [
+						{
+							"id": "digger_hinge",
+							"invertAxis": "xy",
+							"translate": [7, 17, 25.5],
+							"rotate": [-45, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-1.5, -1, -3, 6, 2, 8],
+									"uvEast": [77, 39, 85, 41],
+									"uvSouth": [99, 39, 105, 41],
+									"uvWest": [91, 39, 99, 41],
+									"uvUp": [91, 39, 85, 31],
+									"uvDown": [97, 31, 91, 39]
+								},
+								{
+									"coordinates": [-0.5, -1, -3, 4, 2, 8],
+									"uvEast": [77, 39, 85, 41],
+									"uvWest": [91, 39, 99, 41]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [8, -37, -21],
+			"boxes": [
+				{"coordinates": [-12, 0, 17, 8, 33, 8], "textureOffset": [33, 94]}
+			],
+			"submodels": [
+				{
+					"id": "hammer",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				},
+				{
+					"id": "leg_armor2",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/illager/ravager_toolsmith.png",
+					"boxes": [
+						{"coordinates": [-12.5, -0.5, 16.5, 9, 34, 9], "textureOffset": [36, 0]},
+						{"coordinates": [-10.5, 6, 27.75, 4, 19, 2], "textureOffset": [108, 22]},
+						{"coordinates": [-12.5, 15, 16.5, 9, 4, 9], "textureOffset": [147, 23]},
+						{"coordinates": [-13.5, 31.5, 19.5, 1, 3, 5], "textureOffset": [89, 10]}
+					],
+					"submodels": [
+						{
+							"id": "leg2_sub_2",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-13.5, 22.5, 20.5, 1, 9, 2],
+									"uvNorth": [89, 21, 90, 30],
+									"uvEast": [87, 21, 89, 30],
+									"uvSouth": [92, 21, 93, 30],
+									"uvDown": [91, 19, 90, 21]
+								},
+								{
+									"coordinates": [-13.5, 31.5, 18.5, 1, 2, 1],
+									"uvNorth": [91, 12, 92, 14],
+									"uvEast": [90, 12, 91, 14],
+									"uvUp": [92, 12, 91, 11],
+									"uvDown": [93, 11, 92, 12]
+								}
+							]
+						},
+						{
+							"id": "digger_hinge2",
+							"invertAxis": "xy",
+							"translate": [-7, 17, 25.5],
+							"rotate": [-45, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-4.5, -1, -3, 6, 2, 8],
+									"uvEast": [99, 39, 91, 41],
+									"uvSouth": [105, 39, 99, 41],
+									"uvWest": [85, 39, 77, 41],
+									"uvUp": [85, 39, 91, 31],
+									"uvDown": [91, 31, 97, 39]
+								},
+								{
+									"coordinates": [-3.5, -1, -3, 4, 2, 8],
+									"uvEast": [99, 39, 91, 41],
+									"uvWest": [85, 39, 77, 41]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-8, -37, 3.5],
+			"submodels": [
+				{
+					"id": "leg_cloak3",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [16, 0, 0],
+					"texture": "textures/entity/illager/ravager_robes.png",
+					"boxes": [
+						{"coordinates": [-12.5, -0.5, -8, 9, 38, 9], "textureOffset": [184, 0]}
+					]
+				},
+				{
+					"id": "leg_burden3",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/illager/ravager_toolsmith.png",
+					"boxes": [
+						{"coordinates": [4, 0, -7.5, 8, 37, 8], "textureOffset": [0, 45]}
+					]
+				}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [8, -37, 3.5],
+			"submodels": [
+				{
+					"id": "leg_burden4",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/illager/ravager_toolsmith.png",
+					"boxes": [
+						{"coordinates": [-12, 0, -7.5, 8, 37, 8], "textureOffset": [0, 45]}
+					]
+				},
+				{
+					"id": "leg_cloak4",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/illager/ravager_robes.png",
+					"boxes": [
+						{"coordinates": [-12.5, -0.5, -8, 9, 38, 9], "textureOffset": [220, 0]}
+					]
+				}
+			]
+		},
+		{
+			"part": "neck",
+			"id": "neck",
+			"invertAxis": "xy",
+			"translate": [0, -30, -8],
+			"boxes": [
+				{"coordinates": [-5, 21, -10, 10, 10, 18], "textureOffset": [161, 9]}
+			]
+		}
+	]
+}

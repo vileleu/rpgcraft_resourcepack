@@ -1,0 +1,59 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textures": {
+		"3": "block/cherry_door_wire",
+		"sides": "block/cherry_door_sides",
+		"ends": "block/cherry_door_ends",
+		"particle": "block/cherry_door_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 12],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 6, 16, 9], "rotation": 90, "texture": "#ends"},
+				"east": {"uv": [0, 0, 4, 16], "texture": "#particle"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#sides"},
+				"west": {"uv": [4, 0, 0, 16], "texture": "#particle"},
+				"up": {"uv": [0, 0, 4, 3], "rotation": 270, "texture": "#ends"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 4],
+			"faces": {
+				"north": {"uv": [3, 0, 6, 16], "texture": "#sides"},
+				"east": {"uv": [12, 0, 16, 16], "texture": "#particle"},
+				"south": {"uv": [0, 6, 16, 9], "rotation": 90, "texture": "#ends"},
+				"west": {"uv": [16, 0, 12, 16], "texture": "#particle"},
+				"up": {"uv": [12, 0, 16, 3], "rotation": 270, "texture": "#ends"}
+			}
+		},
+		{
+			"from": [0, 12, 4],
+			"to": [3, 16, 12],
+			"faces": {
+				"east": {"uv": [4, 0, 12, 4], "texture": "#particle"},
+				"west": {"uv": [12, 0, 4, 4], "texture": "#particle"},
+				"up": {"uv": [4, 0, 12, 3], "rotation": 270, "texture": "#ends"},
+				"down": {"uv": [8, 9, 16, 12], "rotation": 90, "texture": "#ends"}
+			}
+		},
+		{
+			"from": [2, 0, 4],
+			"to": [2, 12, 12],
+			"faces": {
+				"east": {"uv": [4, 4, 12, 16], "texture": "#particle"},
+				"west": {"uv": [4, 3, 12, 15], "texture": "#3"}
+			}
+		},
+		{
+			"from": [1, 0, 4],
+			"to": [1, 12, 12],
+			"faces": {
+				"east": {"uv": [4, 3, 12, 15], "texture": "#3"},
+				"west": {"uv": [4, 4, 12, 16], "texture": "#particle"}
+			}
+		}
+	]
+}

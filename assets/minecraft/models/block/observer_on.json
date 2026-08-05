@@ -1,0 +1,10 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/observer",
+    "textures": {
+        "back": "block/observer_back_on",
+		"side": "block/observer_side_on",
+		"top": "block/observer_top_on",
+		"particle": "block/observer_front_on"
+    }
+}

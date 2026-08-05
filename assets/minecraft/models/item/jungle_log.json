@@ -1,0 +1,7 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "minecraft:block/jungle_log",
+  "textures": {
+    "side": "minecraft:block/jungle_log_horizontal"
+  }
+}

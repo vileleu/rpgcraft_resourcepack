@@ -1,0 +1,162 @@
+{
+    "credit": "Created by Mickey Joe and CYKLOPPS for the Barely Default Datapack",
+    "parent": "item/template_spawn_egg",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/black_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/blue_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/brown_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "item/cyan_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "item/gray_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "item/green_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "item/light_blue_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "item/light_gray_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "item/lime_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "item/magenta_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "item/orange_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "item/pink_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "item/purple_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "item/red_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "item/white_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "item/yellow_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "item/chorus_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "item/wither_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "item/sculk_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "item/torch_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "item/pitcher_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "item/creaking_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 23
+            },
+            "model": "item/copper_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 24
+            },
+            "model": "item/exposed_copper_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 25
+            },
+            "model": "item/weathered_copper_butterfly"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 26
+            },
+            "model": "item/oxidized_copper_butterfly"
+        }
+    ]
+}

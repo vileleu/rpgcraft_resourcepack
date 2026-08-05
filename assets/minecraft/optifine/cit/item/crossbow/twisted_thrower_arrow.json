@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./acorn_acer_arrow",
+	"textures": {
+		"particle": "./twisted_thrower_barrel",
+		"base": "./twisted_thrower"
+		}
+	}
+}

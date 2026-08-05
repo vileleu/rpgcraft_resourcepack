@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "./x_arm_buster",
+	"textures": {
+		"particle": "./x_arm_buster_flame"
+	}
+}

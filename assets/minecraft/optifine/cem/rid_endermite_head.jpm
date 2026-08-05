@@ -1,0 +1,43 @@
+{
+  "comment": "Created by Mickey Joe Alpha - https://www.YouTube.com/@MushirMickeyJoe",
+  "createdWith": "Cubik Studio",
+  "textureSize": [64,32],
+  "submodels": [
+    {
+      "id": "e0_Box1",
+      "translate": [2.0,2.5,-1.0],
+      "boxes": [
+        {
+          "coordinates": [-5.0,-4.0,0.0,5.0,4.0,3.0],
+          "uvDown": [44,13,49,16],
+          "uvUp": [39,13,44,16],
+          "uvNorth": [39,16,44,20],
+          "uvWest": [44,16,47,20],
+          "uvEast": [36,16,39,20]
+        }
+      ]
+    },
+    {
+      "id": "e1_PlaneZ4",
+      "translate": [1.0,3.5,-1.0],
+      "boxes": [
+        {
+          "coordinates": [-1.0,-1.0,0.0,1.0,1.0,0.001],
+          "uvNorth": [42,19,43,20],
+          "uvSouth": [42,19,43,20]
+        }
+      ]
+    },
+    {
+      "id": "e2_PlaneZ5",
+      "translate": [-1.0,3.5,-1.0],
+      "boxes": [
+        {
+          "coordinates": [-1.0,-1.0,0.0,1.0,1.0,0.001],
+          "uvNorth": [40,19,41,20],
+          "uvSouth": [40,19,41,20]
+        }
+      ]
+    }
+  ]
+}

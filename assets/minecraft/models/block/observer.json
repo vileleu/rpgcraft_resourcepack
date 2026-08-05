@@ -1,0 +1,36 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "block/block",
+	"textures": {
+		"back": "block/observer_back",
+		"side": "block/observer_side",
+		"top": "block/observer_top",
+		"particle": "block/observer_front"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#particle", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#back", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 16, 16, 0], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6, 5, 16],
+			"to": [10, 9, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 6, 16]},
+			"faces": {
+				"east": {"uv": [9, 7, 10, 11], "texture": "#back", "cullface": "south"},
+				"south": {"uv": [6, 7, 10, 11], "texture": "#back", "cullface": "south"},
+				"west": {"uv": [6, 7, 7, 11], "texture": "#back", "cullface": "south"},
+				"up": {"uv": [6, 7, 10, 8], "texture": "#back", "cullface": "south"},
+				"down": {"uv": [6, 10, 10, 11], "texture": "#back", "cullface": "south"}
+			}
+		}
+	]
+}

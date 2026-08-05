@@ -1,0 +1,10 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/mossy_stone_bricks" },
+            { "model": "block/mossy_stone_bricks_1" },
+            { "model": "block/mossy_stone_bricks_2" }
+        ]
+    }
+}

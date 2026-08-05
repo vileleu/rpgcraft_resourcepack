@@ -1,0 +1,125 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textures": {
+		"particle": "item/copper_butterfly"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [7, 4, 8.5],
+			"to": [9, 13, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.25, 8.75]},
+			"faces": {
+				"north": {"uv": [6, 2, 8, 11], "texture": "#particle"},
+				"east": {"uv": [4, 2, 6, 11], "texture": "#particle"},
+				"south": {"uv": [2, 2, 4, 11], "texture": "#particle"},
+				"west": {"uv": [0, 2, 2, 11], "texture": "#particle"},
+				"down": {"uv": [6, 0, 4, 2], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "body",
+			"from": [7, 11, 8.5],
+			"to": [9, 11, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.25, 8.75]},
+			"faces": {
+				"up": {"uv": [4, 0, 2, 2], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "right_butterfly_wing",
+			"from": [1, 8, 8.5],
+			"to": [7, 14, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.25, 8.75]},
+			"faces": {
+				"north": {"uv": [8, 1, 14, 7], "texture": "#particle"},
+				"east": {"uv": [9, 1, 8, 7], "texture": "#particle"},
+				"south": {"uv": [14, 1, 8, 7], "texture": "#particle"},
+				"west": {"uv": [14, 1, 13, 7], "texture": "#particle"},
+				"up": {"uv": [8, 2, 14, 1], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [8, 6, 14, 7], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "right_butterfly_wing",
+			"from": [2, 3, 7.5],
+			"to": [7, 8, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.25, 8.75]},
+			"faces": {
+				"north": {"uv": [8, 8, 13, 13], "texture": "#particle"},
+				"east": {"uv": [9, 8, 8, 13], "texture": "#particle"},
+				"south": {"uv": [13, 8, 8, 13], "texture": "#particle"},
+				"west": {"uv": [13, 8, 12, 13], "texture": "#particle"},
+				"up": {"uv": [8, 9, 13, 8], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [8, 12, 13, 13], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "left_butterfly_wing",
+			"from": [9, 3, 7.5],
+			"to": [14, 8, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.25, 8.75]},
+			"faces": {
+				"north": {"uv": [13, 8, 8, 13], "texture": "#particle"},
+				"east": {"uv": [12, 8, 13, 13], "texture": "#particle"},
+				"south": {"uv": [8, 8, 13, 13], "texture": "#particle"},
+				"west": {"uv": [8, 8, 9, 13], "texture": "#particle"},
+				"up": {"uv": [13, 9, 8, 8], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [13, 12, 8, 13], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "left_butterfly_wing",
+			"from": [9, 8, 8.5],
+			"to": [15, 14, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.25, 8.75]},
+			"faces": {
+				"north": {"uv": [14, 1, 8, 7], "texture": "#particle"},
+				"east": {"uv": [13, 1, 14, 7], "texture": "#particle"},
+				"south": {"uv": [8, 1, 14, 7], "texture": "#particle"},
+				"west": {"uv": [8, 1, 9, 7], "texture": "#particle"},
+				"up": {"uv": [14, 2, 8, 1], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [14, 6, 8, 7], "rotation": 180, "texture": "#particle"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 2.5, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 2.5, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 2.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-6, 26, 12],
+			"translation": [0, -0.5, 0]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -0.5, -6.75]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0, 0.24]
+		}
+	}
+}

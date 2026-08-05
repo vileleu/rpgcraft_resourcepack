@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./redstone_riot_sword",
+	"textures": {
+		"particle": "./sword_of_infinity"
+	}
+}

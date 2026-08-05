@@ -1,0 +1,27 @@
+{
+    "credit": "Created by Mickey Joe and CYKLOPPS for the Barely Default Datapack",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/pumpkin_pie"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/cooked_egg"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/cooked_turtle_egg"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/cooked_sniffer_egg"
+        }
+    ]
+}

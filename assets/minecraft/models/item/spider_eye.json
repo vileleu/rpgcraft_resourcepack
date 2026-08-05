@@ -1,0 +1,27 @@
+{
+    "credit": "Created by Mickey Joe and CYKLOPPS for the Barely Default Datapack",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/spider_eye"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/spider_egg_stage_0"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/spider_egg_stage_1"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/spider_egg_stage_2"
+        }
+    ]
+}

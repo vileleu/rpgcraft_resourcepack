@@ -1,0 +1,95 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "textures/entity/desert_phantom.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0.5, -5, 0],
+			"boxes": [
+				{"coordinates": [-2.5, 4, -9, 5, 4, 11], "textureOffset": [0, 14]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0.5, -3.75, 8],
+			"submodels": [
+				{
+					"id": "head_rotation",
+					"invertAxis": "xy",
+					"translate": [-0.5, 7.75, -9],
+					"rotate": [-20, 0, 0],
+					"boxes": [
+						{"coordinates": [-2.5, -4, -8, 6, 5, 8], "textureOffset": [0, 0]},
+						{
+							"coordinates": [-2.5, -3, -8, 6, 2, 4],
+							"uvSouth": [35, 5, 41, 7],
+							"uvUp": [31, 5, 25, 1],
+							"uvDown": [37, 1, 31, 5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [2.5, -7, 8],
+			"boxes": [
+				{"coordinates": [-10.5, 5, -8, 8, 2, 9], "textureOffset": [0, 29]}
+			]
+		},
+		{
+			"part": "left_wing_tip",
+			"id": "left_wing_tip",
+			"invertAxis": "xy",
+			"translate": [8.5, -7, 8],
+			"boxes": [
+				{"coordinates": [-23, 6, -8, 13, 1, 9], "textureOffset": [0, 40]}
+			]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-2.5, -7, 8],
+			"boxes": [
+				{"coordinates": [2.5, 5, -8, 8, 2, 9], "textureOffset": [0, 29]}
+			]
+		},
+		{
+			"part": "right_wing_tip",
+			"id": "right_wing_tip",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-8.5, -7, 8],
+			"boxes": [
+				{"coordinates": [10, 6, -8, 13, 1, 9], "textureOffset": [0, 40]}
+			]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0.5, -7, -1],
+			"boxes": [
+				{"coordinates": [-1.5, 4, 2, 3, 3, 9], "textureOffset": [21, 13]}
+			]
+		},
+		{
+			"part": "tail2",
+			"id": "tail2",
+			"invertAxis": "xy",
+			"translate": [0.5, -6.5, -7],
+			"boxes": [
+				{"coordinates": [-1, 5, 11, 2, 1, 7], "textureOffset": [36, 14]}
+			]
+		}
+	]
+}

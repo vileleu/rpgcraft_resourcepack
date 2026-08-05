@@ -1,0 +1,33 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/wooden_shovel"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "damage": 0.25
+            },
+            "model": "item/wooden_shovel_damaged_0"
+        },
+        {
+            "predicate": {
+                "damage": 0.5
+            },
+            "model": "item/wooden_shovel_damaged_1"
+        },
+        {
+            "predicate": {
+                "damage": 0.75
+            },
+            "model": "item/wooden_shovel_damaged_2"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/corrupted_ladle"
+        }
+    ]
+}

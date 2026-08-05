@@ -1,0 +1,104 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [128, 64],
+	"texture": "textures/entity/sheep/sheep_baby.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -19, -2],
+			"submodels": [
+				{
+					"id": "rotation",
+					"invertAxis": "xy",
+					"translate": [0, 19, 2],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-4, -6, -7, 8, 16, 6], "textureOffset": [0, 28]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 8],
+			"boxes": [
+				{"coordinates": [-5, 16, -13, 10, 10, 10], "textureOffset": [0, 0]}
+			],
+			"submodels": [
+				{
+					"id": "snout",
+					"invertAxis": "xy",
+					"translate": [-1.5, 22.05, -15.5],
+					"rotate": [-20, 0, 0],
+					"boxes": [
+						{"coordinates": [-1.5, -6.84202, -2.0103, 6, 4, 4], "textureOffset": [0, 20]}
+					]
+				},
+				{
+					"id": "left_ear",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-4.75, 24, -11],
+					"rotate": [0, 0, 22.5],
+					"boxes": [
+						{"coordinates": [-6.38268, -2.92388, 2, 6, 4, 2], "textureOffset": [30, 0]}
+					]
+				},
+				{
+					"id": "right_ear",
+					"invertAxis": "xy",
+					"translate": [4.75, 24, -11],
+					"rotate": [0, 0, -22.5],
+					"boxes": [
+						{"coordinates": [0.38268, -2.92388, 2, 6, 4, 2], "textureOffset": [30, 0]}
+					]
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-3, -12, -7],
+			"boxes": [
+				{"coordinates": [1.1, 0, 4.5, 4, 12, 4], "textureOffset": [28, 20]}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [3, -12, -7],
+			"boxes": [
+				{"coordinates": [-5.1, 0, 4.5, 4, 12, 4], "textureOffset": [44, 20]}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-3, -12, 5],
+			"boxes": [
+				{"coordinates": [1.1, 0, -7, 4, 12, 4], "textureOffset": [60, 20]}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [3, -12, 5],
+			"boxes": [
+				{"coordinates": [-5.1, 0, -7, 4, 12, 4], "textureOffset": [76, 20]}
+			]
+		}
+	]
+}

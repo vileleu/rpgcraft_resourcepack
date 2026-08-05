@@ -1,0 +1,79 @@
+{
+  "comment": "Created by Mickey Joe Alpha - https://www.YouTube.com/@MushirMickeyJoe",
+  "createdWith": "Cubik Studio",
+  "textureSize": [64,32],
+  "submodels": [
+    {
+      "id": "e0_PlaneY3",
+      "translate": [-3.0,1.5,-4.5],
+      "rotate": [0.0,0.0,337.5],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-0.001,0.0,3.0,0.001,1.0],
+          "uvDown": [11,6,14,7],
+          "uvUp": [11,6,14,7]
+        }
+      ]
+    },
+    {
+      "id": "e1_PlaneY3",
+      "translate": [-3.0,1.5,-2.5],
+      "rotate": [0.0,0.0,337.5],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-0.001,0.0,3.0,0.001,1.0],
+          "uvDown": [11,6,14,7],
+          "uvUp": [11,6,14,7]
+        }
+      ]
+    },
+    {
+      "id": "e2_PlaneY3",
+      "translate": [-3.0,1.5,-0.5],
+      "rotate": [0.0,0.0,337.5],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-0.001,0.0,3.0,0.001,1.0],
+          "uvDown": [11,6,14,7],
+          "uvUp": [11,6,14,7]
+        }
+      ]
+    },
+    {
+      "id": "e3_PlaneY6",
+      "translate": [2.0,1.5,-4.5],
+      "rotate": [0.0,0.0,202.5],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-0.001,0.0,3.0,0.001,1.0],
+          "uvDown": [11,6,14,7],
+          "uvUp": [11,6,14,7]
+        }
+      ]
+    },
+    {
+      "id": "e4_PlaneY6",
+      "translate": [2.0,1.5,-2.5],
+      "rotate": [0.0,0.0,202.5],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-0.001,0.0,3.0,0.001,1.0],
+          "uvDown": [11,6,14,7],
+          "uvUp": [11,6,14,7]
+        }
+      ]
+    },
+    {
+      "id": "e5_PlaneY6",
+      "translate": [2.0,1.5,-0.5],
+      "rotate": [0.0,0.0,202.5],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-0.001,0.0,3.0,0.001,1.0],
+          "uvDown": [11,6,14,7],
+          "uvUp": [11,6,14,7]
+        }
+      ]
+    }
+  ]
+}

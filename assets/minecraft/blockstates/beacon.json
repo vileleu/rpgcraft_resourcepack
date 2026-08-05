@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/beacon" },
+            { "model": "block/beacon", "y": 90 }
+        ]
+    }
+}

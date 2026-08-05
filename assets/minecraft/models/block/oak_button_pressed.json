@@ -1,0 +1,29 @@
+{
+	"credit": "Designed by MushirMickeyJoe with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/oak_button",
+		"emissive": "block/button_emissive"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 6],
+			"to": [11, 1, 10],
+			"faces": {
+				"north": {"uv": [8, 0, 14, 1], "texture": "#particle"},
+				"east": {"uv": [1, 2, 2, 6], "rotation": 270, "texture": "#particle"},
+				"south": {"uv": [8, 2, 2, 1], "texture": "#particle"},
+				"west": {"uv": [8, 2, 9, 6], "rotation": 90, "texture": "#particle"},
+				"up": {"uv": [8, 6, 2, 2], "texture": "#particle"},
+				"down": {"uv": [10, 6, 16, 10], "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6, -0.01, 7],
+			"to": [10, -0.01, 9],
+			"light_emission": 7,
+			"faces": {
+				"down": {"uv": [11, 7, 15, 9], "texture": "#emissive", "cullface": "down"}
+			}
+		}
+	]
+}

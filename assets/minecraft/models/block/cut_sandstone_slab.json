@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "block/sandstone_end",
+        "top": "block/sandstone_end",
+        "side": "block/cut_sandstone_slab"
+    }
+}

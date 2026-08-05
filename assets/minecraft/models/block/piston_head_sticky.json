@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "block/piston_head",
+	"textures": {
+		"particle": "block/piston_side_sticky",
+		"head": "block/piston_top_sticky",
+		"arm": "block/piston_arm_sticky"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "block/jungle_log_top",
+        "side": "block/jungle_log_horizontal"
+    }
+}

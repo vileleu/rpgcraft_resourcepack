@@ -1,0 +1,111 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "segment1",
+			"id": "segment1",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 7, -4, 8, 1, 8], "textureOffset": [0, 0]}
+			],
+			"animations": [
+				{
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "segment2",
+			"id": "segment2",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 6, -4, 8, 1, 8], "textureOffset": [0, 9]}
+			]
+		},
+		{
+			"part": "segment3",
+			"id": "segment3",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 5, -4, 8, 1, 8], "textureOffset": [0, 18]}
+			]
+		},
+		{
+			"part": "segment4",
+			"id": "segment4",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 4, -4, 8, 1, 8], "textureOffset": [0, 27]}
+			]
+		},
+		{
+			"part": "segment5",
+			"id": "segment5",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 3, -4, 8, 1, 8], "textureOffset": [32, 0]}
+			]
+		},
+		{
+			"part": "segment6",
+			"id": "segment6",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 2, -4, 8, 1, 8], "textureOffset": [32, 9]}
+			]
+		},
+		{
+			"part": "segment7",
+			"id": "segment7",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 1, -4, 8, 1, 8], "textureOffset": [32, 18]}
+			]
+		},
+		{
+			"part": "segment8",
+			"id": "segment8",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 1, 8], "textureOffset": [32, 27]}
+			]
+		},
+		{
+			"part": "core",
+			"id": "core",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-2, 2, -2, 4, 4, 4], "textureOffset": [0, 36]}
+			],
+			"submodels": [
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 11.5, 0],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, -0.5, 0, 10, 1, 0.01],
+							"uvNorth": [0, 0, 10, 1],
+							"uvSouth": [0, 1, 10, 2]
+						}
+					]
+				}
+			]
+		}
+	]
+}

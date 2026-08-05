@@ -1,0 +1,8 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "minecraft:block/warped_roots_3",
+	"textures": {
+		"particle": "block/warped_roots_1",
+		"cross": "block/warped_roots_1"
+	}
+}

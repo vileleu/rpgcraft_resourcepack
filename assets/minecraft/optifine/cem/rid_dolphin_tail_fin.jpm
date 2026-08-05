@@ -1,0 +1,37 @@
+{
+  "comment": "Created by Mickey Joe Alpha - https://www.YouTube.com/@MushirMickeyJoe",
+  "textureSize": [64,64],
+  "submodels": [
+    {
+      "id": "e0_Box1",
+      "translate": [-13.65625,0.0,7.65625],
+      "rotate": [0.0,135.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-4.0,-1.0,0.0,4.0,1.0,8.0],
+          "uvDown": [30,35,34,43],
+          "uvUp": [30,27,34,35],
+          "uvNorth": [34,27,38,28],
+          "uvSouth": [30,34,34,35],
+          "uvWest": [38,34,46,35],
+          "uvEast": [30,31,38,32]
+        }
+      ]
+    },
+    {
+      "id": "e1_Box2",
+      "translate": [-7.99939728,0.0,7.656251],
+      "rotate": [0.0,135.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-4.0,-1.0,0.0,4.0,1.0,4.0],
+          "uvDown": [34,35,38,39],
+          "uvUp": [34,31,38,35],
+          "uvNorth": [34,31,38,32],
+          "uvSouth": [34,34,38,35],
+          "uvEast": [30,27,34,28]
+        }
+      ]
+    }
+  ]
+}

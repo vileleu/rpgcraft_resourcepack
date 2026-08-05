@@ -1,0 +1,12 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/stone", "weight": 1024 },
+            { "model": "block/stone_1", "weight": 1024 },
+			{ "model": "block/stone_2", "weight": 1024 },
+			{ "model": "block/stone_3", "weight": 1024 },
+			{ "model": "block/stone_fossil", "weight": 1 }
+        ]
+    }
+}

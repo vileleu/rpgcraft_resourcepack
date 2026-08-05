@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./romeo_shield",
+	"textures": {
+		"0": "./fred_shield",
+		"particle": "./fred_shield"
+		}
+	}
+}

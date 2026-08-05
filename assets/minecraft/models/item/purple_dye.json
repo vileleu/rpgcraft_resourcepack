@@ -1,0 +1,21 @@
+{
+    "credit": "Created by Mickey Joe and CYKLOPPS for the Barely Default Datapack",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/purple_dye"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/purple_butterfly_dead"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/chorus_butterfly_dead"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/elytra",
+	"textures": {
+		"0": "item/elytra/broken_amethyst_elytra",
+		"particle": "item/elytra/broken_amethyst_elytra"
+	}
+}

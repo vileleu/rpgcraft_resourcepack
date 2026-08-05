@@ -1,0 +1,17 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/stone_brick_slab" },
+            { "model": "minecraft:block/stone_brick_slab_1" }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/stone_bricks" },
+            { "model": "minecraft:block/stone_bricks_1" }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/stone_brick_slab_top" },
+            { "model": "minecraft:block/stone_brick_slab_top_1" }
+        ]
+    }
+}

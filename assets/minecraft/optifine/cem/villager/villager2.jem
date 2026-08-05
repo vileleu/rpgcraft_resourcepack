@@ -1,0 +1,365 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [64, 64],
+	"texture": "textures/entity/villager/villager.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 24, -4, 8, 10, 8],
+					"uvNorth": [8, 8, 16, 18],
+					"uvEast": [0, 8, 8, 18],
+					"uvSouth": [24, 8, 32, 18],
+					"uvWest": [16, 8, 24, 18],
+					"uvUp": [16, 8, 8, 0],
+					"uvDown": [24, 0, 16, 8]
+				}
+			],
+			"submodels": [
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"texture": "textures/entity/villager/profession/retired_adventurer.png",
+					"boxes": [
+						{
+							"coordinates": [-4, 0, -4, 8, 10, 8],
+							"uvNorth": [8, 8, 16, 18],
+							"uvEast": [0, 8, 8, 18],
+							"uvSouth": [24, 8, 32, 18],
+							"uvWest": [16, 8, 24, 18],
+							"uvUp": [16, 8, 8, 0],
+							"uvDown": [24, 0, 16, 8],
+							"sizeAdd": 0.01
+						},
+						{
+							"coordinates": [-3, 10, -3, 6, 4, 6],
+							"uvNorth": [58, 55, 64, 59.01111],
+							"uvEast": [52, 59.98889, 58, 64],
+							"uvSouth": [58, 59.98889, 64, 64],
+							"uvWest": [52, 55, 58, 59.01111],
+							"sizeAdd": 0.01
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 16, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				}
+			]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, -26, 0],
+			"boxes": [
+				{
+					"coordinates": [-1, 23, -6, 2, 4, 2],
+					"uvNorth": [26, 2, 28, 6],
+					"uvEast": [24, 2, 26, 6],
+					"uvSouth": [30, 2, 32, 6],
+					"uvWest": [28, 2, 30, 6],
+					"uvUp": [28, 2, 26, 0],
+					"uvDown": [30, 0, 28, 2]
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 24, -4, 8, 10, 8],
+					"uvNorth": [40, 8, 48, 18],
+					"uvEast": [32, 8, 40, 18],
+					"uvSouth": [56, 8, 64, 18],
+					"uvWest": [48, 8, 56, 18],
+					"uvUp": [48, 8, 40, 0],
+					"uvDown": [56, 0, 48, 8],
+					"sizeAdd": 0.51
+				}
+			]
+		},
+		{
+			"part": "headwear2",
+			"id": "headwear2",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"rotate": [90, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 12, -3, 8, 12, 6],
+					"uvNorth": [22, 26, 30, 38],
+					"uvEast": [16, 26, 22, 38],
+					"uvSouth": [36, 26, 44, 38],
+					"uvWest": [30, 26, 36, 38],
+					"uvUp": [30, 26, 22, 20],
+					"uvDown": [38, 20, 30, 26]
+				}
+			],
+			"submodels": [
+				{
+					"id": "body2",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"texture": "textures/entity/villager/profession/retired_adventurer.png",
+					"boxes": [
+						{
+							"coordinates": [-4, -12, -3, 8, 12, 6],
+							"uvNorth": [22, 26, 30, 38],
+							"uvEast": [16, 26, 22, 38],
+							"uvSouth": [36, 26, 44, 38],
+							"uvWest": [30, 26, 36, 38],
+							"uvUp": [30, 26, 22, 20],
+							"uvDown": [38, 20, 30, 26],
+							"sizeAdd": 0.01
+						}
+					]
+				},
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 40.5, 0],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, -0.5, 0, 10, 1, 0],
+							"uvNorth": [0, 2, 10, 3],
+							"uvSouth": [0, 3, 10, 4],
+							"sizeAdd": 0.01
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "bodywear",
+			"id": "bodywear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4.2, 3.2, -3.15, 8.4, 21, 6.3],
+					"uvNorth": [6, 44, 14, 64],
+					"uvEast": [0, 44, 6, 64],
+					"uvSouth": [20, 44, 28, 64],
+					"uvWest": [14, 44, 20, 64],
+					"uvUp": [14, 44, 6, 38],
+					"uvDown": [22, 38, 14, 44]
+				}
+			],
+			"submodels": [
+				{
+					"id": "bodywear2",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"texture": "textures/entity/villager/profession/retired_adventurer.png",
+					"boxes": [
+						{
+							"coordinates": [-4.2, -20.8, -3.15, 8.4, 21, 6.3],
+							"uvNorth": [6, 44, 14, 64],
+							"uvEast": [0, 44, 6, 64],
+							"uvSouth": [20, 44, 28, 64],
+							"uvWest": [14, 44, 20, 64],
+							"uvUp": [14, 44, 6, 38],
+							"uvDown": [22, 38, 14, 44],
+							"sizeAdd": 0.01
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "arms",
+			"id": "arms",
+			"invertAxis": "xy",
+			"translate": [0, -21.05, 1.05],
+			"rotate": [43, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 15.05, -3.05, 8, 4, 4],
+					"uvNorth": [44, 42, 52, 46],
+					"uvSouth": [56, 42, 64, 46],
+					"uvUp": [52, 42, 44, 38],
+					"uvDown": [60, 38, 52, 42]
+				},
+				{
+					"coordinates": [4, 15.05, -3.05, 4, 8, 4],
+					"uvNorth": [48, 26, 52, 34],
+					"uvEast": [44, 26, 48, 34],
+					"uvSouth": [56, 26, 60, 34],
+					"uvWest": [52, 26, 56, 34],
+					"uvUp": [52, 26, 48, 22],
+					"uvDown": [56, 22, 52, 26]
+				}
+			],
+			"submodels": [
+				{
+					"id": "mirrored",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-8, 15.05, -3.05, 4, 8, 4],
+							"uvNorth": [52, 26, 48, 34],
+							"uvEast": [56, 26, 52, 34],
+							"uvSouth": [60, 26, 56, 34],
+							"uvWest": [48, 26, 44, 34],
+							"uvUp": [48, 26, 52, 22],
+							"uvDown": [52, 22, 56, 26]
+						}
+					]
+				},
+				{
+					"id": "arms2",
+					"invertAxis": "xy",
+					"translate": [0, 21.05, -1.05],
+					"texture": "textures/entity/villager/profession/retired_adventurer.png",
+					"boxes": [
+						{
+							"coordinates": [-4, -6, -2, 8, 4, 4],
+							"uvNorth": [44, 42, 52, 46],
+							"uvSouth": [56, 42, 64, 46],
+							"uvUp": [52, 42, 44, 38],
+							"uvDown": [60, 38, 52, 42],
+							"sizeAdd": 0.01
+						},
+						{
+							"coordinates": [4, -6, -2, 4, 8, 4],
+							"uvNorth": [48, 26, 52, 34],
+							"uvEast": [44, 26, 48, 34],
+							"uvSouth": [56, 26, 60, 34],
+							"uvWest": [52, 26, 56, 34],
+							"uvUp": [52, 26, 48, 22],
+							"uvDown": [56, 22, 52, 26],
+							"sizeAdd": 0.01
+						}
+					],
+					"submodels": [
+						{
+							"id": "mirrored2",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, -21.05, 1.05],
+							"boxes": [
+								{
+									"coordinates": [-8, 15.05, -3.05, 4, 8, 4],
+									"uvNorth": [52, 26, 48, 34],
+									"uvEast": [56, 26, 52, 34],
+									"uvSouth": [60, 26, 56, 34],
+									"uvWest": [48, 26, 44, 34],
+									"uvUp": [48, 26, 52, 22],
+									"uvDown": [52, 22, 56, 26],
+									"sizeAdd": 0.01
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0],
+			"boxes": [
+				{
+					"coordinates": [0, 0, -2, 4, 12, 4],
+					"uvNorth": [4, 26, 8, 38],
+					"uvEast": [0, 26, 4, 38],
+					"uvSouth": [12, 26, 16, 38],
+					"uvWest": [8, 26, 12, 38],
+					"uvUp": [8, 26, 4, 22],
+					"uvDown": [12, 22, 8, 26]
+				}
+			],
+			"submodels": [
+				{
+					"id": "right_leg2",
+					"invertAxis": "xy",
+					"translate": [2, 12, 0],
+					"texture": "textures/entity/villager/profession/retired_adventurer.png",
+					"boxes": [
+						{
+							"coordinates": [-2, -12, -2, 4, 12, 4],
+							"uvNorth": [4, 26, 8, 38],
+							"uvEast": [0, 26, 4, 38],
+							"uvSouth": [12, 26, 16, 38],
+							"uvWest": [8, 26, 12, 38],
+							"uvUp": [8, 26, 4, 22],
+							"uvDown": [12, 22, 8, 26],
+							"sizeAdd": 0.01
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 0, -2, 4, 12, 4],
+					"uvNorth": [4, 26, 8, 38],
+					"uvEast": [0, 26, 4, 38],
+					"uvSouth": [12, 26, 16, 38],
+					"uvWest": [8, 26, 12, 38],
+					"uvUp": [8, 26, 4, 22],
+					"uvDown": [12, 22, 8, 26]
+				}
+			],
+			"submodels": [
+				{
+					"id": "left_leg2",
+					"invertAxis": "xy",
+					"translate": [-2, 12, 0],
+					"texture": "textures/entity/villager/profession/retired_adventurer.png",
+					"boxes": [
+						{
+							"coordinates": [-2, -12, -2, 4, 12, 4],
+							"uvNorth": [4, 26, 8, 38],
+							"uvEast": [0, 26, 4, 38],
+							"uvSouth": [12, 26, 16, 38],
+							"uvWest": [8, 26, 12, 38],
+							"uvUp": [8, 26, 4, 22],
+							"uvDown": [12, 22, 8, 26],
+							"sizeAdd": 0.01
+						}
+					]
+				}
+			]
+		}
+	]
+}

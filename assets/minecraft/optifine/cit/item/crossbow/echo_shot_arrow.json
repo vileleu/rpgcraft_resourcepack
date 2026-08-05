@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./firebolt_thrower_arrow",
+	"textures": {
+		"1": "./echo_shot_base",
+		"2": "./echo_shot_pulling_2",
+		"particle": "./echo_shot_base"
+	}
+}

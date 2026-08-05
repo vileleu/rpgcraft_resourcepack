@@ -1,0 +1,79 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"texture": "textures/entity/illager/geomancer_bomb.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [-5, -12, 5],
+			"submodels": [
+				{
+					"id": "bomb_fresh",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-5, 0, -5, 10, 36, 10],
+							"uvNorth": [5, 5, 10, 23],
+							"uvEast": [0, 5, 5, 23],
+							"uvSouth": [15, 5, 20, 23],
+							"uvWest": [10, 5, 15, 23],
+							"uvUp": [10, 5, 5, 0],
+							"uvDown": [15, 0, 10, 5]
+						}
+					]
+				},
+				{
+					"id": "bomb_exploding",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-5, 0, -5, 10, 36, 10],
+							"uvNorth": [25, 5, 30, 23],
+							"uvEast": [20, 5, 25, 23],
+							"uvSouth": [35, 5, 40, 23],
+							"uvWest": [30, 5, 35, 23],
+							"uvUp": [30, 5, 25, 0],
+							"uvDown": [35, 0, 30, 5]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.bomb": "if(is_alive, min(20, var.bomb + 0.1 * frame_time * 20), max(0, var.bomb - 0.1 * frame_time * 20))",
+					"bomb_fresh.visible": "var.bomb < 2.5",
+					"bomb_exploding.visible": "var.bomb > 2.5"
+				}
+			]
+		},
+		{
+			"part": "upper_jaw",
+			"id": "upper_jaw",
+			"invertAxis": "xy",
+			"translate": [-0.5, -12, 4],
+			"rotate": [-180, -180, 0],
+			"animations": [
+				{
+					"this.rx": 0,
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "lower_jaw",
+			"id": "lower_jaw",
+			"invertAxis": "xy",
+			"translate": [-1.5, -12, -4],
+			"rotate": [-180, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		}
+	]
+}

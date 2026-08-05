@@ -1,0 +1,191 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -7, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -7, 0],
+			"submodels": [
+				{
+					"id": "poisonous_potatOS",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"texture": "textures/item/poisonous_potato.png",
+					"boxes": [
+						{
+							"coordinates": [4, 9, -0.5, 2, 3, 1],
+							"uvNorth": [28, 4, 24, 10],
+							"uvEast": [26, 4, 28, 10],
+							"uvSouth": [24, 4, 28, 10],
+							"uvWest": [24, 4, 26, 10],
+							"uvUp": [24, 4, 28, 6],
+							"uvDown": [24, 8, 28, 10]
+						},
+						{
+							"coordinates": [3, 2, -0.5, 1, 9, 1],
+							"uvNorth": [24, 6, 22, 24],
+							"uvSouth": [22, 6, 24, 24],
+							"uvWest": [22, 6, 24, 24],
+							"uvUp": [22, 6, 24, 8],
+							"uvDown": [22, 22, 24, 24]
+						},
+						{
+							"coordinates": [-6, 2, -0.5, 2, 8, 1],
+							"uvNorth": [8, 8, 4, 24],
+							"uvEast": [6, 8, 8, 24],
+							"uvSouth": [4, 8, 8, 24],
+							"uvWest": [4, 8, 6, 24],
+							"uvUp": [4, 8, 8, 10],
+							"uvDown": [4, 22, 8, 24]
+						},
+						{
+							"coordinates": [0, 2, -0.5, 3, 8, 1],
+							"uvNorth": [22, 8, 16, 24],
+							"uvSouth": [16, 8, 22, 24],
+							"uvWest": [16, 8, 18, 24],
+							"uvUp": [16, 8, 22, 10],
+							"uvDown": [16, 22, 22, 24]
+						},
+						{
+							"coordinates": [-7, 7, -0.5, 1, 2, 1],
+							"uvNorth": [4, 10, 2, 14],
+							"uvSouth": [2, 10, 4, 14],
+							"uvWest": [2, 10, 4, 14],
+							"uvUp": [2, 10, 4, 12],
+							"uvDown": [2, 12, 4, 14]
+						},
+						{
+							"coordinates": [-4, 0, -0.5, 4, 9, 1],
+							"uvNorth": [16, 10, 8, 28],
+							"uvEast": [14, 10, 16, 28],
+							"uvSouth": [8, 10, 16, 28],
+							"uvUp": [8, 10, 16, 12],
+							"uvDown": [8, 26, 16, 28]
+						},
+						{
+							"coordinates": [4, 2, -0.5, 1, 7, 1],
+							"uvNorth": [26, 10, 24, 24],
+							"uvEast": [24, 10, 26, 24],
+							"uvSouth": [24, 10, 26, 24],
+							"uvDown": [24, 22, 26, 24]
+						},
+						{
+							"coordinates": [5, 4, -0.5, 1, 4, 1],
+							"uvNorth": [28, 12, 26, 20],
+							"uvEast": [26, 12, 28, 20],
+							"uvSouth": [26, 12, 28, 20],
+							"uvUp": [26, 12, 28, 14],
+							"uvDown": [26, 18, 28, 20]
+						},
+						{
+							"coordinates": [-5, 0, -0.5, 1, 2, 1],
+							"uvNorth": [8, 24, 6, 28],
+							"uvSouth": [6, 24, 8, 28],
+							"uvWest": [6, 24, 8, 28],
+							"uvDown": [6, 26, 8, 28]
+						},
+						{
+							"coordinates": [0, 1, -0.5, 2, 1, 1],
+							"uvNorth": [20, 24, 16, 26],
+							"uvEast": [18, 24, 20, 26],
+							"uvSouth": [16, 24, 20, 26],
+							"uvDown": [16, 24, 20, 26]
+						}
+					]
+				},
+				{
+					"id": "left_wing2",
+					"invertAxis": "xy",
+					"translate": [-6, 7, 0],
+					"boxes": [
+						{
+							"coordinates": [-2, -5, 0, 2, 7, 0],
+							"uvNorth": [12, 7, 14, 14],
+							"uvSouth": [14, 7, 16, 14]
+						}
+					],
+					"submodels": [
+						{
+							"id": "outer_left_wing2",
+							"invertAxis": "xy",
+							"translate": [-2, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-6, -6, 0, 6, 8, 0],
+									"uvNorth": [16, 8, 22, 16],
+									"uvSouth": [22, 8, 28, 16]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "right_wing2",
+					"invertAxis": "xy",
+					"translate": [6, 7, 0],
+					"boxes": [
+						{
+							"coordinates": [0, -5, 0, 2, 7, 0],
+							"uvNorth": [12, 0, 14, 7],
+							"uvSouth": [14, 0, 16, 7]
+						}
+					],
+					"submodels": [
+						{
+							"id": "outer_right_wing2",
+							"invertAxis": "xy",
+							"translate": [2, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [0, -6, 0, 6, 8, 0],
+									"uvNorth": [16, 0, 22, 8],
+									"uvSouth": [22, 0, 28, 8]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"left_wing2.ry": "left_wing.ry",
+					"right_wing2.ry": "right_wing.ry",
+					"outer_left_wing2.ry": "outer_left_wing.ry",
+					"outer_right_wing2.ry": "outer_right_wing.ry"
+				}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [1.5, -7, 0]
+		},
+		{
+			"part": "outer_left_wing",
+			"id": "outer_left_wing",
+			"invertAxis": "xy",
+			"translate": [3.5, -7, 0]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-1.5, -7, 0]
+		},
+		{
+			"part": "outer_right_wing",
+			"id": "outer_right_wing",
+			"invertAxis": "xy",
+			"translate": [-3.5, -7, 0]
+		}
+	]
+}

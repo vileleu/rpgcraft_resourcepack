@@ -1,0 +1,27 @@
+{
+    "credit": "Created by Mickey Joe and CYKLOPPS for the Barely Default Datapack",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/music_disc_11"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/music_disc_barelydefaultrap"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/music_disc_creeperskiss"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/music_disc_hugthewarden"
+        }
+    ]
+}

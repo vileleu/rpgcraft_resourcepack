@@ -1,0 +1,44 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [64, 32],
+	"texture": "textures/entity/slime/mega_spud.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-3, 1, -3, 6, 9, 6], "textureOffset": [40, 17]},
+				{"coordinates": [-4, -0.01, -4, 8, 11, 8], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "right_eye",
+			"id": "right_eye",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-3.3, 6, -3.5, 2, 2, 2], "textureOffset": [32, 4]}
+			]
+		},
+		{
+			"part": "left_eye",
+			"id": "left_eye",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [1.3, 6, -3.5, 2, 2, 2], "textureOffset": [32, 0]}
+			]
+		},
+		{
+			"part": "mouth",
+			"id": "mouth",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [0, 3, -3.5, 1, 1, 1], "textureOffset": [32, 8]}
+			]
+		}
+	]
+}

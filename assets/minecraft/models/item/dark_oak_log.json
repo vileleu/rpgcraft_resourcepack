@@ -1,0 +1,7 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "minecraft:block/dark_oak_log",
+  "textures": {
+    "side": "minecraft:block/dark_oak_log_horizontal"
+  }
+}

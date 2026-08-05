@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/azalea_leaves_1",
+    "textures": {
+		"1": "block/azalea_leaves_bush",
+		"particle": "block/flowering_azalea_leaves"
+    }
+}

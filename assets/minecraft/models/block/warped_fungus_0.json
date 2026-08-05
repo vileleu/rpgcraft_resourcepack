@@ -1,0 +1,33 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textures": {
+		"particle": "block/warped_fungus_0"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [8, 3, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 7]},
+			"faces": {
+				"north": {"uv": [8, 12, 10, 15], "texture": "#particle"},
+				"east": {"uv": [8, 12, 10, 15], "texture": "#particle"},
+				"south": {"uv": [8, 12, 10, 15], "texture": "#particle"},
+				"west": {"uv": [8, 12, 10, 15], "texture": "#particle"},
+				"down": {"uv": [10, 8, 12, 10], "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"from": [4, 3, 4],
+			"to": [10, 6, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 7]},
+			"faces": {
+				"north": {"uv": [7, 8, 1, 11], "texture": "#particle"},
+				"east": {"uv": [7, 8, 1, 11], "texture": "#particle"},
+				"south": {"uv": [7, 8, 1, 11], "texture": "#particle"},
+				"west": {"uv": [7, 11, 1, 14], "texture": "#particle"},
+				"up": {"uv": [10, 10, 16, 16], "texture": "#particle"},
+				"down": {"uv": [9, 1, 15, 7], "texture": "#particle"}
+			}
+		}
+	]
+}

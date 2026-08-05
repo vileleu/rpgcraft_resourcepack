@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "block/mossy_cobblestone_0",
+    "top": "block/mossy_cobblestone_0",
+    "side": "block/mossy_cobblestone_0"
+  }
+}

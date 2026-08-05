@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "optifine/cit/item/netherite_sword/redstone_riot_sword",
+	"textures": {
+		"particle": "./redstone_riot_shovel"
+	}
+}

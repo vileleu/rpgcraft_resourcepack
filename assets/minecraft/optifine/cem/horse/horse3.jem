@@ -1,0 +1,586 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [256, 128],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -22, 9],
+			"boxes": [
+				{
+					"coordinates": [-3, 28, -10.75, 6, 5, 7],
+					"uvNorth": [14, 40, 26, 50],
+					"uvEast": [0, 40, 14, 50],
+					"uvSouth": [40, 40, 52, 50],
+					"uvWest": [26, 40, 40, 50],
+					"uvUp": [26, 40, 14, 26],
+					"uvDown": [38, 26, 26, 40]
+				}
+			],
+			"submodels": [
+				{
+					"id": "head_skeleton",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"boxes": [
+						{
+							"coordinates": [-3, 28, -10.85, 6, 5, 7],
+							"uvNorth": [237, 7, 243, 12],
+							"uvEast": [230, 7, 237, 12],
+							"uvSouth": [250, 7, 256, 12],
+							"uvWest": [243, 7, 250, 12],
+							"uvUp": [243, 7, 237, 0],
+							"uvDown": [249, 0, 243, 7],
+							"sizeAdd": 0.3
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 16, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0 && !is_ridden"
+				}
+			]
+		},
+		{
+			"part": "mouth",
+			"id": "mouth",
+			"invertAxis": "xy",
+			"translate": [0, -22, 9],
+			"boxes": [
+				{
+					"coordinates": [-2, 28, -15.8, 4, 5, 5],
+					"uvNorth": [10, 60, 18, 70],
+					"uvEast": [0, 60, 10, 70],
+					"uvSouth": [28, 60, 36, 70],
+					"uvWest": [18, 60, 28, 70],
+					"uvUp": [18, 60, 10, 50],
+					"uvDown": [26, 50, 18, 60]
+				}
+			],
+			"submodels": [
+				{
+					"id": "mouth_skeleton",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"boxes": [
+						{
+							"coordinates": [-2, 29, -16.25, 4, 2, 5],
+							"uvNorth": [133, 32, 137, 34],
+							"uvEast": [128, 32, 133, 34],
+							"uvSouth": [142, 32, 146, 34],
+							"uvWest": [137, 32, 142, 34],
+							"sizeAdd": 0.15
+						},
+						{
+							"coordinates": [-2, 31.2, -16.25, 4, 2, 5],
+							"uvNorth": [133, 30, 137, 32],
+							"uvEast": [128, 30, 133, 32],
+							"uvSouth": [142, 30, 146, 32],
+							"uvWest": [137, 30, 142, 32],
+							"uvUp": [137, 30, 133, 25],
+							"uvDown": [141, 25, 137, 30],
+							"sizeAdd": 0.15
+						},
+						{
+							"coordinates": [-2, 27.8, -16.25, 4, 1, 5],
+							"uvNorth": [133, 39, 137, 40],
+							"uvEast": [128, 39, 133, 40],
+							"uvSouth": [142, 39, 146, 40],
+							"uvWest": [137, 39, 142, 40],
+							"uvUp": [137, 39, 133, 34],
+							"uvDown": [141, 34, 137, 39],
+							"sizeAdd": 0.15
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_ear",
+			"id": "left_ear",
+			"invertAxis": "xy",
+			"translate": [0, -23, 9.01],
+			"boxes": [
+				{
+					"coordinates": [-2.55, 33, -5.01, 2, 3, 1],
+					"uvNorth": [40, 34, 44, 40],
+					"uvEast": [38, 34, 40, 40],
+					"uvSouth": [46, 34, 50, 40],
+					"uvWest": [44, 34, 46, 40],
+					"uvUp": [44, 34, 40, 32],
+					"uvDown": [48, 32, 44, 34]
+				}
+			]
+		},
+		{
+			"part": "right_ear",
+			"id": "right_ear",
+			"invertAxis": "xy",
+			"translate": [0, -23, 9.01],
+			"boxes": [
+				{
+					"coordinates": [0.55, 33, -5.01, 2, 3, 1],
+					"uvNorth": [40, 34, 44, 40],
+					"uvEast": [38, 34, 40, 40],
+					"uvSouth": [46, 34, 50, 40],
+					"uvWest": [44, 34, 46, 40],
+					"uvUp": [44, 34, 40, 32],
+					"uvDown": [48, 32, 44, 34]
+				}
+			]
+		},
+		{
+			"part": "neck",
+			"id": "neck",
+			"invertAxis": "xy",
+			"translate": [0, -22, 9],
+			"boxes": [
+				{
+					"coordinates": [-1.95, 16, -11, 4, 12, 7],
+					"uvNorth": [14, 84, 22, 108],
+					"uvEast": [0, 84, 14, 108],
+					"uvSouth": [36, 84, 44, 108],
+					"uvWest": [22, 84, 36, 108],
+					"uvDown": [30, 70, 22, 84],
+					"sizeAdd": -0.05
+				}
+			],
+			"submodels": [
+				{
+					"id": "neck_skeleton",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"boxes": [
+						{
+							"coordinates": [-2, 19.6, -11.25, 4, 8, 1],
+							"uvNorth": [185, 43, 189, 51],
+							"uvEast": [184, 43, 185, 51],
+							"uvWest": [189, 43, 190, 51],
+							"sizeAdd": 0.1
+						}
+					]
+				},
+				{
+					"id": "flame2",
+					"invertAxis": "xy",
+					"translate": [0, 33.75, -3.25],
+					"rotate": [44.99564, -0.70709, 0.70714],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"boxes": [
+						{
+							"coordinates": [0, -10.53553, -4.87868, 0, 16, 16],
+							"uvWest": [152, 112, 168, 128]
+						}
+					]
+				},
+				{
+					"id": "flame",
+					"invertAxis": "xy",
+					"translate": [0, 33.75, -3.25],
+					"rotate": [44.99564, 0.70709, -0.70714],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"boxes": [
+						{
+							"coordinates": [0, -10.53553, -4.87868, 0, 16, 16],
+							"uvWest": [152, 112, 168, 128]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "mane",
+			"id": "mane",
+			"invertAxis": "xy",
+			"translate": [0, -22, 9.01],
+			"boxes": [
+				{
+					"coordinates": [-1, 17, -4, 2, 16, 2],
+					"uvNorth": [116, 76, 120, 108],
+					"uvEast": [112, 76, 116, 108],
+					"uvSouth": [124, 76, 128, 108],
+					"uvWest": [120, 76, 124, 108],
+					"uvUp": [120, 76, 116, 72],
+					"uvDown": [124, 72, 120, 76]
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -13, -6],
+			"boxes": [
+				{
+					"coordinates": [-5, 11, -11, 10, 10, 22],
+					"uvNorth": [44, 108, 64, 128],
+					"uvEast": [0, 108, 44, 128],
+					"uvSouth": [108, 108, 128, 128],
+					"uvWest": [64, 108, 108, 128],
+					"uvUp": [64, 108, 44, 64],
+					"uvDown": [84, 64, 64, 108]
+				}
+			],
+			"submodels": [
+				{
+					"id": "cloak",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"boxes": [
+						{
+							"coordinates": [-5, 7, -11, 10, 14, 22],
+							"uvNorth": [214, 114, 224, 128],
+							"uvEast": [192, 114, 214, 128],
+							"uvSouth": [246, 114, 256, 128],
+							"uvWest": [224, 114, 246, 128],
+							"uvUp": [224, 114, 214, 92],
+							"sizeAdd": 0.3
+						}
+					]
+				},
+				{
+					"id": "tail_not_a_fart",
+					"invertAxis": "xy",
+					"translate": [0, 22.05, 8.9],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"submodels": [
+						{
+							"id": "flame3",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [0, 0, 1],
+							"boxes": [
+								{
+									"coordinates": [0, -1.98553, 0.12132, 0, 16, 16],
+									"uvWest": [169, 112, 185, 128]
+								}
+							]
+						},
+						{
+							"id": "flame4",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [0, 0, -1],
+							"boxes": [
+								{
+									"coordinates": [0, -1.98553, 0.12132, 0, 16, 16],
+									"uvWest": [169, 112, 185, 128]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 33.5, -1],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, -0.5, 0, 10, 1, 0.01],
+							"uvNorth": [0, 2, 10, 3],
+							"uvSouth": [0, 3, 10, 4]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0, -21, -11]
+		},
+		{
+			"part": "front_left_leg",
+			"id": "front_left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [4, -10, 9],
+			"boxes": [
+				{
+					"coordinates": [-5, 0, -10.9, 4, 11, 4],
+					"uvNorth": [112, 50, 104, 72],
+					"uvEast": [120, 50, 112, 72],
+					"uvSouth": [128, 50, 120, 72],
+					"uvWest": [104, 50, 96, 72],
+					"uvUp": [104, 50, 112, 42],
+					"uvDown": [112, 42, 120, 50]
+				}
+			],
+			"submodels": [
+				{
+					"id": "front_left_leg_skeleton",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"boxes": [
+						{"coordinates": [-5, 0, -10.9, 4, 11, 4], "textureOffset": [176, 21], "sizeAdd": 0.25}
+					]
+				}
+			]
+		},
+		{
+			"part": "front_right_leg",
+			"id": "front_right_leg",
+			"invertAxis": "xy",
+			"translate": [-4, -10, 9],
+			"boxes": [
+				{
+					"coordinates": [1, 0, -10.9, 4, 11, 4],
+					"uvNorth": [112, 50, 104, 72],
+					"uvEast": [120, 50, 112, 72],
+					"uvSouth": [128, 50, 120, 72],
+					"uvWest": [104, 50, 96, 72],
+					"uvUp": [104, 50, 112, 42],
+					"uvDown": [112, 42, 120, 50]
+				}
+			],
+			"submodels": [
+				{
+					"id": "front_right_leg_skeleton",
+					"invertAxis": "xy",
+					"translate": [4, 10, -9],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"boxes": [
+						{
+							"coordinates": [-3, -10, -1.9, 4, 11, 4],
+							"uvNorth": [180, 25, 184, 36],
+							"uvEast": [176, 25, 180, 36],
+							"uvSouth": [188, 25, 192, 36],
+							"uvWest": [184, 25, 188, 36],
+							"uvUp": [184, 25, 180, 21],
+							"uvDown": [188, 21, 184, 25],
+							"sizeAdd": 0.25
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "back_left_leg",
+			"id": "back_left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [4, -10, -8],
+			"boxes": [
+				{
+					"coordinates": [-5, 0, 7, 4, 11, 4],
+					"uvNorth": [112, 50, 104, 72],
+					"uvEast": [120, 50, 112, 72],
+					"uvSouth": [128, 50, 120, 72],
+					"uvWest": [104, 50, 96, 72],
+					"uvUp": [104, 50, 112, 42],
+					"uvDown": [112, 42, 120, 50]
+				}
+			],
+			"submodels": [
+				{
+					"id": "back_left_leg_skeleton",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"boxes": [
+						{"coordinates": [-5, 0, 7, 4, 11, 4], "textureOffset": [176, 21], "sizeAdd": 0.25}
+					]
+				}
+			]
+		},
+		{
+			"part": "back_right_leg",
+			"id": "back_right_leg",
+			"invertAxis": "xy",
+			"translate": [-4, -10, -8],
+			"boxes": [
+				{
+					"coordinates": [1, 0, 7, 4, 11, 4],
+					"uvNorth": [112, 50, 104, 72],
+					"uvEast": [120, 50, 112, 72],
+					"uvSouth": [128, 50, 120, 72],
+					"uvWest": [104, 50, 96, 72],
+					"uvUp": [104, 50, 112, 42],
+					"uvDown": [112, 42, 120, 50]
+				}
+			],
+			"submodels": [
+				{
+					"id": "back_right_leg_skeleton",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+					"boxes": [
+						{
+							"coordinates": [1, 0, 7, 4, 11, 4],
+							"uvNorth": [180, 25, 184, 36],
+							"uvEast": [176, 25, 180, 36],
+							"uvSouth": [188, 25, 192, 36],
+							"uvWest": [184, 25, 188, 36],
+							"uvUp": [184, 25, 180, 21],
+							"uvDown": [188, 21, 184, 25],
+							"sizeAdd": 0.25
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "child_front_left_leg",
+			"id": "child_front_left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [4, -10, 9]
+		},
+		{
+			"part": "child_front_right_leg",
+			"id": "child_front_right_leg",
+			"invertAxis": "xy",
+			"translate": [-4, -10, 9]
+		},
+		{
+			"part": "child_back_left_leg",
+			"id": "child_back_left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [4, -10, -8]
+		},
+		{
+			"part": "child_back_right_leg",
+			"id": "child_back_right_leg",
+			"invertAxis": "xy",
+			"translate": [-4, -10, -8]
+		},
+		{
+			"part": "headpiece",
+			"id": "headpiece",
+			"invertAxis": "xy",
+			"translate": [0, -22, 8.9],
+			"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+			"boxes": [
+				{
+					"coordinates": [-3, 28, -11.15, 6, 5, 6],
+					"uvNorth": [135, 7, 141, 12],
+					"uvEast": [129, 7, 135, 12],
+					"uvSouth": [147, 7, 153, 12],
+					"uvWest": [141, 7, 147, 12],
+					"uvUp": [141, 7, 135, 1],
+					"uvDown": [147, 1, 141, 7],
+					"sizeAdd": 0.4
+				}
+			]
+		},
+		{
+			"part": "noseband",
+			"id": "noseband",
+			"invertAxis": "xy",
+			"translate": [0, -22, 9],
+			"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+			"boxes": [
+				{
+					"coordinates": [-2, 28, -13.5, 4, 5, 2],
+					"uvNorth": [149, 2, 153, 7],
+					"uvEast": [147, 2, 149, 7],
+					"uvSouth": [155, 2, 159, 7],
+					"uvWest": [153, 2, 155, 7],
+					"uvUp": [153, 2, 149, 0],
+					"uvDown": [157, 0, 153, 2],
+					"sizeAdd": 0.4
+				}
+			]
+		},
+		{
+			"part": "left_bit",
+			"id": "left_bit",
+			"invertAxis": "xy",
+			"translate": [0, -22, 9],
+			"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+			"boxes": [
+				{
+					"coordinates": [-3.1, 29, -15, 1, 2, 2],
+					"uvNorth": [159, 7, 160, 9],
+					"uvEast": [157, 7, 159, 9],
+					"uvSouth": [162, 7, 163, 9],
+					"uvWest": [160, 7, 162, 9],
+					"uvUp": [160, 7, 159, 5],
+					"uvDown": [161, 5, 160, 7]
+				}
+			]
+		},
+		{
+			"part": "right_bit",
+			"id": "right_bit",
+			"invertAxis": "xy",
+			"translate": [0, -22, 9],
+			"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+			"boxes": [
+				{
+					"coordinates": [2.1, 29, -15, 1, 2, 2],
+					"uvNorth": [159, 7, 160, 9],
+					"uvEast": [157, 7, 159, 9],
+					"uvSouth": [162, 7, 163, 9],
+					"uvWest": [160, 7, 162, 9],
+					"uvUp": [160, 7, 159, 5],
+					"uvDown": [161, 5, 160, 7]
+				}
+			]
+		},
+		{
+			"part": "left_rein",
+			"id": "left_rein",
+			"invertAxis": "xy",
+			"translate": [0, -25.5, 5.5],
+			"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+			"boxes": [
+				{
+					"coordinates": [-3.5, 28.5, -13.5, 0, 3, 16],
+					"uvEast": [160, 18, 176, 21],
+					"uvWest": [176, 18, 192, 21]
+				}
+			]
+		},
+		{
+			"part": "right_rein",
+			"id": "right_rein",
+			"invertAxis": "xy",
+			"translate": [0, -25.5, 5.5],
+			"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+			"boxes": [
+				{
+					"coordinates": [3.4, 28.5, -13.5, 0, 3, 16],
+					"uvEast": [160, 18, 176, 21],
+					"uvWest": [176, 18, 192, 21]
+				}
+			]
+		},
+		{
+			"part": "saddle",
+			"id": "saddle",
+			"invertAxis": "xy",
+			"translate": [0, -13, -6],
+			"texture": "textures/entity/skeleton/skeleton_horse_jockey.png",
+			"boxes": [
+				{
+					"coordinates": [-5, 12, -3, 10, 9, 9],
+					"uvNorth": [163, 9, 173, 18],
+					"uvEast": [154, 9, 163, 18],
+					"uvSouth": [182, 9, 192, 18],
+					"uvWest": [173, 9, 182, 18],
+					"uvUp": [173, 9, 163, 0],
+					"uvDown": [183, 0, 173, 9],
+					"sizeAdd": 0.5
+				}
+			]
+		}
+	]
+}

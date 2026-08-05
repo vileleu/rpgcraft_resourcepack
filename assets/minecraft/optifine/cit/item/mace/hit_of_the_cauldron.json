@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./haemorrhaxe",
+	"textures": {
+		"particle": "./hit_of_the_cauldron"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./nerf_dragon",
+	"textures": {
+		"1": "./master_dragon",
+		"2": "./master_dragon_wings",
+		"particle": "./master_dragon_wings"
+	}
+}

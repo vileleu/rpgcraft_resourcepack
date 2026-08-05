@@ -1,0 +1,20 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/mossy_stone_brick_slab" },
+            { "model": "minecraft:block/mossy_stone_brick_slab_1" },
+			{ "model": "minecraft:block/mossy_stone_brick_slab_2" }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/mossy_stone_bricks" },
+            { "model": "minecraft:block/mossy_stone_bricks_1" },
+			{ "model": "minecraft:block/mossy_stone_bricks_2" }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/mossy_stone_brick_slab_top" },
+            { "model": "minecraft:block/mossy_stone_brick_slab_top_1" },
+			{ "model": "minecraft:block/mossy_stone_brick_slab_top_2" }
+        ]
+    }
+}

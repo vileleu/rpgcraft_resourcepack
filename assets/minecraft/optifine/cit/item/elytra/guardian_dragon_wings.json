@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/elytra",
+	"textures": {
+		"0": "item/elytra/guardian_dragon_wings",
+		"particle": "item/elytra/guardian_dragon_wings"
+	}
+}

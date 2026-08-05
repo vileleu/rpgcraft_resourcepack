@@ -1,0 +1,65 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/clovers_side",
+		"particle": "block/clovers_top",
+		"crop": "block/clovers_top"
+	},
+	"elements": [
+		{
+			"name": "Element",
+			"from": [7.5, 0, 1.5],
+			"to": [7.501, 6, 14.5],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.5005, 3, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [2, 10, 15, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [2, 10, 15, 16], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "PlaneZ5",
+			"from": [1.5, 0, 8],
+			"to": [14.5, 6, 8.001],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 3, 8.0005]},
+			"faces": {
+				"north": {"uv": [2, 10, 15, 16], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [2, 10, 15, 16], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 6, 1],
+			"to": [15, 6, 15],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0], "texture": "#crop", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 0], "texture": "#crop", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#crop", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 0], "texture": "#crop", "tintindex": 0},
+				"up": {"uv": [0, 1, 15, 15], "texture": "#crop", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#crop", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2, 0, 3],
+			"to": [13, 3, 13],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [3, 0, 14, 3], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [3, 0, 14, 3], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [3, 0, 14, 3], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [3, 0, 14, 3], "texture": "#1", "tintindex": 0}
+			}
+		}
+	]
+}

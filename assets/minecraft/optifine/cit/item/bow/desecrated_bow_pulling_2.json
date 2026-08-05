@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./sacred_bow_pulling_2",
+	"textures": {
+		"arrow": "item/arrow",
+		"particle": "./desecrated_bow_pulling_2"
+	}
+}

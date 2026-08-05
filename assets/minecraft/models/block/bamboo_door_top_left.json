@@ -1,0 +1,59 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textures": {
+		"sides": "block/bamboo_door_sides",
+		"ends": "block/bamboo_door_ends",
+		"particle": "block/bamboo_door_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 16], "texture": "#sides", "cullface": "north"},
+				"east": {"uv": [4, 0, 0, 16], "texture": "#particle"},
+				"south": {"uv": [16, 6, 0, 9], "rotation": 90, "texture": "#ends"},
+				"west": {"uv": [0, 0, 4, 16], "texture": "#particle", "cullface": "west"},
+				"up": {"uv": [0, 0, 4, 3], "rotation": 90, "texture": "#ends", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 0, 12],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [16, 9, 0, 12], "rotation": 90, "texture": "#ends"},
+				"east": {"uv": [16, 0, 12, 16], "texture": "#particle"},
+				"south": {"uv": [3, 0, 6, 16], "texture": "#sides", "cullface": "south"},
+				"west": {"uv": [12, 0, 16, 16], "texture": "#particle", "cullface": "west"},
+				"up": {"uv": [12, 0, 16, 3], "rotation": 90, "texture": "#ends", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 12, 4],
+			"to": [3, 16, 12],
+			"faces": {
+				"east": {"uv": [12, 0, 4, 4], "texture": "#particle"},
+				"west": {"uv": [4, 0, 12, 4], "texture": "#particle", "cullface": "west"},
+				"up": {"uv": [4, 0, 12, 3], "rotation": 90, "texture": "#ends", "cullface": "up"},
+				"down": {"uv": [12, 14, 15, 6], "texture": "#ends"}
+			}
+		},
+		{
+			"from": [1.5, 1, 4],
+			"to": [1.5, 12, 12],
+			"faces": {
+				"east": {"uv": [12, 4, 4, 15], "texture": "#particle"},
+				"west": {"uv": [4, 4, 12, 15], "texture": "#particle", "cullface": "west"}
+			}
+		},
+		{
+			"from": [0, 0, 4],
+			"to": [3, 1, 12],
+			"faces": {
+				"east": {"uv": [4, 15, 12, 16], "texture": "#particle"},
+				"west": {"uv": [4, 15, 12, 16], "texture": "#particle"},
+				"up": {"uv": [12, 12, 4, 15], "rotation": 90, "texture": "#ends"}
+			}
+		}
+	]
+}

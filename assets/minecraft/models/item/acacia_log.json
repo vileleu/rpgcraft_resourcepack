@@ -1,0 +1,7 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "minecraft:block/acacia_log",
+  "textures": {
+    "side": "minecraft:block/acacia_log_horizontal"
+  }
+}

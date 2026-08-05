@@ -1,0 +1,223 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [128, 64],
+	"texture": "textures/entity/wraith_baby.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "body",
+					"invertAxis": "xy",
+					"translate": [0, -2, 0],
+					"boxes": [
+						{
+							"coordinates": [-4.75, 8, -3, 10, 16, 6],
+							"uvNorth": [6, 24, 16, 40],
+							"uvEast": [0, 24, 6, 40],
+							"uvSouth": [22, 24, 32, 40],
+							"uvWest": [16, 24, 22, 40]
+						},
+						{
+							"coordinates": [-4.75, 8, -3, 10, 16, 6],
+							"uvNorth": [6, 40, 16, 56],
+							"uvEast": [0, 40, 6, 56],
+							"uvSouth": [22, 40, 32, 56],
+							"uvWest": [16, 40, 22, 56],
+							"sizeAdd": -0.25
+						}
+					]
+				},
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 22, 0],
+					"boxes": [
+						{
+							"coordinates": [-4.75, 0, -5, 10, 10, 10],
+							"uvNorth": [10, 10, 20, 20],
+							"uvEast": [0, 10, 10, 20],
+							"uvSouth": [30, 10, 40, 20],
+							"uvWest": [20, 10, 30, 20],
+							"uvDown": [30, 0, 20, 10]
+						},
+						{"coordinates": [-4.75, -2, -5, 10, 12, 10], "textureOffset": [40, 0], "sizeAdd": 0.25}
+					]
+				},
+				{
+					"id": "arms",
+					"invertAxis": "xy",
+					"translate": [0, 21, 1],
+					"rotate": [90, 0, 0],
+					"submodels": [
+						{
+							"id": "left_arm",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [-6, 1, 1],
+							"rotate": [80, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-0.5, -13, -1, 2, 12, 2],
+									"uvNorth": [42, 36, 40, 48],
+									"uvEast": [42, 36, 40, 48],
+									"uvSouth": [42, 36, 40, 48],
+									"uvWest": [42, 36, 40, 48],
+									"uvDown": [40, 46, 42, 48]
+								},
+								{
+									"coordinates": [-1.5, -11.75, -2, 4, 12, 4],
+									"uvNorth": [64, 52, 60, 64],
+									"uvEast": [68, 52, 64, 64],
+									"uvSouth": [72, 52, 68, 64],
+									"uvWest": [60, 52, 56, 64],
+									"uvUp": [60, 52, 64, 48]
+								}
+							]
+						},
+						{
+							"id": "right_arm",
+							"invertAxis": "xy",
+							"translate": [5.5, 1, 1],
+							"rotate": [80, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -13, -1, 2, 12, 2],
+									"uvNorth": [42, 36, 40, 48],
+									"uvEast": [42, 36, 40, 48],
+									"uvSouth": [42, 36, 40, 48],
+									"uvWest": [42, 36, 40, 48],
+									"uvDown": [40, 46, 42, 48]
+								},
+								{
+									"coordinates": [-2, -11.75, -2, 4, 12, 4],
+									"uvNorth": [44, 52, 48, 64],
+									"uvEast": [40, 52, 44, 64],
+									"uvSouth": [52, 52, 56, 64],
+									"uvWest": [48, 52, 52, 64],
+									"uvUp": [48, 52, 44, 48]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "head_inverse",
+					"invertAxis": "xy",
+					"translate": [0, 22, 0],
+					"submodels": [
+						{
+							"id": "health_bar",
+							"invertAxis": "xy",
+							"translate": [0, 19, 0],
+							"texture": "textures/entity/health_bar.png",
+							"textureSize": [16, 16],
+							"boxes": [
+								{
+									"coordinates": [-10, -1, 0, 20, 2, 0.01],
+									"uvNorth": [0, 0, 10, 1],
+									"uvSouth": [0, 1, 10, 2]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head.ry": "-head.ry",
+					"head.rx": "-head.rx",
+					"head.rz": "-head.rz",
+					"head2.ry": "head.ry",
+					"head2.rx": "head.rx",
+					"head2.rz": "head.rz",
+					"left_arm.rx": "head.rx*2",
+					"left_arm.rz": "head.rz",
+					"right_arm.rx": "head.rx*2",
+					"right_arm.rz": "head.rz",
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0",
+					"head_inverse.rx": "-head.rx",
+					"head_inverse.ry": "-head.ry"
+				}
+			]
+		},
+		{
+			"part": "stick1",
+			"id": "stick1",
+			"invertAxis": "xy",
+			"translate": [-7, -26, 7]
+		},
+		{
+			"part": "stick2",
+			"id": "stick2",
+			"invertAxis": "xy",
+			"translate": [7, -26, 7]
+		},
+		{
+			"part": "stick3",
+			"id": "stick3",
+			"invertAxis": "xy",
+			"translate": [7, -26, -7]
+		},
+		{
+			"part": "stick4",
+			"id": "stick4",
+			"invertAxis": "xy",
+			"translate": [-7, -26, -7]
+		},
+		{
+			"part": "stick5",
+			"id": "stick5",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 5]
+		},
+		{
+			"part": "stick6",
+			"id": "stick6",
+			"invertAxis": "xy",
+			"translate": [5, -22, 5]
+		},
+		{
+			"part": "stick7",
+			"id": "stick7",
+			"invertAxis": "xy",
+			"translate": [5, -22, -5]
+		},
+		{
+			"part": "stick8",
+			"id": "stick8",
+			"invertAxis": "xy",
+			"translate": [-5, -22, -5]
+		},
+		{
+			"part": "stick9",
+			"id": "stick9",
+			"invertAxis": "xy",
+			"translate": [-3, -14, 3]
+		},
+		{
+			"part": "stick10",
+			"id": "stick10",
+			"invertAxis": "xy",
+			"translate": [3, -14, 3]
+		},
+		{
+			"part": "stick11",
+			"id": "stick11",
+			"invertAxis": "xy",
+			"translate": [3, -14, -3]
+		},
+		{
+			"part": "stick12",
+			"id": "stick12",
+			"invertAxis": "xy",
+			"translate": [-3, -14, -3]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/allium_0" },
+            { "model": "block/allium_1" },
+            { "model": "block/allium_2" },
+            { "model": "block/allium_3" },
+            { "model": "block/allium_4" },
+            { "model": "block/allium_5" }
+        ]
+    }
+}

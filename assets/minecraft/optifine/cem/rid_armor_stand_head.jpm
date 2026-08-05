@@ -1,0 +1,23 @@
+# See https://GitHub.com/sp614x/OptiFine/blob/master/OptiFineDoc/doc/cem_animation.txt https://GitHub.com/sp614x/OptiFine/blob/master/OptiFineDoc/doc/cem_model.txt https://GitHub.com/sp614x/OptiFine/blob/master/OptiFineDoc/doc/cem_part.txt
+{
+  "comment": "Created by Mickey Joe Alpha - https://www.YouTube.com/@MushirMickeyJoe",
+  "createdWith": "Cubik Studio",
+  "textureSize": [64,64],
+  "submodels": [
+    {
+      "id": "e0_Box1",
+      "translate": [-4.5,0.0,4.5],
+      "boxes": [
+        {
+          "coordinates": [-7.0,-7.0,0.0,7.0,7.0,7.0],
+          "uvDown": [46,0,53,7],
+          "uvUp": [39,0,46,7],
+          "uvNorth": [39,7,46,14],
+          "uvSouth": [53,7,60,14],
+          "uvWest": [46,7,53,14],
+          "uvEast": [32,7,39,14]
+        }
+      ]
+    }
+  ]
+}

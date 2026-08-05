@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "item/red_tulip",
+    "textures": {
+       "particle": "block/orange_tulip_0"
+	}
+}

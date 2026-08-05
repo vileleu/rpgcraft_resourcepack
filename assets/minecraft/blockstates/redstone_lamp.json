@@ -1,0 +1,16 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "multipart": [
+		{     "when": { "lit": "false" },
+              "apply": [
+		    { "model": "block/redstone_lamp" }
+			]
+        },
+		{     "when": { "lit": "true" },
+              "apply": [
+		    { "model": "block/redstone_lamp_on", "weight": 739 },
+            { "model": "block/redstone_lamp_on_1", "weight": 1 }
+			]
+        }
+    ]
+}

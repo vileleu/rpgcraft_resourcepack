@@ -1,0 +1,7 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "parent": "minecraft:block/birch_log",
+  "textures": {
+    "side": "minecraft:block/birch_log_horizontal"
+  }
+}

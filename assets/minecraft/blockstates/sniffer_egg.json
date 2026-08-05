@@ -1,0 +1,23 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "hatch=0": [
+            { "model": "block/sniffer_egg_not_cracked" },
+            { "model": "block/sniffer_egg_not_cracked", "y": 90 },
+            { "model": "block/sniffer_egg_not_cracked", "y": 180 },
+            { "model": "block/sniffer_egg_not_cracked", "y": 270 }
+        ],
+        "hatch=1": [
+            { "model": "block/sniffer_egg_slightly_cracked" },
+            { "model": "block/sniffer_egg_slightly_cracked", "y": 90 },
+            { "model": "block/sniffer_egg_slightly_cracked", "y": 180 },
+            { "model": "block/sniffer_egg_slightly_cracked", "y": 270 }
+        ],
+        "hatch=2": [
+            { "model": "block/sniffer_egg_very_cracked" },
+            { "model": "block/sniffer_egg_very_cracked", "y": 90 },
+            { "model": "block/sniffer_egg_very_cracked", "y": 180 },
+            { "model": "block/sniffer_egg_very_cracked", "y": 270 }
+        ]
+    }
+}

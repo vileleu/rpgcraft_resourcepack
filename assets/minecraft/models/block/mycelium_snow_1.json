@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/mycelium_snow_0",
+    "textures": {
+        "top": "block/mycelium_top_1"
+    }
+}

@@ -1,0 +1,264 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -20, 0],
+			"boxes": [
+				{"coordinates": [-4, 20, -4, 8, 8, 8], "textureOffset": [0, 0], "sizeAdd": -0.5}
+			]
+		},
+		{
+			"part": "left_hand",
+			"id": "left_hand",
+			"invertAxis": "xy",
+			"translate": [4.5, -18.75, 0],
+			"submodels": [
+				{
+					"id": "left_hand_rotation",
+					"invertAxis": "xy",
+					"translate": [-4, 17.75, 0],
+					"rotate": [0, 0, 57],
+					"submodels": [
+						{
+							"id": "left_stick",
+							"invertAxis": "xy",
+							"translate": [1, -0.75, 7.5],
+							"rotate": [0, 0, -45],
+							"texture": "textures/item/stick.png",
+							"boxes": [
+								{
+									"coordinates": [-2, 0, -8, 1, 2, 1],
+									"uvNorth": [60, 8, 56, 16],
+									"uvEast": [56, 8, 60, 16],
+									"uvSouth": [56, 8, 60, 16],
+									"uvWest": [56, 8, 60, 16],
+									"uvUp": [56, 8, 60, 12],
+									"uvDown": [56, 12, 60, 16]
+								},
+								{
+									"coordinates": [-3, -1, -8, 1, 3, 1],
+									"uvNorth": [40, 24, 36, 36],
+									"uvEast": [36, 24, 40, 36],
+									"uvSouth": [36, 24, 40, 36],
+									"uvWest": [36, 24, 40, 36],
+									"uvUp": [36, 24, 40, 28],
+									"uvDown": [36, 32, 40, 36]
+								},
+								{
+									"coordinates": [-4, -2, -8, 1, 3, 1],
+									"uvNorth": [36, 28, 32, 40],
+									"uvEast": [32, 28, 36, 40],
+									"uvSouth": [32, 28, 36, 40],
+									"uvWest": [32, 28, 36, 40],
+									"uvUp": [32, 28, 36, 32],
+									"uvDown": [32, 36, 36, 40]
+								},
+								{
+									"coordinates": [-5, -3, -8, 1, 3, 1],
+									"uvNorth": [32, 32, 28, 44],
+									"uvEast": [28, 32, 32, 44],
+									"uvSouth": [28, 32, 32, 44],
+									"uvWest": [28, 32, 32, 44],
+									"uvUp": [28, 32, 32, 36],
+									"uvDown": [28, 40, 32, 44]
+								},
+								{
+									"coordinates": [-6, -4, -8, 1, 3, 1],
+									"uvNorth": [28, 36, 24, 48],
+									"uvEast": [24, 36, 28, 48],
+									"uvSouth": [24, 36, 28, 48],
+									"uvWest": [24, 36, 28, 48],
+									"uvUp": [24, 36, 28, 40],
+									"uvDown": [24, 44, 28, 48]
+								},
+								{
+									"coordinates": [-7, -5, -8, 1, 3, 1],
+									"uvNorth": [24, 40, 20, 52],
+									"uvEast": [20, 40, 24, 52],
+									"uvSouth": [20, 40, 24, 52],
+									"uvWest": [20, 40, 24, 52],
+									"uvUp": [20, 40, 24, 44],
+									"uvDown": [20, 48, 24, 52]
+								},
+								{
+									"coordinates": [-8, -6, -8, 1, 3, 1],
+									"uvNorth": [20, 44, 16, 56],
+									"uvEast": [16, 44, 20, 56],
+									"uvSouth": [16, 44, 20, 56],
+									"uvWest": [16, 44, 20, 56],
+									"uvUp": [16, 44, 20, 48],
+									"uvDown": [16, 52, 20, 56]
+								},
+								{
+									"coordinates": [-9, -7, -8, 1, 3, 1],
+									"uvNorth": [16, 48, 12, 60],
+									"uvEast": [12, 48, 16, 60],
+									"uvSouth": [12, 48, 16, 60],
+									"uvWest": [12, 48, 16, 60],
+									"uvUp": [12, 48, 16, 52],
+									"uvDown": [12, 56, 16, 60]
+								},
+								{
+									"coordinates": [-10, -7, -8, 1, 2, 1],
+									"uvNorth": [12, 52, 8, 60],
+									"uvEast": [8, 52, 12, 60],
+									"uvSouth": [8, 52, 12, 60],
+									"uvWest": [8, 52, 12, 60],
+									"uvUp": [8, 52, 12, 56],
+									"uvDown": [8, 56, 12, 60]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"left_hand_rotation.rz": 0
+				}
+			]
+		},
+		{
+			"part": "right_hand",
+			"id": "right_hand",
+			"invertAxis": "xy",
+			"translate": [-14.5, -18.75, 0],
+			"submodels": [
+				{
+					"id": "right_hand_flip",
+					"invertAxis": "xy",
+					"translate": [9.5, 17.75, 0],
+					"rotate": [0, -180, 0],
+					"submodels": [
+						{
+							"id": "right_hand_rotation",
+							"invertAxis": "xy",
+							"translate": [5.5, 0, 0],
+							"rotate": [0, 0, 57],
+							"submodels": [
+								{
+									"id": "right_stick",
+									"invertAxis": "xy",
+									"translate": [1, -0.75, 7.5],
+									"rotate": [0, 0, -45],
+									"texture": "textures/item/stick.png",
+									"boxes": [
+										{
+											"coordinates": [-2, 0, -8, 1, 2, 1],
+											"uvNorth": [60, 8, 56, 16],
+											"uvEast": [56, 8, 60, 16],
+											"uvSouth": [56, 8, 60, 16],
+											"uvWest": [56, 8, 60, 16],
+											"uvUp": [56, 8, 60, 12],
+											"uvDown": [56, 12, 60, 16]
+										},
+										{
+											"coordinates": [-3, -1, -8, 1, 3, 1],
+											"uvNorth": [40, 24, 36, 36],
+											"uvEast": [36, 24, 40, 36],
+											"uvSouth": [36, 24, 40, 36],
+											"uvWest": [36, 24, 40, 36],
+											"uvUp": [36, 24, 40, 28],
+											"uvDown": [36, 32, 40, 36]
+										},
+										{
+											"coordinates": [-4, -2, -8, 1, 3, 1],
+											"uvNorth": [36, 28, 32, 40],
+											"uvEast": [32, 28, 36, 40],
+											"uvSouth": [32, 28, 36, 40],
+											"uvWest": [32, 28, 36, 40],
+											"uvUp": [32, 28, 36, 32],
+											"uvDown": [32, 36, 36, 40]
+										},
+										{
+											"coordinates": [-5, -3, -8, 1, 3, 1],
+											"uvNorth": [32, 32, 28, 44],
+											"uvEast": [28, 32, 32, 44],
+											"uvSouth": [28, 32, 32, 44],
+											"uvWest": [28, 32, 32, 44],
+											"uvUp": [28, 32, 32, 36],
+											"uvDown": [28, 40, 32, 44]
+										},
+										{
+											"coordinates": [-6, -4, -8, 1, 3, 1],
+											"uvNorth": [28, 36, 24, 48],
+											"uvEast": [24, 36, 28, 48],
+											"uvSouth": [24, 36, 28, 48],
+											"uvWest": [24, 36, 28, 48],
+											"uvUp": [24, 36, 28, 40],
+											"uvDown": [24, 44, 28, 48]
+										},
+										{
+											"coordinates": [-7, -5, -8, 1, 3, 1],
+											"uvNorth": [24, 40, 20, 52],
+											"uvEast": [20, 40, 24, 52],
+											"uvSouth": [20, 40, 24, 52],
+											"uvWest": [20, 40, 24, 52],
+											"uvUp": [20, 40, 24, 44],
+											"uvDown": [20, 48, 24, 52]
+										},
+										{
+											"coordinates": [-8, -6, -8, 1, 3, 1],
+											"uvNorth": [20, 44, 16, 56],
+											"uvEast": [16, 44, 20, 56],
+											"uvSouth": [16, 44, 20, 56],
+											"uvWest": [16, 44, 20, 56],
+											"uvUp": [16, 44, 20, 48],
+											"uvDown": [16, 52, 20, 56]
+										},
+										{
+											"coordinates": [-9, -7, -8, 1, 3, 1],
+											"uvNorth": [16, 48, 12, 60],
+											"uvEast": [12, 48, 16, 60],
+											"uvSouth": [12, 48, 16, 60],
+											"uvWest": [12, 48, 16, 60],
+											"uvUp": [12, 48, 16, 52],
+											"uvDown": [12, 56, 16, 60]
+										},
+										{
+											"coordinates": [-10, -7, -8, 1, 2, 1],
+											"uvNorth": [12, 52, 8, 60],
+											"uvEast": [8, 52, 12, 60],
+											"uvSouth": [8, 52, 12, 60],
+											"uvWest": [8, 52, 12, 60],
+											"uvUp": [8, 52, 12, 56],
+											"uvDown": [8, 56, 12, 60]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"right_hand_rotation.rz": 0,
+					"right_hand_flip.ry": 0
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -11, 0],
+			"boxes": [
+				{"coordinates": [-5, 11, -5, 10, 10, 10], "textureOffset": [0, 16], "sizeAdd": -0.5}
+			]
+		},
+		{
+			"part": "body_bottom",
+			"id": "body_bottom",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-6, 0, -6, 12, 12, 12], "textureOffset": [0, 36], "sizeAdd": -0.5}
+			]
+		}
+	]
+}

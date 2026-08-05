@@ -1,0 +1,170 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [16, 16],
+	"texture": "textures/entity/chick.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -9, 4],
+			"animations": [
+				{
+					"head3.rx": "head.rx",
+					"head3.ry": "head.ry",
+					"head3.rz": "head.rz",
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 16, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0 && !is_ridden"
+				}
+			]
+		},
+		{
+			"part": "bill",
+			"id": "bill",
+			"invertAxis": "xy",
+			"translate": [0, -9, 4]
+		},
+		{
+			"part": "chin",
+			"id": "chin",
+			"invertAxis": "xy",
+			"translate": [0, -9, 4]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -8, 0],
+			"rotate": [-90, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 4, -2, 8, 10, 8],
+					"uvNorth": [4, 11, 8, 16],
+					"uvEast": [0, 11, 4, 16],
+					"uvSouth": [12, 11, 16, 16],
+					"uvWest": [8, 11, 12, 16],
+					"uvUp": [4, 7, 8, 11],
+					"uvDown": [8, 7, 12, 11]
+				}
+			],
+			"submodels": [
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 12, 1.5],
+					"rotate": [90, 0, 0],
+					"submodels": [
+						{
+							"id": "head3",
+							"invertAxis": "xy",
+							"translate": [0, 4, -1],
+							"boxes": [
+								{
+									"coordinates": [-1, -0.5, -8, 2, 2, 2],
+									"uvNorth": [2, 2, 3, 3],
+									"uvEast": [2, 2, 3, 3],
+									"uvWest": [2, 2, 3, 3],
+									"uvUp": [2, 2, 3, 3],
+									"uvDown": [2, 2, 3, 3]
+								},
+								{
+									"coordinates": [-3, -0.5, -6, 6, 6, 6],
+									"uvNorth": [3, 3, 6, 6],
+									"uvEast": [0, 3, 3, 6],
+									"uvSouth": [9, 3, 12, 6],
+									"uvWest": [6, 3, 9, 6],
+									"uvUp": [3, 0, 6, 3],
+									"uvDown": [6, 0, 9, 3]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "health_bar_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 18, -5],
+					"rotate": [90, 0, 0],
+					"submodels": [
+						{
+							"id": "health_bar",
+							"invertAxis": "xy",
+							"translate": [0, 23, 8],
+							"texture": "textures/entity/health_bar.png",
+							"boxes": [
+								{
+									"coordinates": [-10, -1, 0, 20, 2, 0.01],
+									"uvNorth": [0, 2, 10, 3],
+									"uvSouth": [0, 3, 10, 4]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [4, -11, 0],
+			"boxes": [
+				{
+					"coordinates": [-4.1, 10, -4, 0, 4, 4],
+					"uvEast": [4, 9, 2, 11]
+				}
+			]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-4, -11, 0],
+			"boxes": [
+				{
+					"coordinates": [4.1, 10, -4, 0, 4, 4],
+					"uvEast": [4, 9, 2, 11]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1, -5, -1],
+			"boxes": [
+				{
+					"coordinates": [-3.5, 1.15, 1, 2, 6, 0],
+					"uvNorth": [13, 0, 14, 3]
+				},
+				{
+					"coordinates": [-4.5, 1.15, -3, 4, 0, 4],
+					"uvUp": [12, 3, 14, 5]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -5, -1],
+			"boxes": [
+				{
+					"coordinates": [1.5, 1.15, 1, 2, 6, 0],
+					"uvNorth": [13, 0, 14, 3]
+				},
+				{
+					"coordinates": [0.5, 1.15, -3, 4, 0, 4],
+					"uvUp": [12, 3, 14, 5]
+				}
+			]
+		}
+	]
+}

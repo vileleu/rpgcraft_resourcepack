@@ -1,0 +1,21 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/warped_roots_0" },
+			{ "model": "block/warped_roots_1" },
+			{ "model": "block/warped_roots_2" },
+            { "model": "block/warped_roots_2", "y": 90 },
+            { "model": "block/warped_roots_3" },
+			{ "model": "block/warped_roots_4" },
+			{ "model": "block/warped_roots_5" },
+            { "model": "block/warped_roots_5", "y": 90 },
+            { "model": "block/warped_roots_6" },
+			{ "model": "block/warped_roots_6", "y": 90 },
+			{ "model": "block/warped_roots_7" },
+            { "model": "block/warped_roots_7", "y": 90 },
+			{ "model": "block/warped_roots_8" },
+            { "model": "block/warped_roots_8", "y": 90 }
+        ]
+    }
+}

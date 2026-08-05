@@ -1,0 +1,45 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "multipart": [
+        {   "apply": [
+		    { "model": "block/bookshelf_0", "weight": 16 },
+            { "model": "block/bookshelf_1", "weight": 8 },
+            { "model": "block/bookshelf_2", "weight": 2 },
+            { "model": "block/bookshelf_3", "weight": 4 },
+            { "model": "block/bookshelf_4", "weight": 1 },
+            { "model": "block/bookshelf_5", "weight": 1 }
+			]
+        },
+		{     "apply": [
+		    { "model": "block/bookshelf_0", "weight": 17, "y": 90 },
+            { "model": "block/bookshelf_1", "weight": 9, "y": 90 },
+            { "model": "block/bookshelf_2", "weight": 3, "y": 90 },
+            { "model": "block/bookshelf_3", "weight": 5, "y": 90 },
+            { "model": "block/bookshelf_4", "weight": 2, "y": 90 },
+            { "model": "block/bookshelf_5", "weight": 2, "y": 90 }
+			]
+        },
+		{     "apply": [
+		    { "model": "block/bookshelf_0", "weight": 18, "y": 180 },
+            { "model": "block/bookshelf_1", "weight": 10, "y": 180 },
+            { "model": "block/bookshelf_2", "weight": 4, "y": 180 },
+            { "model": "block/bookshelf_3", "weight": 6, "y": 180 },
+            { "model": "block/bookshelf_4", "weight": 3, "y": 180 },
+            { "model": "block/bookshelf_5", "weight": 3, "y": 180 }
+			]
+		},
+		{     "apply": [
+		    { "model": "block/bookshelf_0", "weight": 19, "y": 270 },
+            { "model": "block/bookshelf_1", "weight": 11, "y": 270 },
+            { "model": "block/bookshelf_2", "weight": 5, "y": 270 },
+            { "model": "block/bookshelf_3", "weight": 7, "y": 270 },
+            { "model": "block/bookshelf_4", "weight": 4, "y": 270 },
+            { "model": "block/bookshelf_5", "weight": 4, "y": 270 }
+			]
+		},
+		{     "apply": [
+		    { "model": "block/bookshelf_frame" }
+			]
+		}
+    ]
+}

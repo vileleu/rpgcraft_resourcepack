@@ -1,0 +1,45 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/carved_pumpkin",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "./top_notch",
+		"1": "./top_notch_hat",
+		"particle": "./top_notch"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 8, 8, 16], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#0"},
+				"west": {"uv": [8, 8, 0, 16], "texture": "#0"},
+				"down": {"uv": [8, 0, 0, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-4.5, 16, -4.5],
+			"to": [20.5, 16, 20.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"up": {"uv": [12.5, 12.5, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 12.5, 12.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 16, 2],
+			"to": [14, 23, 14],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 19.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 12.5, 7, 16], "texture": "#1"},
+				"east": {"uv": [14, 12.5, 7, 16], "texture": "#1"},
+				"south": {"uv": [7, 12.5, 14, 16], "texture": "#1"},
+				"west": {"uv": [7, 12.5, 0, 16], "texture": "#1"},
+				"up": {"uv": [10, 9.5, 3, 2.5], "rotation": 270, "texture": "#1"}
+			}
+		}
+	],
+	"display": {}
+}

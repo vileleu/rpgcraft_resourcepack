@@ -1,0 +1,138 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [128, 64],
+	"texture": "textures/entity/bear/woods_bear.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -14, 16],
+			"boxes": [
+				{"coordinates": [-4.5, 9, -19, 9, 8, 7], "textureOffset": [0, 0]},
+				{"coordinates": [2.5, 16, -17, 3, 3, 1], "textureOffset": [26, 0]}
+			],
+			"submodels": [
+				{
+					"id": "head_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [-5.5, 16, -17, 3, 3, 1], "textureOffset": [26, 0]}
+					]
+				},
+				{
+					"id": "nose",
+					"invertAxis": "xy",
+					"translate": [0, 13, -19],
+					"rotate": [-22.5, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-2.5, -4, -5, 5, 4, 5],
+							"uvNorth": [5, 49, 10, 53],
+							"uvEast": [0, 49, 5, 53],
+							"uvWest": [10, 49, 15, 53],
+							"uvUp": [10, 49, 5, 44],
+							"uvDown": [15, 44, 10, 49]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 16, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0 && !is_ridden"
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [-2, -15, -12],
+			"rotate": [-90, 0, 0],
+			"boxes": [
+				{"coordinates": [-7, 13, 5, 14, 14, 11], "textureOffset": [0, 19]},
+				{"coordinates": [-6, 27, 5, 12, 12, 10], "textureOffset": [39, 0]}
+			],
+			"submodels": [
+				{
+					"id": "tail",
+					"invertAxis": "xy",
+					"translate": [0, 13, 16],
+					"rotate": [22.5, 0, 0],
+					"boxes": [
+						{"coordinates": [-2, -3, -3, 4, 4, 4], "textureOffset": [39, 22]}
+					]
+				},
+				{
+					"id": "health_bar_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 18, -5],
+					"rotate": [90, 0, 0],
+					"submodels": [
+						{
+							"id": "health_bar",
+							"invertAxis": "xy",
+							"translate": [0, 25.5, -9],
+							"texture": "textures/entity/health_bar.png",
+							"textureSize": [16, 16],
+							"boxes": [
+								{
+									"coordinates": [-5, -0.5, 0, 10, 1, 0],
+									"uvNorth": [0, 2, 10, 3],
+									"uvSouth": [0, 3, 10, 4],
+									"sizeAdd": 0.01
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [4.5, -10, -6],
+			"boxes": [
+				{"coordinates": [-6.5, 0, 4, 4, 10, 8], "textureOffset": [50, 22]}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [-4.5, -10, -6],
+			"boxes": [
+				{"coordinates": [2.5, 0, 4, 4, 10, 8], "textureOffset": [50, 22]}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [3.5, -10, 8],
+			"boxes": [
+				{"coordinates": [-5.5, 0, -10, 4, 10, 6], "textureOffset": [50, 40]}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [-3.5, -10, 8],
+			"boxes": [
+				{"coordinates": [1.5, 0, -10, 4, 10, 6], "textureOffset": [50, 40]}
+			]
+		}
+	]
+}

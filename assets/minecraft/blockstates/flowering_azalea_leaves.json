@@ -1,0 +1,13 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/flowering_azalea_leaves"
+      },
+      {
+        "model": "minecraft:block/flowering_azalea_leaves_1"
+      }
+    ]
+  }
+}

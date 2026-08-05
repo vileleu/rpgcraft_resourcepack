@@ -1,0 +1,1937 @@
+{
+  "dwarfiron_greeting1": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_greeting1"
+    ]
+  },
+  "dwarfiron_greeting2": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_greeting2"
+    ]
+  },
+  "dwarfiron_greeting3": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_greeting3"
+    ]
+  },
+  "dwarfiron_greeting4": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_greeting4"
+    ]
+  },
+  "dwarfiron_greeting5": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_greeting5"
+    ]
+  },
+  "dwarfiron_greeting6": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_greeting6"
+    ]
+  },
+  "dwarfiron_farewell1": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_farewell1"
+    ]
+  },
+  "dwarfiron_farewell2": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_farewell2"
+    ]
+  },
+  "dwarfiron_farewell3": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_farewell3"
+    ]
+  },
+  "dwarfiron_farewell4": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_farewell4"
+    ]
+  },
+  "dwarfiron_farewell5": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_farewell5"
+    ]
+  },
+  "dwarfiron_farewell6": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_farewell6"
+    ]
+  },
+  "dwarfiron_farewell7": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_farewell7"
+    ]
+  },
+  "dwarfiron_attack1": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_attack1"
+    ]
+  },
+  "dwarfiron_attack2": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_attack2"
+    ]
+  },
+  "dwarfiron_attack3": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_attack3"
+    ]
+  },
+  "dwarfiron_attack4": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_attack4"
+    ]
+  },
+  "dwarfiron_attack5": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_attack5"
+    ]
+  },
+  "dwarfiron_attack6": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_attack6"
+    ]
+  },
+  "dwarfiron_attack7": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_attack7"
+    ]
+  },
+  "dwarfiron_attack8": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_attack8"
+    ]
+  },
+  "dwarfiron_attack9": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_attack9"
+    ]
+  },
+  "dwarfiron_death1": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_death1"
+    ]
+  },
+  "dwarfiron_death2": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_death2"
+    ]
+  },
+  "dwarfiron_death3": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_death3"
+    ]
+  },
+  "dwarfiron_death4": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_death4"
+    ]
+  },
+  "dwarfiron_death5": {
+    "sounds": [
+      "sounds:dwarfiron/dwarfiron_death5"
+    ]
+  },
+  "human_greeting1": {
+    "sounds": [
+      "sounds:human/human_greeting1"
+    ]
+  },
+  "human_greeting2": {
+    "sounds": [
+      "sounds:human/human_greeting2"
+    ]
+  },
+  "human_greeting3": {
+    "sounds": [
+      "sounds:human/human_greeting3"
+    ]
+  },
+  "human_greeting4": {
+    "sounds": [
+      "sounds:human/human_greeting4"
+    ]
+  },
+  "human_greeting5": {
+    "sounds": [
+      "sounds:human/human_greeting5"
+    ]
+  },
+  "human_farewell1": {
+    "sounds": [
+      "sounds:human/human_farewell1"
+    ]
+  },
+  "human_farewell2": {
+    "sounds": [
+      "sounds:human/human_farewell2"
+    ]
+  },
+  "human_farewell3": {
+    "sounds": [
+      "sounds:human/human_farewell3"
+    ]
+  },
+  "human_farewell4": {
+    "sounds": [
+      "sounds:human/human_farewell4"
+    ]
+  },
+  "human_farewell5": {
+    "sounds": [
+      "sounds:human/human_farewell5"
+    ]
+  },
+  "human_attack1": {
+    "sounds": [
+      "sounds:human/human_attack1"
+    ]
+  },
+  "human_attack2": {
+    "sounds": [
+      "sounds:human/human_attack2"
+    ]
+  },
+  "human_attack3": {
+    "sounds": [
+      "sounds:human/human_attack3"
+    ]
+  },
+  "human_attack4": {
+    "sounds": [
+      "sounds:human/human_attack4"
+    ]
+  },
+  "human_attack5": {
+    "sounds": [
+      "sounds:human/human_attack5"
+    ]
+  },
+  "human_attack6": {
+    "sounds": [
+      "sounds:human/human_attack6"
+    ]
+  },
+  "human_death1": {
+    "sounds": [
+      "sounds:human/human_death1"
+    ]
+  },
+  "human_death2": {
+    "sounds": [
+      "sounds:human/human_death2"
+    ]
+  },
+  "human_death3": {
+    "sounds": [
+      "sounds:human/human_death3"
+    ]
+  },
+  "human_death4": {
+    "sounds": [
+      "sounds:human/human_death4"
+    ]
+  },
+  "human_death5": {
+    "sounds": [
+      "sounds:human/human_death5"
+    ]
+  },
+  "human_death6": {
+    "sounds": [
+      "sounds:human/human_death6"
+    ]
+  },
+  "human_evil_greeting1": {
+    "sounds": [
+      "sounds:human_evil/human_evil_greeting1"
+    ]
+  },
+  "human_evil_greeting2": {
+    "sounds": [
+      "sounds:human_evil/human_evil_greeting2"
+    ]
+  },
+  "human_evil_greeting3": {
+    "sounds": [
+      "sounds:human_evil/human_evil_greeting3"
+    ]
+  },
+  "human_evil_greeting4": {
+    "sounds": [
+      "sounds:human_evil/human_evil_greeting4"
+    ]
+  },
+  "human_evil_farewell1": {
+    "sounds": [
+      "sounds:human_evil/human_evil_farewell1"
+    ]
+  },
+  "human_evil_farewell2": {
+    "sounds": [
+      "sounds:human_evil/human_evil_farewell2"
+    ]
+  },
+  "human_evil_farewell3": {
+    "sounds": [
+      "sounds:human_evil/human_evil_farewell3"
+    ]
+  },
+  "human_evil_farewell4": {
+    "sounds": [
+      "sounds:human_evil/human_evil_farewell4"
+    ]
+  },
+  "human_evil_attack1": {
+    "sounds": [
+      "sounds:human_evil/human_evil_attack1"
+    ]
+  },
+  "human_evil_attack2": {
+    "sounds": [
+      "sounds:human_evil/human_evil_attack2"
+    ]
+  },
+  "human_evil_attack3": {
+    "sounds": [
+      "sounds:human_evil/human_evil_attack3"
+    ]
+  },
+  "human_evil_attack4": {
+    "sounds": [
+      "sounds:human_evil/human_evil_attack4"
+    ]
+  },
+  "human_evil_death1": {
+    "sounds": [
+      "sounds:human_evil/human_evil_death1"
+    ]
+  },
+  "tauren_greeting1": {
+    "sounds": [
+      "sounds:tauren/tauren_greeting1"
+    ]
+  },
+  "tauren_greeting2": {
+    "sounds": [
+      "sounds:tauren/tauren_greeting2"
+    ]
+  },
+  "tauren_greeting3": {
+    "sounds": [
+      "sounds:tauren/tauren_greeting3"
+    ]
+  },
+  "tauren_greeting4": {
+    "sounds": [
+      "sounds:tauren/tauren_greeting4"
+    ]
+  },
+  "tauren_greeting5": {
+    "sounds": [
+      "sounds:tauren/tauren_greeting5"
+    ]
+  },
+  "tauren_greeting6": {
+    "sounds": [
+      "sounds:tauren/tauren_greeting6"
+    ]
+  },
+  "tauren_farewell1": {
+    "sounds": [
+      "sounds:tauren/tauren_farewell1"
+    ]
+  },
+  "tauren_farewell2": {
+    "sounds": [
+      "sounds:tauren/tauren_farewell2"
+    ]
+  },
+  "tauren_farewell3": {
+    "sounds": [
+      "sounds:tauren/tauren_farewell3"
+    ]
+  },
+  "tauren_farewell4": {
+    "sounds": [
+      "sounds:tauren/tauren_farewell4"
+    ]
+  },
+  "tauren_farewell5": {
+    "sounds": [
+      "sounds:tauren/tauren_farewell5"
+    ]
+  },
+  "tauren_attack1": {
+    "sounds": [
+      "sounds:tauren/tauren_attack1"
+    ]
+  },
+  "tauren_attack2": {
+    "sounds": [
+      "sounds:tauren/tauren_attack2"
+    ]
+  },
+  "tauren_attack3": {
+    "sounds": [
+      "sounds:tauren/tauren_attack3"
+    ]
+  },
+  "tauren_attack4": {
+    "sounds": [
+      "sounds:tauren/tauren_attack4"
+    ]
+  },
+  "tauren_death1": {
+    "sounds": [
+      "sounds:tauren/tauren_death1"
+    ]
+  },
+  "tauren_death2": {
+    "sounds": [
+      "sounds:tauren/tauren_death2"
+    ]
+  },
+  "tauren_death3": {
+    "sounds": [
+      "sounds:tauren/tauren_death3"
+    ]
+  },
+  "tauren_death4": {
+    "sounds": [
+      "sounds:tauren/tauren_death4"
+    ]
+  },
+  "tauren_death5": {
+    "sounds": [
+      "sounds:tauren/tauren_death5"
+    ]
+  },
+  "dwarf_greeting1": {
+    "sounds": [
+      "sounds:dwarf/dwarf_greeting1"
+    ]
+  },
+  "dwarf_greeting2": {
+    "sounds": [
+      "sounds:dwarf/dwarf_greeting2"
+    ]
+  },
+  "dwarf_greeting3": {
+    "sounds": [
+      "sounds:dwarf/dwarf_greeting3"
+    ]
+  },
+  "dwarf_greeting4": {
+    "sounds": [
+      "sounds:dwarf/dwarf_greeting4"
+    ]
+  },
+  "dwarf_greeting5": {
+    "sounds": [
+      "sounds:dwarf/dwarf_greeting5"
+    ]
+  },
+  "dwarf_greeting6": {
+    "sounds": [
+      "sounds:dwarf/dwarf_greeting6"
+    ]
+  },
+  "dwarf_farewell1": {
+    "sounds": [
+      "sounds:dwarf/dwarf_farewell1"
+    ]
+  },
+  "dwarf_farewell2": {
+    "sounds": [
+      "sounds:dwarf/dwarf_farewell2"
+    ]
+  },
+  "dwarf_farewell3": {
+    "sounds": [
+      "sounds:dwarf/dwarf_farewell3"
+    ]
+  },
+  "dwarf_farewell4": {
+    "sounds": [
+      "sounds:dwarf/dwarf_farewell4"
+    ]
+  },
+  "dwarf_attack1": {
+    "sounds": [
+      "sounds:dwarf/dwarf_attack1"
+    ]
+  },
+  "dwarf_attack2": {
+    "sounds": [
+      "sounds:dwarf/dwarf_attack2"
+    ]
+  },
+  "dwarf_attack3": {
+    "sounds": [
+      "sounds:dwarf/dwarf_attack3"
+    ]
+  },
+  "dwarf_attack4": {
+    "sounds": [
+      "sounds:dwarf/dwarf_attack4"
+    ]
+  },
+  "dwarf_death1": {
+    "sounds": [
+      "sounds:dwarf/dwarf_death1"
+    ]
+  },
+  "dwarf_death2": {
+    "sounds": [
+      "sounds:dwarf/dwarf_death2"
+    ]
+  },
+  "dwarf_death3": {
+    "sounds": [
+      "sounds:dwarf/dwarf_death3"
+    ]
+  },
+  "dwarf_death4": {
+    "sounds": [
+      "sounds:dwarf/dwarf_death4"
+    ]
+  },
+  "dwarf_death5": {
+    "sounds": [
+      "sounds:dwarf/dwarf_death5"
+    ]
+  },
+  "dwarfiron_guard_greeting1": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_greeting1"
+    ]
+  },
+  "dwarfiron_guard_greeting2": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_greeting2"
+    ]
+  },
+  "dwarfiron_guard_greeting3": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_greeting3"
+    ]
+  },
+  "dwarfiron_guard_greeting4": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_greeting4"
+    ]
+  },
+  "dwarfiron_guard_greeting5": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_greeting5"
+    ]
+  },
+  "dwarfiron_guard_greeting6": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_greeting6"
+    ]
+  },
+  "dwarfiron_guard_attack1": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_attack1"
+    ]
+  },
+  "dwarfiron_guard_attack2": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_attack2"
+    ]
+  },
+  "dwarfiron_guard_attack3": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_attack3"
+    ]
+  },
+  "dwarfiron_guard_attack4": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_attack4"
+    ]
+  },
+  "dwarfiron_guard_attack5": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_attack5"
+    ]
+  },
+  "dwarfiron_guard_attack6": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_attack6"
+    ]
+  },
+  "dwarfiron_guard_death1": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_death1"
+    ]
+  },
+  "dwarfiron_guard_death2": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_death2"
+    ]
+  },
+  "dwarfiron_guard_death3": {
+    "sounds": [
+      "sounds:dwarfiron_guard/dwarfiron_guard_death3"
+    ]
+  },
+  "murloc_greeting1": {
+    "sounds": [
+      "sounds:murloc/murloc_greeting1"
+    ]
+  },
+  "murloc_greeting2": {
+    "sounds": [
+      "sounds:murloc/murloc_greeting2"
+    ]
+  },
+  "murloc_greeting3": {
+    "sounds": [
+      "sounds:murloc/murloc_greeting3"
+    ]
+  },
+  "murloc_farewell1": {
+    "sounds": [
+      "sounds:murloc/murloc_farewell1"
+    ]
+  },
+  "murloc_farewell2": {
+    "sounds": [
+      "sounds:murloc/murloc_farewell2"
+    ]
+  },
+  "murloc_farewell3": {
+    "sounds": [
+      "sounds:murloc/murloc_farewell3"
+    ]
+  },
+  "murloc_attack1": {
+    "sounds": [
+      "sounds:murloc/murloc_attack1"
+    ]
+  },
+  "murloc_attack2": {
+    "sounds": [
+      "sounds:murloc/murloc_attack2"
+    ]
+  },
+  "murloc_attack3": {
+    "sounds": [
+      "sounds:murloc/murloc_attack3"
+    ]
+  },
+  "murloc_attack4": {
+    "sounds": [
+      "sounds:murloc/murloc_attack4"
+    ]
+  },
+  "murloc_death1": {
+    "sounds": [
+      "sounds:murloc/murloc_death1"
+    ]
+  },
+  "dracthyr_greeting1": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_greeting1"
+    ]
+  },
+  "dracthyr_greeting2": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_greeting2"
+    ]
+  },
+  "dracthyr_greeting3": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_greeting3"
+    ]
+  },
+  "dracthyr_greeting4": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_greeting4"
+    ]
+  },
+  "dracthyr_greeting5": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_greeting5"
+    ]
+  },
+  "dracthyr_greeting6": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_greeting6"
+    ]
+  },
+  "dracthyr_greeting7": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_greeting7"
+    ]
+  },
+  "dracthyr_farewell1": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_farewell1"
+    ]
+  },
+  "dracthyr_farewell2": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_farewell2"
+    ]
+  },
+  "dracthyr_farewell3": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_farewell3"
+    ]
+  },
+  "dracthyr_farewell4": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_farewell4"
+    ]
+  },
+  "dracthyr_farewell5": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_farewell5"
+    ]
+  },
+  "dracthyr_farewell6": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_farewell6"
+    ]
+  },
+  "dracthyr_farewell7": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_farewell7"
+    ]
+  },
+  "dracthyr_attack1": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_attack1"
+    ]
+  },
+  "dracthyr_attack2": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_attack2"
+    ]
+  },
+  "dracthyr_attack3": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_attack3"
+    ]
+  },
+  "dracthyr_attack4": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_attack4"
+    ]
+  },
+  "dracthyr_attack5": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_attack5"
+    ]
+  },
+  "dracthyr_attack6": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_attack6"
+    ]
+  },
+  "dracthyr_attack7": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_attack7"
+    ]
+  },
+  "dracthyr_attack8": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_attack8"
+    ]
+  },
+  "dracthyr_attack9": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_attack9"
+    ]
+  },
+  "dracthyr_death1": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_death1"
+    ]
+  },
+  "dracthyr_death2": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_death2"
+    ]
+  },
+  "dracthyr_death3": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_death3"
+    ]
+  },
+  "dracthyr_death4": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_death4"
+    ]
+  },
+  "dracthyr_death5": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_death5"
+    ]
+  },
+  "dracthyr_death6": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_death6"
+    ]
+  },
+  "dracthyr_death7": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_death7"
+    ]
+  },
+  "dracthyr_death8": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_death8"
+    ]
+  },
+  "dracthyr_death9": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_death9"
+    ]
+  },
+  "dracthyr_death10": {
+    "sounds": [
+      "sounds:dracthyr/dracthyr_death10"
+    ]
+  },
+  "orc_greeting1": {
+    "sounds": [
+      "sounds:orc/orc_greeting1"
+    ]
+  },
+  "orc_greeting2": {
+    "sounds": [
+      "sounds:orc/orc_greeting2"
+    ]
+  },
+  "orc_greeting3": {
+    "sounds": [
+      "sounds:orc/orc_greeting3"
+    ]
+  },
+  "orc_greeting4": {
+    "sounds": [
+      "sounds:orc/orc_greeting4"
+    ]
+  },
+  "orc_greeting5": {
+    "sounds": [
+      "sounds:orc/orc_greeting5"
+    ]
+  },
+  "orc_greeting6": {
+    "sounds": [
+      "sounds:orc/orc_greeting6"
+    ]
+  },
+  "orc_farewell1": {
+    "sounds": [
+      "sounds:orc/orc_farewell1"
+    ]
+  },
+  "orc_farewell2": {
+    "sounds": [
+      "sounds:orc/orc_farewell2"
+    ]
+  },
+  "orc_farewell3": {
+    "sounds": [
+      "sounds:orc/orc_farewell3"
+    ]
+  },
+  "orc_farewell4": {
+    "sounds": [
+      "sounds:orc/orc_farewell4"
+    ]
+  },
+  "orc_farewell5": {
+    "sounds": [
+      "sounds:orc/orc_farewell5"
+    ]
+  },
+  "orc_attack1": {
+    "sounds": [
+      "sounds:orc/orc_attack1"
+    ]
+  },
+  "orc_attack2": {
+    "sounds": [
+      "sounds:orc/orc_attack2"
+    ]
+  },
+  "orc_attack3": {
+    "sounds": [
+      "sounds:orc/orc_attack3"
+    ]
+  },
+  "orc_attack4": {
+    "sounds": [
+      "sounds:orc/orc_attack4"
+    ]
+  },
+  "orc_attack5": {
+    "sounds": [
+      "sounds:orc/orc_attack5"
+    ]
+  },
+  "orc_death1": {
+    "sounds": [
+      "sounds:orc/orc_death1"
+    ]
+  },
+  "orc_death2": {
+    "sounds": [
+      "sounds:orc/orc_death2"
+    ]
+  },
+  "orc_death3": {
+    "sounds": [
+      "sounds:orc/orc_death3"
+    ]
+  },
+  "orc_death4": {
+    "sounds": [
+      "sounds:orc/orc_death4"
+    ]
+  },
+  "orc_death5": {
+    "sounds": [
+      "sounds:orc/orc_death5"
+    ]
+  },
+  "orc_death6": {
+    "sounds": [
+      "sounds:orc/orc_death6"
+    ]
+  },
+  "orc_female_greeting1": {
+    "sounds": [
+      "sounds:orc_female/orc_female_greeting1"
+    ]
+  },
+  "orc_female_greeting2": {
+    "sounds": [
+      "sounds:orc_female/orc_female_greeting2"
+    ]
+  },
+  "orc_female_greeting3": {
+    "sounds": [
+      "sounds:orc_female/orc_female_greeting3"
+    ]
+  },
+  "orc_female_greeting4": {
+    "sounds": [
+      "sounds:orc_female/orc_female_greeting4"
+    ]
+  },
+  "orc_female_farewell1": {
+    "sounds": [
+      "sounds:orc_female/orc_female_farewell1"
+    ]
+  },
+  "orc_female_farewell2": {
+    "sounds": [
+      "sounds:orc_female/orc_female_farewell2"
+    ]
+  },
+  "orc_female_farewell3": {
+    "sounds": [
+      "sounds:orc_female/orc_female_farewell3"
+    ]
+  },
+  "orc_female_farewell4": {
+    "sounds": [
+      "sounds:orc_female/orc_female_farewell4"
+    ]
+  },
+  "orc_female_farewell5": {
+    "sounds": [
+      "sounds:orc_female/orc_female_farewell5"
+    ]
+  },
+  "orc_female_attack1": {
+    "sounds": [
+      "sounds:orc_female/orc_female_attack1"
+    ]
+  },
+  "orc_female_attack2": {
+    "sounds": [
+      "sounds:orc_female/orc_female_attack2"
+    ]
+  },
+  "orc_female_attack3": {
+    "sounds": [
+      "sounds:orc_female/orc_female_attack3"
+    ]
+  },
+  "orc_female_attack4": {
+    "sounds": [
+      "sounds:orc_female/orc_female_attack4"
+    ]
+  },
+  "orc_female_attack5": {
+    "sounds": [
+      "sounds:orc_female/orc_female_attack5"
+    ]
+  },
+  "orc_female_attack6": {
+    "sounds": [
+      "sounds:orc_female/orc_female_attack6"
+    ]
+  },
+  "orc_female_death1": {
+    "sounds": [
+      "sounds:orc_female/orc_female_death1"
+    ]
+  },
+  "orc_female_death2": {
+    "sounds": [
+      "sounds:orc_female/orc_female_death2"
+    ]
+  },
+  "orc_female_death3": {
+    "sounds": [
+      "sounds:orc_female/orc_female_death3"
+    ]
+  },
+  "orc_female_death4": {
+    "sounds": [
+      "sounds:orc_female/orc_female_death4"
+    ]
+  },
+  "orc_female_death5": {
+    "sounds": [
+      "sounds:orc_female/orc_female_death5"
+    ]
+  },
+  "orc_female_death6": {
+    "sounds": [
+      "sounds:orc_female/orc_female_death6"
+    ]
+  },
+  "orc_female_death7": {
+    "sounds": [
+      "sounds:orc_female/orc_female_death7"
+    ]
+  },
+  "elfnight_greeting1": {
+    "sounds": [
+      "sounds:elfnight/elfnight_greeting1"
+    ]
+  },
+  "elfnight_greeting2": {
+    "sounds": [
+      "sounds:elfnight/elfnight_greeting2"
+    ]
+  },
+  "elfnight_greeting3": {
+    "sounds": [
+      "sounds:elfnight/elfnight_greeting3"
+    ]
+  },
+  "elfnight_greeting4": {
+    "sounds": [
+      "sounds:elfnight/elfnight_greeting4"
+    ]
+  },
+  "elfnight_greeting5": {
+    "sounds": [
+      "sounds:elfnight/elfnight_greeting5"
+    ]
+  },
+  "elfnight_greeting6": {
+    "sounds": [
+      "sounds:elfnight/elfnight_greeting6"
+    ]
+  },
+  "elfnight_greeting7": {
+    "sounds": [
+      "sounds:elfnight/elfnight_greeting7"
+    ]
+  },
+  "elfnight_greeting8": {
+    "sounds": [
+      "sounds:elfnight/elfnight_greeting8"
+    ]
+  },
+  "elfnight_farewell1": {
+    "sounds": [
+      "sounds:elfnight/elfnight_farewell1"
+    ]
+  },
+  "elfnight_farewell2": {
+    "sounds": [
+      "sounds:elfnight/elfnight_farewell2"
+    ]
+  },
+  "elfnight_farewell3": {
+    "sounds": [
+      "sounds:elfnight/elfnight_farewell3"
+    ]
+  },
+  "elfnight_farewell4": {
+    "sounds": [
+      "sounds:elfnight/elfnight_farewell4"
+    ]
+  },
+  "elfnight_farewell5": {
+    "sounds": [
+      "sounds:elfnight/elfnight_farewell5"
+    ]
+  },
+  "elfnight_farewell6": {
+    "sounds": [
+      "sounds:elfnight/elfnight_farewell6"
+    ]
+  },
+  "elfnight_attack1": {
+    "sounds": [
+      "sounds:elfnight/elfnight_attack1"
+    ]
+  },
+  "elfnight_attack2": {
+    "sounds": [
+      "sounds:elfnight/elfnight_attack2"
+    ]
+  },
+  "elfnight_attack3": {
+    "sounds": [
+      "sounds:elfnight/elfnight_attack3"
+    ]
+  },
+  "elfnight_death1": {
+    "sounds": [
+      "sounds:elfnight/elfnight_death1"
+    ]
+  },
+  "elfnight_death2": {
+    "sounds": [
+      "sounds:elfnight/elfnight_death2"
+    ]
+  },
+  "elfnight_death3": {
+    "sounds": [
+      "sounds:elfnight/elfnight_death3"
+    ]
+  },
+  "elfnight_death4": {
+    "sounds": [
+      "sounds:elfnight/elfnight_death4"
+    ]
+  },
+  "elfnight_death5": {
+    "sounds": [
+      "sounds:elfnight/elfnight_death5"
+    ]
+  },
+  "elfnight_death6": {
+    "sounds": [
+      "sounds:elfnight/elfnight_death6"
+    ]
+  },
+  "elfnight_death7": {
+    "sounds": [
+      "sounds:elfnight/elfnight_death7"
+    ]
+  },
+  "elfblood_greeting1": {
+    "sounds": [
+      "sounds:elfblood/elfblood_greeting1"
+    ]
+  },
+  "elfblood_greeting2": {
+    "sounds": [
+      "sounds:elfblood/elfblood_greeting2"
+    ]
+  },
+  "elfblood_greeting3": {
+    "sounds": [
+      "sounds:elfblood/elfblood_greeting3"
+    ]
+  },
+  "elfblood_greeting4": {
+    "sounds": [
+      "sounds:elfblood/elfblood_greeting4"
+    ]
+  },
+  "elfblood_greeting5": {
+    "sounds": [
+      "sounds:elfblood/elfblood_greeting5"
+    ]
+  },
+  "elfblood_greeting6": {
+    "sounds": [
+      "sounds:elfblood/elfblood_greeting6"
+    ]
+  },
+  "elfblood_farewell1": {
+    "sounds": [
+      "sounds:elfblood/elfblood_farewell1"
+    ]
+  },
+  "elfblood_farewell2": {
+    "sounds": [
+      "sounds:elfblood/elfblood_farewell2"
+    ]
+  },
+  "elfblood_farewell3": {
+    "sounds": [
+      "sounds:elfblood/elfblood_farewell3"
+    ]
+  },
+  "elfblood_farewell4": {
+    "sounds": [
+      "sounds:elfblood/elfblood_farewell4"
+    ]
+  },
+  "elfblood_farewell5": {
+    "sounds": [
+      "sounds:elfblood/elfblood_farewell5"
+    ]
+  },
+  "elfblood_farewell6": {
+    "sounds": [
+      "sounds:elfblood/elfblood_farewell6"
+    ]
+  },
+  "elfblood_attack1": {
+    "sounds": [
+      "sounds:elfblood/elfblood_attack1"
+    ]
+  },
+  "elfblood_attack2": {
+    "sounds": [
+      "sounds:elfblood/elfblood_attack2"
+    ]
+  },
+  "elfblood_attack3": {
+    "sounds": [
+      "sounds:elfblood/elfblood_attack3"
+    ]
+  },
+  "elfblood_attack4": {
+    "sounds": [
+      "sounds:elfblood/elfblood_attack4"
+    ]
+  },
+  "elfblood_attack5": {
+    "sounds": [
+      "sounds:elfblood/elfblood_attack5"
+    ]
+  },
+  "elfblood_death1": {
+    "sounds": [
+      "sounds:elfblood/elfblood_death1"
+    ]
+  },
+  "elfblood_death2": {
+    "sounds": [
+      "sounds:elfblood/elfblood_death2"
+    ]
+  },
+  "elfblood_death3": {
+    "sounds": [
+      "sounds:elfblood/elfblood_death3"
+    ]
+  },
+  "elfblood_death4": {
+    "sounds": [
+      "sounds:elfblood/elfblood_death4"
+    ]
+  },
+  "elfblood_death5": {
+    "sounds": [
+      "sounds:elfblood/elfblood_death5"
+    ]
+  },
+  "elfblood_death6": {
+    "sounds": [
+      "sounds:elfblood/elfblood_death6"
+    ]
+  },
+  "elfblood_death7": {
+    "sounds": [
+      "sounds:elfblood/elfblood_death7"
+    ]
+  },
+  "elfblood_death8": {
+    "sounds": [
+      "sounds:elfblood/elfblood_death8"
+    ]
+  },
+  "tauren_evil_greeting1": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_greeting1"
+    ]
+  },
+  "tauren_evil_greeting2": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_greeting2"
+    ]
+  },
+  "tauren_evil_greeting3": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_greeting3"
+    ]
+  },
+  "tauren_evil_farewell1": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_farewell1"
+    ]
+  },
+  "tauren_evil_farewell2": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_farewell2"
+    ]
+  },
+  "tauren_evil_farewell3": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_farewell3"
+    ]
+  },
+  "tauren_evil_attack1": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_attack1"
+    ]
+  },
+  "tauren_evil_attack2": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_attack2"
+    ]
+  },
+  "tauren_evil_attack3": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_attack3"
+    ]
+  },
+  "tauren_evil_attack4": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_attack4"
+    ]
+  },
+  "tauren_evil_attack5": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_attack5"
+    ]
+  },
+  "tauren_evil_attack6": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_attack6"
+    ]
+  },
+  "tauren_evil_death1": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_death1"
+    ]
+  },
+  "tauren_evil_death2": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_death2"
+    ]
+  },
+  "tauren_evil_death3": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_death3"
+    ]
+  },
+  "tauren_evil_death4": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_death4"
+    ]
+  },
+  "tauren_evil_death5": {
+    "sounds": [
+      "sounds:tauren_evil/tauren_evil_death5"
+    ]
+  },
+  "necromancer_greeting1": {
+    "sounds": [
+      "sounds:necromancer/necromancer_greeting1"
+    ]
+  },
+  "necromancer_greeting2": {
+    "sounds": [
+      "sounds:necromancer/necromancer_greeting2"
+    ]
+  },
+  "necromancer_greeting3": {
+    "sounds": [
+      "sounds:necromancer/necromancer_greeting3"
+    ]
+  },
+  "necromancer_greeting4": {
+    "sounds": [
+      "sounds:necromancer/necromancer_greeting4"
+    ]
+  },
+  "necromancer_greeting5": {
+    "sounds": [
+      "sounds:necromancer/necromancer_greeting5"
+    ]
+  },
+  "necromancer_greeting6": {
+    "sounds": [
+      "sounds:necromancer/necromancer_greeting6"
+    ]
+  },
+  "necromancer_greeting7": {
+    "sounds": [
+      "sounds:necromancer/necromancer_greeting7"
+    ]
+  },
+  "necromancer_farewell1": {
+    "sounds": [
+      "sounds:necromancer/necromancer_farewell1"
+    ]
+  },
+  "necromancer_farewell2": {
+    "sounds": [
+      "sounds:necromancer/necromancer_farewell2"
+    ]
+  },
+  "necromancer_farewell3": {
+    "sounds": [
+      "sounds:necromancer/necromancer_farewell3"
+    ]
+  },
+  "necromancer_farewell4": {
+    "sounds": [
+      "sounds:necromancer/necromancer_farewell4"
+    ]
+  },
+  "necromancer_attack1": {
+    "sounds": [
+      "sounds:necromancer/necromancer_attack1"
+    ]
+  },
+  "necromancer_attack2": {
+    "sounds": [
+      "sounds:necromancer/necromancer_attack2"
+    ]
+  },
+  "necromancer_attack3": {
+    "sounds": [
+      "sounds:necromancer/necromancer_attack3"
+    ]
+  },
+  "necromancer_attack4": {
+    "sounds": [
+      "sounds:necromancer/necromancer_attack4"
+    ]
+  },
+  "necromancer_attack5": {
+    "sounds": [
+      "sounds:necromancer/necromancer_attack5"
+    ]
+  },
+  "necromancer_death1": {
+    "sounds": [
+      "sounds:necromancer/necromancer_death1"
+    ]
+  },
+  "necromancer_death2": {
+    "sounds": [
+      "sounds:necromancer/necromancer_death2"
+    ]
+  },
+  "necromancer_death3": {
+    "sounds": [
+      "sounds:necromancer/necromancer_death3"
+    ]
+  },
+  "necromancerskeleton_greeting1": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_greeting1"
+    ]
+  },
+  "necromancerskeleton_greeting2": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_greeting2"
+    ]
+  },
+  "necromancerskeleton_greeting3": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_greeting3"
+    ]
+  },
+  "necromancerskeleton_farewell1": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_farewell1"
+    ]
+  },
+  "necromancerskeleton_farewell2": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_farewell2"
+    ]
+  },
+  "necromancerskeleton_farewell3": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_farewell3"
+    ]
+  },
+  "necromancerskeleton_attack1": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_attack1"
+    ]
+  },
+  "necromancerskeleton_attack2": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_attack2"
+    ]
+  },
+  "necromancerskeleton_attack3": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_attack3"
+    ]
+  },
+  "necromancerskeleton_attack4": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_attack4"
+    ]
+  },
+  "necromancerskeleton_attack5": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_attack5"
+    ]
+  },
+  "necromancerskeleton_attack6": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_attack6"
+    ]
+  },
+  "necromancerskeleton_attack7": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_attack7"
+    ]
+  },
+  "necromancerskeleton_attack8": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_attack8"
+    ]
+  },
+  "necromancerskeleton_attack9": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_attack9"
+    ]
+  },
+  "necromancerskeleton_attack10": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_attack10"
+    ]
+  },
+  "necromancerskeleton_death1": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_death1"
+    ]
+  },
+  "necromancerskeleton_death2": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_death2"
+    ]
+  },
+  "necromancerskeleton_death3": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_death3"
+    ]
+  },
+  "necromancerskeleton_death4": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_death4"
+    ]
+  },
+  "necromancerskeleton_death5": {
+    "sounds": [
+      "sounds:necromancer/necromancerskeleton_death5"
+    ]
+  },
+  "spider_boss_ambient1": {
+    "sounds": [
+      "sounds:spider/spider_boss_ambient1"
+    ]
+  },
+  "spider_boss_ambient2": {
+    "sounds": [
+      "sounds:spider/spider_boss_ambient2"
+    ]
+  },
+  "spider_boss_ambient3": {
+    "sounds": [
+      "sounds:spider/spider_boss_ambient3"
+    ]
+  },
+  "spider_boss_ambient4": {
+    "sounds": [
+      "sounds:spider/spider_boss_ambient4"
+    ]
+  },
+  "spider_boss_ambient5": {
+    "sounds": [
+      "sounds:spider/spider_boss_ambient5"
+    ]
+  },
+  "spider_boss_ambient6": {
+    "sounds": [
+      "sounds:spider/spider_boss_ambient6"
+    ]
+  },
+  "spider_boss_ambient7": {
+    "sounds": [
+      "sounds:spider/spider_boss_ambient7"
+    ]
+  },
+  "spider_boss_ambient8": {
+    "sounds": [
+      "sounds:spider/spider_boss_ambient8"
+    ]
+  },
+  "spider_boss_ambient9": {
+    "sounds": [
+      "sounds:spider/spider_boss_ambient9"
+    ]
+  },
+  "spider_boss_hurt1": {
+    "sounds": [
+      "sounds:spider/spider_boss_hurt1"
+    ]
+  },
+  "spider_boss_hurt2": {
+    "sounds": [
+      "sounds:spider/spider_boss_hurt2"
+    ]
+  },
+  "spider_boss_hurt3": {
+    "sounds": [
+      "sounds:spider/spider_boss_hurt3"
+    ]
+  },
+  "spider_boss_hurt4": {
+    "sounds": [
+      "sounds:spider/spider_boss_hurt4"
+    ]
+  },
+  "spider_boss_hurt5": {
+    "sounds": [
+      "sounds:spider/spider_boss_hurt5"
+    ]
+  },
+  "spider_boss_hurt6": {
+    "sounds": [
+      "sounds:spider/spider_boss_hurt6"
+    ]
+  },
+  "spider_boss_hurt7": {
+    "sounds": [
+      "sounds:spider/spider_boss_hurt7"
+    ]
+  },
+  "spider_boss_attack1": {
+    "sounds": [
+      "sounds:spider/spider_boss_attack1"
+    ]
+  },
+  "spider_boss_attack2": {
+    "sounds": [
+      "sounds:spider/spider_boss_attack2"
+    ]
+  },
+  "spider_boss_attack3": {
+    "sounds": [
+      "sounds:spider/spider_boss_attack3"
+    ]
+  },
+  "spider_boss_attack4": {
+    "sounds": [
+      "sounds:spider/spider_boss_attack4"
+    ]
+  },
+  "spider_boss_attack5": {
+    "sounds": [
+      "sounds:spider/spider_boss_attack5"
+    ]
+  },
+  "spider_boss_attack6": {
+    "sounds": [
+      "sounds:spider/spider_boss_attack6"
+    ]
+  },
+  "spider_boss_step1": {
+    "sounds": [
+      "sounds:spider/spider_boss_step1"
+    ]
+  },
+  "spider_boss_step2": {
+    "sounds": [
+      "sounds:spider/spider_boss_step2"
+    ]
+  },
+  "spider_boss_step3": {
+    "sounds": [
+      "sounds:spider/spider_boss_step3"
+    ]
+  },
+  "spider_boss_death1": {
+    "sounds": [
+      "sounds:spider/spider_boss_death1"
+    ]
+  },
+  "spider_boss_death2": {
+    "sounds": [
+      "sounds:spider/spider_boss_death2"
+    ]
+  },
+  "spider_boss_death3": {
+    "sounds": [
+      "sounds:spider/spider_boss_death3"
+    ]
+  },
+  "spell_kneebreaker": {
+    "sounds": [
+      "sounds:spell/spell_kneebreaker"
+    ]
+  },
+  "spell_whirlwind": {
+    "sounds": [
+      "sounds:spell/spell_whirlwind"
+    ]
+  },
+  "spell_deadlymagnet": {
+    "sounds": [
+      "sounds:spell/spell_deadlymagnet"
+    ]
+  },
+  "spell_leap": {
+    "sounds": [
+      "sounds:spell/spell_leap"
+    ]
+  },
+  "spell_stealth": {
+    "sounds": [
+      "sounds:spell/spell_stealth"
+    ]
+  },
+  "spell_sprint": {
+    "sounds": [
+      "sounds:spell/spell_sprint"
+    ]
+  },
+  "spell_escape": {
+    "sounds": [
+      "sounds:spell/spell_escape"
+    ]
+  },
+  "spell_coldblood": {
+    "sounds": [
+      "sounds:spell/spell_coldblood"
+    ]
+  },
+  "spell_fireball": {
+    "sounds": [
+      "sounds:spell/spell_fireball"
+    ]
+  },
+  "spell_fireball_hit": {
+    "sounds": [
+      "sounds:spell/spell_fireball_hit"
+    ]
+  },
+  "spell_teleportation": {
+    "sounds": [
+      "sounds:spell/spell_teleportation"
+    ]
+  },
+  "spell_manathirst": {
+    "sounds": [
+      "sounds:spell/spell_manathirst"
+    ]
+  },
+  "spell_flamenova": {
+    "sounds": [
+      "sounds:spell/spell_flamenova"
+    ]
+  },
+  "spell_metamorph": {
+    "sounds": [
+      "sounds:spell/spell_metamorph"
+    ]
+  },
+  "spell_metamorph_end": {
+    "sounds": [
+      "sounds:spell/spell_metamorph_end"
+    ]
+  },
+  "spell_dragonbreath": {
+    "sounds": [
+      "sounds:spell/spell_dragonbreath"
+    ]
+  },
+  "spell_dragonskin": {
+    "sounds": [
+      "sounds:spell/spell_dragonskin"
+    ]
+  },
+  "spell_strikeback": {
+    "sounds": [
+      "sounds:spell/spell_strikeback"
+    ]
+  },
+  "spell_strikeback_hit": {
+    "sounds": [
+      "sounds:spell/spell_strikeback_hit"
+    ]
+  },
+  "spell_holybomb": {
+    "sounds": [
+      "sounds:spell/spell_holybomb"
+    ]
+  },
+  "spell_holybomb_hit": {
+    "sounds": [
+      "sounds:spell/spell_holybomb_hit"
+    ]
+  },
+  "spell_shadowword": {
+    "sounds": [
+      "sounds:spell/spell_shadowword"
+    ]
+  },
+  "spell_shadowword_hit": {
+    "sounds": [
+      "sounds:spell/spell_shadowword_hit"
+    ]
+  },
+  "spell_holyland": {
+    "sounds": [
+      "sounds:spell/spell_holyland"
+    ]
+  },
+  "spell_holyshield": {
+    "sounds": [
+      "sounds:spell/spell_holyshield"
+    ]
+  },
+  "spell_holyshield_hit": {
+    "sounds": [
+      "sounds:spell/spell_holyshield_hit"
+    ]
+  },
+  "spell_majestic": {
+    "sounds": [
+      "sounds:spell/spell_majestic"
+    ]
+  },
+  "spell_snowball": {
+    "sounds": [
+      "sounds:spell/spell_snowball"
+    ]
+  },
+  "spell_snowball_hit": {
+    "sounds": [
+      "sounds:spell/spell_snowball_hit"
+    ]
+  },
+  "spell_explosiveshot": {
+    "sounds": [
+      "sounds:spell/spell_explosiveshot"
+    ]
+  },
+  "spell_pet": {
+    "sounds": [
+      "sounds:spell/spell_pet"
+    ]
+  },
+  "spell_hunt": {
+    "sounds": [
+      "sounds:spell/spell_hunt"
+    ]
+  },
+  "spell_icetrap": {
+    "sounds": [
+      "sounds:spell/spell_icetrap"
+    ]
+  },
+  "spell_icetrap_hit": {
+    "sounds": [
+      "sounds:spell/spell_icetrap_hit"
+    ]
+  },
+  "spell_spideregg": {
+    "sounds": [
+      "sounds:spider/spell/spell_spideregg"
+    ]
+  },
+  "spell_spideregg_hit": {
+    "sounds": [
+      "sounds:spider/spell/spell_spideregg_hit"
+    ]
+  },
+  "spell_cobweb": {
+    "sounds": [
+      "sounds:spider/spell/spell_cobweb"
+    ]
+  },
+  "spell_cobweb_hit": {
+    "sounds": [
+      "sounds:spider/spell/spell_cobweb_hit"
+    ]
+  },
+  "quest_started": {
+    "sounds": [
+      "sounds:quest/quest_started"
+    ]
+  },
+  "quest_ended": {
+    "sounds": [
+      "sounds:quest/quest_ended"
+    ]
+  },
+  "quest_completed": {
+    "sounds": [
+      "sounds:quest/quest_completed"
+    ]
+  },
+  "quest_failed": {
+    "sounds": [
+      "sounds:quest/quest_failed"
+    ]
+  },
+  "levelup": {
+    "sounds": [
+      "sounds:quest/levelup"
+    ]
+  },
+  "staff_shoot": {
+    "sounds": [
+      "sounds:staff/staff_shoot"
+    ]
+  },
+  "staff_hit": {
+    "sounds": [
+      "sounds:staff/staff_hit"
+    ]
+  },
+  "buy_talent": {
+    "sounds": [
+      "sounds:trader/buy_talent"
+    ]
+  },
+  "buy": {
+    "sounds": [
+      "sounds:trader/buy"
+    ]
+  },
+  "sell": {
+    "sounds": [
+      "sounds:trader/sell"
+    ]
+  },
+  "repair": {
+    "sounds": [
+      "sounds:trader/repair"
+    ]
+  }
+}

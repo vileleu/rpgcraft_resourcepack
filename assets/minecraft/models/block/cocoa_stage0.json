@@ -1,0 +1,30 @@
+{
+    "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/cocoa_stage0"
+	},
+	"elements": [
+		{
+			"from": [6, 7.7, 10.55],
+			"to": [10, 12.7, 14.55],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 11.7, 12.55]},
+			"faces": {
+				"north": {"uv": [11, 4, 15, 9], "texture": "#particle"},
+				"east": {"uv": [11, 4, 15, 9], "texture": "#particle"},
+				"south": {"uv": [11, 4, 15, 9], "texture": "#particle"},
+				"west": {"uv": [11, 4, 15, 9], "texture": "#particle"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#particle"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [8, 12, 12],
+			"to": [8, 16, 16],
+			"faces": {
+				"east": {"uv": [16, 0, 12, 4], "texture": "#particle"},
+				"west": {"uv": [12, 0, 16, 4], "texture": "#particle"}
+			}
+		}
+	]
+}

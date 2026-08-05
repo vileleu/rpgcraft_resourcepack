@@ -1,0 +1,86 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textures": {
+		"particle": "item/black_butterfly"
+	},
+	"elements": [
+		{
+			"from": [7.5, 5, 7.5],
+			"to": [8.5, 12, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 5, 7.5]},
+			"faces": {
+				"north": {"uv": [1, 0, 2, 7], "texture": "#particle"},
+				"east": {"uv": [0, 0, 1, 7], "texture": "#particle"},
+				"south": {"uv": [1, 0, 2, 7], "texture": "#particle"},
+				"west": {"uv": [0, 0, 1, 7], "texture": "#particle"},
+				"down": {"uv": [0, 6, 1, 7], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [7.5, 10, 7.5],
+			"to": [8.5, 10, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 5, 7.5]},
+			"faces": {
+				"up": {"uv": [0, 2, 1, 3], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "left_butterfly_wing",
+			"from": [-5.5, 0, 8],
+			"to": [7.5, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [3, 0, 16, 16], "texture": "#particle"},
+				"south": {"uv": [16, 0, 3, 16], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "left_butterfly_wing",
+			"from": [8.5, 0, 8],
+			"to": [21.5, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [22, 4, 8]},
+			"faces": {
+				"north": {"uv": [16, 0, 3, 16], "texture": "#particle"},
+				"south": {"uv": [3, 0, 16, 16], "texture": "#particle"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 2.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-6, 26, 12],
+			"translation": [0.5, 0, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0.25, -7.25]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0, -0.01]
+		}
+	}
+}

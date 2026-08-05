@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "./robot_shovel",
+ 	"textures": {
+		"0": "./droid_shovel",
+		"particle": "./droid_shovel"
+	}
+}

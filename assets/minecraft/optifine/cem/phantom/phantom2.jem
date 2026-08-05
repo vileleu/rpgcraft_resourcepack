@@ -1,0 +1,213 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"texture": "textures/entity/moth_creature.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0.5, -5, 0],
+			"submodels": [
+				{
+					"id": "body_rotation",
+					"invertAxis": "xy",
+					"translate": [0, -4, 3],
+					"rotate": [-67.5, 0, 0],
+					"submodels": [
+						{
+							"id": "body_wave",
+							"invertAxis": "xy",
+							"translate": [-0.5, 1, -8],
+							"boxes": [
+								{"coordinates": [-3, 3, 8, 8, 12, 4], "textureOffset": [16, 16]},
+								{"coordinates": [-3, 3, 8, 8, 12, 4], "textureOffset": [16, 32], "sizeAdd": 0.25}
+							],
+							"submodels": [
+								{
+									"id": "right_arm",
+									"invertAxis": "xy",
+									"translate": [5.5, 15, 10],
+									"boxes": [
+										{"coordinates": [0, -12, -2, 4, 12, 4], "textureOffset": [40, 16]},
+										{"coordinates": [0, -12, -2, 4, 12, 4], "textureOffset": [40, 32], "sizeAdd": 0.25}
+									]
+								},
+								{
+									"id": "legs",
+									"invertAxis": "xy",
+									"translate": [1, 3, 10],
+									"submodels": [
+										{
+											"id": "right_leg",
+											"invertAxis": "xy",
+											"translate": [2, 0, 0],
+											"boxes": [
+												{"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [0, 16]},
+												{"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [0, 32], "sizeAdd": 0.25}
+											]
+										},
+										{
+											"id": "left_leg",
+											"invertAxis": "xy",
+											"translate": [-2, 0, 0],
+											"boxes": [
+												{"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [16, 48]},
+												{"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [0, 48], "sizeAdd": 0.25}
+											]
+										}
+									]
+								},
+								{
+									"id": "left_arm",
+									"invertAxis": "xy",
+									"translate": [-3.5, 15, 10],
+									"boxes": [
+										{"coordinates": [-4, -12, -2, 4, 12, 4], "textureOffset": [32, 48]},
+										{"coordinates": [-4, -12, -2, 4, 12, 4], "textureOffset": [48, 48], "sizeAdd": 0.25}
+									]
+								},
+								{
+									"id": "wings",
+									"invertAxis": "xy",
+									"translate": [5, 9, 12],
+									"rotate": [90, 0, 0],
+									"submodels": [
+										{
+											"id": "right_wing_rotation",
+											"invertAxis": "xy",
+											"translate": [0, 0, 0],
+											"rotate": [0, 0, 45],
+											"submodels": [
+												{
+													"id": "right_moth_wing",
+													"invertAxis": "xy",
+													"mirrorTexture": "u",
+													"translate": [0, 0, 0],
+													"boxes": [
+														{"coordinates": [0, 0, -10, 14, 1, 17], "textureOffset": [0, 64]}
+													]
+												}
+											]
+										},
+										{
+											"id": "left_wing_rotation",
+											"invertAxis": "xy",
+											"translate": [-8, 0, 0],
+											"rotate": [0, 0, -45],
+											"submodels": [
+												{
+													"id": "left_moth_wing",
+													"invertAxis": "xy",
+													"translate": [0, 0, 0],
+													"boxes": [
+														{"coordinates": [-14, 0, -10, 14, 1, 17], "textureOffset": [0, 64]}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "head_rotation",
+									"invertAxis": "xy",
+									"translate": [0, 12.25, 12],
+									"rotate": [67.5, 0, 0],
+									"submodels": [
+										{
+											"id": "head2",
+											"invertAxis": "xy",
+											"translate": [0, 0, 0],
+											"boxes": [
+												{"coordinates": [-3, -1, -8, 8, 8, 8], "textureOffset": [0, 0]},
+												{"coordinates": [-3, -1, -8, 8, 8, 8], "textureOffset": [32, 0], "sizeAdd": 0.25}
+											],
+											"submodels": [
+												{
+													"id": "antenna3",
+													"invertAxis": "xy",
+													"translate": [1, 7.25, -8.25],
+													"rotate": [45, 0, 0],
+													"boxes": [
+														{
+															"coordinates": [-4, 0.25, 0.25, 8, 8, 8],
+															"uvNorth": [0, 0, 8, 8],
+															"sizeAdd": 0.25
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"right_moth_wing.rz": "sin(age*5)",
+					"left_moth_wing.rz": "-sin(age*5)",
+					"right_arm.rx": "right_wing.rz/2",
+					"left_arm.rx": "left_wing.rz/2",
+					"right_arm.rz": "right_wing.rz/3",
+					"left_arm.rz": "left_wing.rz/3",
+					"right_leg.rx": "left_wing.rz/3",
+					"left_leg.rx": "right_wing.rz/3",
+					"right_leg.rz": "left_wing.rz/4",
+					"left_leg.rz": "right_wing.rz/4",
+					"legs.rx": "tail2.rx",
+					"body_wave.rx": "tail.rx",
+					"head2.rx": "head.rx",
+					"head2.ry": "head.ry",
+					"head2.rz": "head.rz"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0.5, -3.75, 8]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [2.5, -7, 8]
+		},
+		{
+			"part": "left_wing_tip",
+			"id": "left_wing_tip",
+			"invertAxis": "xy",
+			"translate": [8.5, -7, 8]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-2.5, -7, 8]
+		},
+		{
+			"part": "right_wing_tip",
+			"id": "right_wing_tip",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-8.5, -7, 8]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0.5, -7, -1]
+		},
+		{
+			"part": "tail2",
+			"id": "tail2",
+			"invertAxis": "xy",
+			"translate": [0.5, -6.5, -7]
+		}
+	]
+}

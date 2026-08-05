@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "./empty_bow",
+    "textures": {
+        "particle": "./empty_bow_power",
+        "layer0": "./empty_bow_power"
+    }
+}

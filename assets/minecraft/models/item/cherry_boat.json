@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "item/oak_boat",
+    "textures": {
+        "boat": "item/cherry_boat"
+    }
+}

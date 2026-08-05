@@ -1,0 +1,160 @@
+{
+	"credit": "created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [64, 64],
+	"texture": "textures/entity/creeper/relatively_improved_creeper.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0],
+			"animations": [
+				{
+					"head2.rx": "head.rx",
+					"head2.ry": "head.ry",
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0",
+					"leg5.rx": "leg1.rx",
+					"leg6.rx": "leg2.rx",
+					"leg7.rx": "leg3.rx",
+					"leg8.rx": "leg4.rx"
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0],
+			"submodels": [
+				{
+					"id": "body2",
+					"invertAxis": "xy",
+					"translate": [0, 9, 6],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-4, 0, -3, 8, 12, 6], "textureOffset": [0, 22]},
+						{
+							"coordinates": [-4.5, -0.5, -3.5, 9, 13, 7],
+							"uvNorth": [36, 28, 45, 41],
+							"uvEast": [29, 28, 36, 41],
+							"uvSouth": [52, 28, 61, 41],
+							"uvWest": [45, 28, 52, 41],
+							"uvUp": [45, 28, 36, 21]
+						}
+					],
+					"submodels": [
+						{
+							"id": "head_rotation",
+							"invertAxis": "xy",
+							"translate": [0, 14, -2],
+							"rotate": [90, 0, 0],
+							"submodels": [
+								{
+									"id": "head2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{
+											"coordinates": [-5, 0, -5, 10, 10, 10],
+											"uvUp": [20, 10, 10, 0],
+											"uvDown": [30, 0, 20, 10]
+										},
+										{
+											"coordinates": [-7, -2, -5, 14, 14, 0],
+											"uvNorth": [40, 0, 54, 14]
+										},
+										{
+											"coordinates": [-5, 0, -4, 10, 10, 0],
+											"uvNorth": [10, 10, 20, 20]
+										},
+										{
+											"coordinates": [-5, -2, -5, 10, 13, 10],
+											"uvEast": [0, 9, 10, 22],
+											"uvSouth": [30, 9, 40, 22],
+											"uvWest": [10, 9, 0, 22]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 20.5, -2],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, 0.5, 0, 10, 1, 0.01],
+							"uvNorth": [0, 0, 10, 1],
+							"uvSouth": [0, 1, 10, 2]
+						}
+					]
+				},
+				{
+					"id": "leg5",
+					"invertAxis": "xy",
+					"translate": [3, 6, 5],
+					"boxes": [
+						{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [0, 40]}
+					]
+				},
+				{
+					"id": "leg6",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-3, 6, 5],
+					"boxes": [
+						{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [0, 40]}
+					]
+				},
+				{
+					"id": "leg7",
+					"invertAxis": "xy",
+					"translate": [3, 6, -5],
+					"boxes": [
+						{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [0, 50]}
+					]
+				},
+				{
+					"id": "leg8",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-3, 6, -5],
+					"boxes": [
+						{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [0, 50]}
+					]
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-2, -6, -4]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [2, -6, -4]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-2, -6, 4]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [2, -6, 4]
+		}
+	]
+}

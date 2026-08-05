@@ -1,0 +1,22 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/blue_orchid"
+      },
+      {
+        "model": "minecraft:block/blue_orchid",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/blue_orchid",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/blue_orchid",
+        "y": 270
+      }
+    ]
+  }
+}

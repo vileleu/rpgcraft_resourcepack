@@ -1,0 +1,17 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "axis=y": [
+            { "model": "block/dark_oak_log_vertical" },
+            { "model": "block/dark_oak_log_vertical", "y": 90 },
+            { "model": "block/dark_oak_log_vertical", "y": 180 },
+            { "model": "block/dark_oak_log_vertical", "y": 270 }
+        ],
+        "axis=z": [
+            { "model": "block/dark_oak_log_horizontal", "x": 90 }
+        ],
+        "axis=x": [
+            { "model": "block/dark_oak_log_horizontal", "x": 90, "y": 90 }
+        ]
+    }
+}

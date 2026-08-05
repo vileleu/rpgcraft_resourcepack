@@ -1,0 +1,13 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/emerald_ore"
+      },
+      {
+        "model": "minecraft:block/emerald_ore_mirrored"
+      }
+    ]
+  }
+}

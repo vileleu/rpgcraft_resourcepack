@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./heavy_crossbow_firework",
+	"textures": {
+		"1": "./doom_crossbow_pulling_2",
+		"2": "item/crossbow_firework",
+		"particle": "./doom_crossbow_base"
+	}
+}

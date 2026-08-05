@@ -1,0 +1,190 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [32, 32],
+	"texture": "textures/entity/piglin/zombie_piglin/mutated_porkchop.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left_ear",
+			"id": "left_ear",
+			"invertAxis": "xy",
+			"translate": [5, -30, 0]
+		},
+		{
+			"part": "right_ear",
+			"id": "right_ear",
+			"invertAxis": "xy",
+			"translate": [-5, -30, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "scale",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "spore",
+							"invertAxis": "xy",
+							"translate": [0, 10, 0],
+							"submodels": [
+								{
+									"id": "spore_rotation",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [-4, -4, -4, 8, 8, 8], "textureOffset": [0, 0]}
+									]
+								}
+							]
+						},
+						{
+							"id": "legs_idle",
+							"invertAxis": "xy",
+							"translate": [0, 24, 0],
+							"submodels": [
+								{
+									"id": "legs_idle_rotation",
+									"invertAxis": "xy",
+									"translate": [0, -21, -0.5],
+									"rotate": [0, -45, 0],
+									"boxes": [
+										{
+											"coordinates": [0, -3, -5.5, 0, 8, 11],
+											"uvEast": [0, 16, 11, 24]
+										},
+										{
+											"coordinates": [-5, -3, 0.5, 11, 8, 0],
+											"uvSouth": [0, 16, 11, 24]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "legs_walking",
+							"invertAxis": "xy",
+							"translate": [0, 24, 0],
+							"rotate": [0, 90, 0],
+							"submodels": [
+								{
+									"id": "legs_walking_rotation_0",
+									"invertAxis": "xy",
+									"translate": [0, -21, -0.5],
+									"rotate": [0, -22.5, 0],
+									"boxes": [
+										{
+											"coordinates": [-8, -3, 0.5, 17, 8, 0],
+											"uvSouth": [0, 24, 17, 32]
+										}
+									]
+								},
+								{
+									"id": "legs_walking_rotation_1",
+									"invertAxis": "xy",
+									"translate": [0, -20, -0.5],
+									"rotate": [0, -67.5, 0],
+									"boxes": [
+										{
+											"coordinates": [0, -4, -8.5, 0, 8, 17],
+											"uvNorth": [0, 0, 0, 0],
+											"uvEast": [15, 16, 32, 24],
+											"uvSouth": [0, 0, 0, 0],
+											"uvWest": [0, 0, 0, 0],
+											"uvUp": [0, 0, 0, 0],
+											"uvDown": [0, 0, 0, 0]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spore_rotation.rz": "torad(lerp(random(id), -15, 15))",
+					"spore_rotation.rx": "spore_rotation.rz",
+					"spore_rotation.ry": "torad(lerp(random(id), -360, 360))",
+					"spore.rx": "head.rx/1.5",
+					"spore.ry": "head.ry/1.5",
+					"var.scale": "1*2",
+					"scale.sx": "var.scale",
+					"scale.sy": "var.scale",
+					"scale.sz": "var.scale",
+					"legs_walking.visible": "limb_speed > 0.1",
+					"legs_idle.visible": "limb_speed < 0.1"
+				}
+			]
+		},
+		{
+			"part": "jacket",
+			"id": "jacket",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0]
+		},
+		{
+			"part": "left_sleeve",
+			"id": "left_sleeve",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0]
+		},
+		{
+			"part": "right_sleeve",
+			"id": "right_sleeve",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0]
+		},
+		{
+			"part": "left_pants",
+			"id": "left_pants",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0]
+		},
+		{
+			"part": "right_pants",
+			"id": "right_pants",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0]
+		}
+	]
+}

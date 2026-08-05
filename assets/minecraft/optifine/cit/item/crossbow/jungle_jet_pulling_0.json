@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./acorn_acer_pulling_0",
+	"textures": {
+		"particle": "./jungle_jet_barrel",
+		"base": "./jungle_jet"
+		}
+	}
+}

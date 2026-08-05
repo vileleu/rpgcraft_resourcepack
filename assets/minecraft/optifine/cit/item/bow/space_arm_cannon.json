@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./arm_cannon",
+	"textures": {
+		"particle": "./space_arm_cannon"
+	}
+}

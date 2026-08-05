@@ -1,0 +1,108 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"gui_light": "front",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/lantern",
+		"lantern": "block/lantern"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 7, 11],
+			"faces": {
+				"north": {"uv": [0, 2, 6, 9], "texture": "#lantern"},
+				"east": {"uv": [0, 2, 6, 9], "texture": "#lantern"},
+				"south": {"uv": [0, 2, 6, 9], "texture": "#lantern"},
+				"west": {"uv": [0, 2, 6, 9], "texture": "#lantern"},
+				"up": {"uv": [0, 9, 6, 15], "texture": "#lantern"},
+				"down": {"uv": [0, 9, 6, 15], "texture": "#lantern", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6, 7, 6],
+			"to": [10, 9, 10],
+			"faces": {
+				"north": {"uv": [1, 0, 5, 2], "texture": "#lantern"},
+				"east": {"uv": [1, 0, 5, 2], "texture": "#lantern"},
+				"south": {"uv": [1, 0, 5, 2], "texture": "#lantern"},
+				"west": {"uv": [1, 0, 5, 2], "texture": "#lantern"},
+				"up": {"uv": [1, 10, 5, 14], "texture": "#lantern"}
+			}
+		},
+		{
+			"from": [6.1, 10, 5.15],
+			"to": [7.1, 11, 6.15],
+			"rotation": {"angle": -45, "axis": "y", "origin": [4.5, 8, 8.5]},
+			"faces": {
+				"north": {"uv": [12, 10, 13, 11], "rotation": 270, "texture": "#lantern"},
+				"south": {"uv": [12, 10, 13, 11], "rotation": 270, "texture": "#lantern"},
+				"up": {"uv": [12, 10, 13, 11], "rotation": 270, "texture": "#lantern"},
+				"down": {"uv": [12, 10, 13, 11], "rotation": 270, "texture": "#lantern"}
+			}
+		},
+		{
+			"from": [5.1, 9, 5.15],
+			"to": [6.1, 11, 6.15],
+			"rotation": {"angle": -45, "axis": "y", "origin": [4.5, 8, 8.5]},
+			"faces": {
+				"north": {"uv": [11, 10, 12, 12], "texture": "#lantern"},
+				"east": {"uv": [11, 10, 12, 12], "texture": "#lantern"},
+				"south": {"uv": [11, 10, 12, 12], "texture": "#lantern"},
+				"west": {"uv": [11, 10, 12, 12], "texture": "#lantern"},
+				"up": {"uv": [11, 10, 12, 11], "texture": "#lantern"},
+				"down": {"uv": [11, 11, 12, 12], "texture": "#lantern", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7.1, 9, 5.15],
+			"to": [8.1, 11, 6.15],
+			"rotation": {"angle": -45, "axis": "y", "origin": [4.5, 8, 8.5]},
+			"faces": {
+				"north": {"uv": [13, 10, 14, 12], "texture": "#lantern"},
+				"east": {"uv": [13, 10, 14, 12], "texture": "#lantern"},
+				"south": {"uv": [13, 10, 14, 12], "texture": "#lantern"},
+				"west": {"uv": [13, 10, 14, 12], "texture": "#lantern"},
+				"up": {"uv": [13, 10, 14, 11], "texture": "#lantern"},
+				"down": {"uv": [13, 11, 14, 12], "texture": "#lantern", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [66.5, -45, 0],
+			"translation": [0, -1, -1.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [66.5, -45, 0],
+			"translation": [0, -1, -1.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 3.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 3.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 2.75, 0]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 14.25, 0]
+		},
+		"fixed": {
+			"translation": [0, 3, -2]
+		}
+	}
+}

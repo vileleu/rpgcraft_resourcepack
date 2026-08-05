@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "./guardian_microshot_pulling_2",
+	"textures": {
+		"particle": "./elder_guardian_microshot",
+		"arrow": "item/spectral_arrow"
+	}
+}

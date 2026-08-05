@@ -1,0 +1,18 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "multipart": [
+        {   "apply": [
+            { "model": "minecraft:block/nether_quartz_ore" },
+			{ "model": "minecraft:block/nether_quartz_ore", "y": 90 },
+			{ "model": "minecraft:block/nether_quartz_ore", "y": 180 },
+			{ "model": "minecraft:block/nether_quartz_ore", "y": 270 },
+			{ "model": "minecraft:block/nether_quartz_ore_mirrored" },
+			{ "model": "minecraft:block/nether_quartz_ore_mirrored", "y": 90 },
+			{ "model": "minecraft:block/nether_quartz_ore_mirrored", "y": 180 },
+			{ "model": "minecraft:block/nether_quartz_ore_mirrored", "y": 270 }
+			]
+        },
+        {   "apply": { "model": "block/netherrack" }
+		}
+    ]
+}

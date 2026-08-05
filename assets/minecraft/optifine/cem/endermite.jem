@@ -1,0 +1,34 @@
+{
+  "credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+  "models": 
+  [
+    {
+      "model": "rid_endermite_head.jpm",
+      "part": "body1", 
+	  "attach": false,
+      "translate": [ 0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+	{
+      "model": "rid_endermite_body.jpm",
+      "part": "body2", 
+	  "attach": false,
+      "translate": [ 0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+	{
+      "model": "rid_void.jpm",
+      "part": "body3", 
+	  "attach": false,
+      "translate": [ 0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+	{
+      "model": "rid_void.jpm",
+      "part": "body4", 
+	  "attach": false,
+      "translate": [ 0, 0, 0],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

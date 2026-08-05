@@ -1,0 +1,7 @@
+{
+	"credit": "Written by Mickey Joe Alpha - http://YouTube.com/c/MickeyJoeAlpha-G",
+    "variants": {
+        "stage=0": { "model": "block/birch_sapling_stage_0" },
+        "stage=1": { "model": "block/birch_sapling_stage_1" }
+    }
+}

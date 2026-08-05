@@ -1,0 +1,13 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "multipart": [		
+		{ "when": { "moisture": 0}, "apply": { "model": "block/farmland" }},
+		{ "when": { "moisture": 1}, "apply": { "model": "block/farmland_getting_there_0" }},
+		{ "when": { "moisture": 2}, "apply": { "model": "block/farmland_getting_there_1" }},
+		{ "when": { "moisture": 3}, "apply": { "model": "block/farmland_getting_there_2" }},
+		{ "when": { "moisture": 4}, "apply": { "model": "block/farmland_getting_there_3" }},
+		{ "when": { "moisture": 5}, "apply": { "model": "block/farmland_getting_there_4" }},
+		{ "when": { "moisture": 6}, "apply": { "model": "block/farmland_getting_there_5" }},
+		{ "when": { "moisture": 7}, "apply": { "model": "block/farmland_moist" }}
+	]
+}

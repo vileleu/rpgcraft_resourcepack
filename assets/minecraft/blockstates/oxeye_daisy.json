@@ -1,0 +1,11 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/oxeye_daisy" },
+            { "model": "block/oxeye_daisy_1" },
+			{ "model": "block/oxeye_daisy_2" },
+			{ "model": "block/oxeye_daisy_3" }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/farmland",
+	"textures": {
+		"particle": "block/farmland_getting_there_5_side",
+		"top": "block/farmland_getting_there_5",
+		"front": "block/farmland_getting_there_5_front"
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"texture": "textures/entity/zombie/zombie_baby.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 12, -2, 8, 12, 4],
+					"uvNorth": [24, 30, 32, 42],
+					"uvEast": [18, 30, 22, 42],
+					"uvSouth": [39, 30, 47, 42],
+					"uvWest": [32, 30, 36, 42],
+					"uvUp": [32, 30, 24, 26],
+					"uvDown": [40, 26, 32, 30]
+				},
+				{
+					"coordinates": [-4, 12, -2, 8, 6, 4],
+					"uvNorth": [23, 48, 31, 54],
+					"uvEast": [18, 48, 22, 54],
+					"uvSouth": [39, 48, 47, 54],
+					"uvWest": [32, 48, 36, 54],
+					"uvDown": [41, 44, 33, 48],
+					"sizeAdd": 0.25
+				}
+			],
+			"submodels": [
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"boxes": [
+						{"coordinates": [-6, 0, -6, 12, 12, 12], "textureOffset": [0, 0]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0,
+					"head2.rx": "head.rx",
+					"head2.ry": "head.ry",
+					"head2.rz": "head.rz"
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [48, 40]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [4, 12, -2, 4, 12, 4], "textureOffset": [48, 24]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -2, 4, 12, 4], "textureOffset": [0, 40]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [0, 24]}
+			]
+		}
+	]
+}

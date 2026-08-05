@@ -1,0 +1,548 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"texture": "textures/entity/guardian_elder_overgrown.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-6, 2, -8, 12, 12, 16],
+					"uvNorth": [16, 16, 28, 28],
+					"uvEast": [0, 16, 16, 28],
+					"uvSouth": [44, 16, 56, 28],
+					"uvWest": [28, 16, 44, 28],
+					"uvUp": [28, 16, 16, 0],
+					"uvDown": [40, 0, 28, 16]
+				},
+				{
+					"coordinates": [-6, 14, -6, 12, 2, 12],
+					"uvNorth": [28, 52, 40, 54],
+					"uvEast": [16, 52, 28, 54],
+					"uvSouth": [52, 52, 64, 54],
+					"uvWest": [40, 52, 52, 54],
+					"uvUp": [40, 52, 28, 40]
+				},
+				{
+					"coordinates": [-6, 0, -6, 12, 2, 12],
+					"uvNorth": [28, 54, 40, 56],
+					"uvEast": [16, 54, 28, 56],
+					"uvSouth": [52, 54, 64, 56],
+					"uvWest": [40, 54, 52, 56],
+					"uvDown": [52, 40, 40, 52]
+				},
+				{
+					"coordinates": [6, 2, -6, 2, 12, 12],
+					"uvNorth": [12, 40, 14, 52],
+					"uvEast": [0, 40, 12, 52],
+					"uvSouth": [26, 40, 28, 52],
+					"uvUp": [14, 40, 12, 28],
+					"uvDown": [16, 28, 14, 40]
+				}
+			],
+			"submodels": [
+				{
+					"id": "coral_top",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/guardian_elder_coral.png",
+					"boxes": [
+						{
+							"coordinates": [0, 16, -6, 0, 8, 14],
+							"uvEast": [60, 32, 2, 64]
+						}
+					],
+					"submodels": [
+						{
+							"id": "body_sub_1",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-2, 16.01, -4, 4, 0, 8],
+									"uvUp": [16, 32, 0, 0]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				},
+				{
+					"id": "body_flipped",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-8, 2, -6, 2, 12, 12],
+							"uvNorth": [14, 40, 12, 52],
+							"uvSouth": [28, 40, 26, 52],
+							"uvWest": [12, 40, 0, 52],
+							"uvUp": [12, 40, 14, 28],
+							"uvDown": [14, 28, 16, 40]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "eye",
+			"id": "eye",
+			"invertAxis": "xy",
+			"translate": [0, -23.5, 8.25],
+			"boxes": [
+				{
+					"coordinates": [-1, 6.5, -8.25, 2, 2, 1],
+					"uvNorth": [9, 1, 11, 3],
+					"uvEast": [8, 1, 9, 3],
+					"uvSouth": [12, 1, 14, 3],
+					"uvWest": [11, 1, 12, 3],
+					"uvUp": [11, 1, 9, 0],
+					"uvDown": [13, 0, 11, 1]
+				}
+			]
+		},
+		{
+			"part": "tail1",
+			"id": "tail1",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-2, 6, 7, 4, 4, 8],
+					"uvNorth": [48, 8, 52, 12],
+					"uvEast": [40, 8, 48, 12],
+					"uvSouth": [60, 8, 64, 12],
+					"uvWest": [52, 8, 60, 12],
+					"uvUp": [52, 8, 48, 0],
+					"uvDown": [56, 0, 52, 8]
+				}
+			]
+		},
+		{
+			"part": "tail2",
+			"id": "tail2",
+			"invertAxis": "xy",
+			"translate": [-1.5, -23.5, -14],
+			"boxes": [
+				{
+					"coordinates": [-1.5, 6.5, 14, 3, 3, 7],
+					"uvNorth": [7, 61, 10, 64],
+					"uvEast": [0, 61, 7, 64],
+					"uvSouth": [17, 61, 20, 64],
+					"uvWest": [10, 61, 17, 64],
+					"uvUp": [10, 61, 7, 54],
+					"uvDown": [13, 54, 10, 61]
+				}
+			],
+			"submodels": [
+				{
+					"id": "coral_tail",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/skeleton/sunken_skeleton.png",
+					"boxes": [
+						{
+							"coordinates": [0, 9.5, 15, 0, 3, 5],
+							"uvEast": [5, 56, 0, 62]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "tail3",
+			"id": "tail3",
+			"invertAxis": "xy",
+			"translate": [-1, -23, -20],
+			"boxes": [
+				{
+					"coordinates": [-1, 7, 20, 2, 2, 6],
+					"uvNorth": [47, 38, 49, 40],
+					"uvEast": [41, 38, 47, 40],
+					"uvSouth": [55, 38, 57, 40],
+					"uvWest": [49, 38, 55, 40],
+					"uvUp": [49, 38, 47, 32],
+					"uvDown": [51, 32, 49, 38]
+				},
+				{
+					"coordinates": [0, 3.5, 23, 0, 9, 9],
+					"uvEast": [25, 28, 34, 37]
+				}
+			]
+		},
+		{
+			"part": "spine1",
+			"id": "spine1",
+			"invertAxis": "xy",
+			"translate": [0, -12.5, -7],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine1_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 15, 7],
+					"rotate": [45, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine1_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "spine2",
+			"id": "spine2",
+			"invertAxis": "xy",
+			"translate": [0, -12.5, 7],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine2_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 15, -7],
+					"rotate": [-45, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine2_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "spine3",
+			"id": "spine3",
+			"invertAxis": "xy",
+			"translate": [7, -12.5, 0],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine3_rotation",
+					"invertAxis": "xy",
+					"translate": [-7, 15, 0],
+					"rotate": [0, 0, 45],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine3_rotation.rz": 0
+				}
+			]
+		},
+		{
+			"part": "spine4",
+			"id": "spine4",
+			"invertAxis": "xy",
+			"translate": [-7, -12.5, 0],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine4_rotation",
+					"invertAxis": "xy",
+					"translate": [7, 15, 0],
+					"rotate": [0, 0, -45],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine4_rotation.rz": 0
+				}
+			]
+		},
+		{
+			"part": "spine5",
+			"id": "spine5",
+			"invertAxis": "xy",
+			"translate": [-7, -5.5, 7],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine5_rotation",
+					"invertAxis": "xy",
+					"translate": [7, 8, -7],
+					"rotate": [-90, -45, 0],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine5_rotation.rx": 0,
+					"spine5_rotation.ry": 0
+				}
+			]
+		},
+		{
+			"part": "spine6",
+			"id": "spine6",
+			"invertAxis": "xy",
+			"translate": [7, -5.5, 7],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine6_rotation",
+					"invertAxis": "xy",
+					"translate": [-7, 8, -7],
+					"rotate": [-90, 45, 0],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine6_rotation.rx": 0,
+					"spine6_rotation.ry": 0
+				}
+			]
+		},
+		{
+			"part": "spine7",
+			"id": "spine7",
+			"invertAxis": "xy",
+			"translate": [7, -5.5, -7],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine7_rotation",
+					"invertAxis": "xy",
+					"translate": [-7, 8, 7],
+					"rotate": [90, -45, 0],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine7_rotation.rx": 0,
+					"spine7_rotation.ry": 0
+				}
+			]
+		},
+		{
+			"part": "spine8",
+			"id": "spine8",
+			"invertAxis": "xy",
+			"translate": [-7, -5.5, -7],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine8_rotation",
+					"invertAxis": "xy",
+					"translate": [7, 8, 7],
+					"rotate": [90, 45, 0],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine8_rotation.rx": 0,
+					"spine8_rotation.ry": 0
+				}
+			]
+		},
+		{
+			"part": "spine9",
+			"id": "spine9",
+			"invertAxis": "xy",
+			"translate": [0, 1.5, -7],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine9_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 1, 7],
+					"rotate": [135, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine9_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "spine10",
+			"id": "spine10",
+			"invertAxis": "xy",
+			"translate": [0, 1.5, 7],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine10_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 1, -7],
+					"rotate": [-135, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine10_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "spine11",
+			"id": "spine11",
+			"invertAxis": "xy",
+			"translate": [7, 1.5, 0],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine11_rotation",
+					"invertAxis": "xy",
+					"translate": [-7, 1, 0],
+					"rotate": [0, 0, 135],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine11_rotation.rz": 0
+				}
+			]
+		},
+		{
+			"part": "spine12",
+			"id": "spine12",
+			"invertAxis": "xy",
+			"translate": [-7, 1.5, 0],
+			"texture": "textures/entity/guardian_elder_spike.png",
+			"submodels": [
+				{
+					"id": "spine12_rotation",
+					"invertAxis": "xy",
+					"translate": [7, 1, 0],
+					"rotate": [0, 0, -135],
+					"boxes": [
+						{
+							"coordinates": [-1, -7, -1, 2, 9, 2],
+							"uvNorth": [8, 8, 16, 44],
+							"uvEast": [0, 8, 8, 44],
+							"uvSouth": [24, 8, 32, 44],
+							"uvWest": [16, 8, 24, 44],
+							"uvUp": [16, 8, 8, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"spine12_rotation.rz": 0
+				}
+			]
+		}
+	]
+}
