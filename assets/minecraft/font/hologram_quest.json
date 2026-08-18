@@ -1,0 +1,32 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/hologram_quest/exclamation-yellow.png",
+      "ascent": 13,
+      "height": 40,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/hologram_quest/interrogation-yellow.png",
+      "ascent": 13,
+      "height": 40,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/hologram_quest/exclamation-blue.png",
+      "ascent": 13,
+      "height": 40,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/hologram_quest/interrogation-grey.png",
+      "ascent": 13,
+      "height": 40,
+      "chars": [""]
+    }
+  ]
+}

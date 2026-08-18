@@ -614,6 +614,10 @@
 			"ascent":8,
 			"height":8,
 			"chars":["\ueec5"]
+		},
+    		{
+			"type": "reference",
+			"id": "minecraft:hologram_quest"
 		}
 	]
 }
