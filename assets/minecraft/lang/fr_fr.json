@@ -924,12 +924,11 @@
     "skill.rpgcraft.staff": "Bâton",
     "skill.rpgcraft.spellbook": "Grimoire",
 
-    "resource.rpgcraft": "Ressource",
-    "resource.rpgcraft.health": "Vie",
-    "resource.rpgcraft.mana": "Mana",
-    "resource.rpgcraft.rage": "Rage",
-    "resource.rpgcraft.energy": "Énergie",
-    "resource.rpgcraft.level": "Niveau",
+    "health.rpgcraft": "Vie",
+
+    "power.rpgcraft.mana": "Mana",
+    "power.rpgcraft.rage": "Rage",
+    "power.rpgcraft.energy": "Énergie",
 
     "class.rpgcraft": "Classe",
     "class.rpgcraft.beggar": "Mendiant",
@@ -975,6 +974,8 @@
     "spell.rpgcraft.hunt": "Traque",
     "spell.rpgcraft.ice_trap": "Piège de Glace",
 
+	"spell.rpgcraft.casting": "Incantation...",
+
     "potion.rpgcraft": "Potion",
     "potion.rpgcraft.potion_health": "Potion of Health",
     "potion.rpgcraft.potion_mana": "Potion de Mana",
@@ -1017,7 +1018,6 @@
     "message.rpgcraft.notenoughmana": "Pas assez de Mana",
     "message.rpgcraft.notenoughrage": "Pas assez de Rage",
     "message.rpgcraft.notenoughenergy": "Pas assez d'Énergie",
-    "message.rpgcraft.nopower": "Vous navez pas de Puissance",
     "message.rpgcraft.dodge": "Esquive",
     "message.rpgcraft.miss": "Rate",
     "message.rpgcraft.immune": "Immunisé",
@@ -1033,15 +1033,16 @@
     "npc.rpgcraft.occuped": "est occupé(e)!",
     "npc.rpgcraft.cantsee": "ne vous voit pas!",
 
-	"group.rpgcraft.alreadyin": "Ce joueur est déjà en groupe",
-	"group.rpgcraft.cantask": "Invitation impossible (le joueur a déjà une invitation en cours)",
+	"group.rpgcraft.alreadyin": "Déjà en groupe",
+	"group.rpgcraft.cantask": "Invitation impossible (invitation en cours)",
 	"group.rpgcraft.ask": "Invitation groupe:",
 	"group.rpgcraft.asksent": "Invitation envoyée",
 	"group.rpgcraft.accept": "Acceptez",
-	"group.rpgcraft.cantaccept": "Vous ne pouvez pas rejoindre le groupe (invitation introuvable)",
+	"group.rpgcraft.cantaccept": "Vous ne pouvez pas rejoindre de groupe (invitation introuvable)",
 	"group.rpgcraft.decline": "Refusez",
 	"group.rpgcraft.accepted": "Invitation acceptée",
 	"group.rpgcraft.declined": "Invitation refusée",
 	"group.rpgcraft.print": "Vous êtes en group avec: ",
-	"group.rpgcraft.nogroup": "Vous n'avez pas de groupe"
+	"group.rpgcraft.nogroup": "Vous n'avez pas de groupe",
+	"group.rpgcraft.ally": "Allié"
 }

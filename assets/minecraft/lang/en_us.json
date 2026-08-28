@@ -2392,12 +2392,11 @@
     "skill.rpgcraft.staff": "Staff",
     "skill.rpgcraft.spellbook": "Spellbook",
 
-    "resource.rpgcraft": "Resource",
-    "resource.rpgcraft.health": "Health",
-    "resource.rpgcraft.mana": "Mana",
-    "resource.rpgcraft.rage": "Rage",
-    "resource.rpgcraft.energy": "Energy",
-    "resource.rpgcraft.level": "Level",
+    "health.rpgcraft": "Health",
+
+    "power.rpgcraft.mana": "Mana",
+    "power.rpgcraft.rage": "Rage",
+    "power.rpgcraft.energy": "Energy",
 
     "class.rpgcraft": "Class",
     "class.rpgcraft.beggar": "Beggar",
@@ -2443,6 +2442,8 @@
     "spell.rpgcraft.hunt": "Hunt",
     "spell.rpgcraft.ice_trap": "Ice Trap",
 
+	"spell.rpgcraft.casting": "Casting...",
+
     "potion.rpgcraft": "Potion",
     "potion.rpgcraft.potion_health": "Potion of Health",
     "potion.rpgcraft.potion_mana": "Potion of Mana",
@@ -2485,7 +2486,6 @@
     "message.rpgcraft.notenoughmana": "Not enough Mana",
     "message.rpgcraft.notenoughrage": "Not enough Rage",
     "message.rpgcraft.notenoughenergy": "Not enough Energy",
-    "message.rpgcraft.nopower": "You have no Power",
     "message.rpgcraft.dodge": "Dodge",
     "message.rpgcraft.miss": "Miss",
     "message.rpgcraft.immune": "Immune",
@@ -2504,8 +2504,8 @@
     "npc.rpgcraft.occuped": "is occuped!",
     "npc.rpgcraft.cantsee": "can't see you!",
 
-	"group.rpgcraft.alreadyin": "This Player is already in group",
-	"group.rpgcraft.cantask": "Invitation not possible (The player already has an active invitation)",
+	"group.rpgcraft.alreadyin": "Already in group",
+	"group.rpgcraft.cantask": "Invitation not possible (active invitation)",
 	"group.rpgcraft.ask": "Invitation group:",
 	"group.rpgcraft.asksent": "Invitation sent",
 	"group.rpgcraft.accept": "Accept",
@@ -2514,5 +2514,6 @@
 	"group.rpgcraft.accepted": "Invitation accepted",
 	"group.rpgcraft.declined": "Invitation declined",
 	"group.rpgcraft.print": "You are in group with:",
-	"group.rpgcraft.nogroup": "You have no group"
+	"group.rpgcraft.nogroup": "You have no group",
+	"group.rpgcraft.ally": "Ally"
 }
