@@ -1689,6 +1689,301 @@
       "sounds:spider/spider_boss_death3"
     ]
   },
+  "scorpion_ambient1": {
+    "sounds": [
+      "sounds:scorpion/scorpion_ambient1"
+    ]
+  },
+  "scorpion_ambient2": {
+    "sounds": [
+      "sounds:scorpion/scorpion_ambient2"
+    ]
+  },
+  "scorpion_ambient3": {
+    "sounds": [
+      "sounds:scorpion/scorpion_ambient3"
+    ]
+  },
+  "scorpion_ambient4": {
+    "sounds": [
+      "sounds:scorpion/scorpion_ambient4"
+    ]
+  },
+  "scorpion_ambient5": {
+    "sounds": [
+      "sounds:scorpion/scorpion_ambient5"
+    ]
+  },
+  "scorpion_hurt1": {
+    "sounds": [
+      "sounds:scorpion/scorpion_hurt1"
+    ]
+  },
+  "scorpion_hurt2": {
+    "sounds": [
+      "sounds:scorpion/scorpion_hurt2"
+    ]
+  },
+  "scorpion_hurt3": {
+    "sounds": [
+      "sounds:scorpion/scorpion_hurt3"
+    ]
+  },
+  "scorpion_hurt4": {
+    "sounds": [
+      "sounds:scorpion/scorpion_hurt4"
+    ]
+  },
+  "scorpion_hurt5": {
+    "sounds": [
+      "sounds:scorpion/scorpion_hurt5"
+    ]
+  },
+  "scorpion_attack1": {
+    "sounds": [
+      "sounds:scorpion/scorpion_attack1"
+    ]
+  },
+  "scorpion_attack2": {
+    "sounds": [
+      "sounds:scorpion/scorpion_attack2"
+    ]
+  },
+  "scorpion_attack3": {
+    "sounds": [
+      "sounds:scorpion/scorpion_attack3"
+    ]
+  },
+  "scorpion_attack4": {
+    "sounds": [
+      "sounds:scorpion/scorpion_attack4"
+    ]
+  },
+  "scorpion_attack5": {
+    "sounds": [
+      "sounds:scorpion/scorpion_attack5"
+    ]
+  },
+  "scorpion_step1": {
+    "sounds": [
+      "sounds:scorpion/scorpion_step1"
+    ]
+  },
+  "scorpion_step2": {
+    "sounds": [
+      "sounds:scorpion/scorpion_step2"
+    ]
+  },
+  "scorpion_step3": {
+    "sounds": [
+      "sounds:scorpion/scorpion_step3"
+    ]
+  },
+  "scorpion_step4": {
+    "sounds": [
+      "sounds:scorpion/scorpion_step4"
+    ]
+  },
+  "scorpion_step5": {
+    "sounds": [
+      "sounds:scorpion/scorpion_step5"
+    ]
+  },
+  "scorpion_step6": {
+    "sounds": [
+      "sounds:scorpion/scorpion_step6"
+    ]
+  },
+  "scorpion_step7": {
+    "sounds": [
+      "sounds:scorpion/scorpion_step7"
+    ]
+  },
+  "scorpion_step8": {
+    "sounds": [
+      "sounds:scorpion/scorpion_step8"
+    ]
+  },
+  "scorpion_step9": {
+    "sounds": [
+      "sounds:scorpion/scorpion_step9"
+    ]
+  },
+  "scorpion_step10": {
+    "sounds": [
+      "sounds:scorpion/scorpion_step10"
+    ]
+  },
+  "scorpion_death1": {
+    "sounds": [
+      "sounds:scorpion/scorpion_death1"
+    ]
+  },
+  "scorpion_death2": {
+    "sounds": [
+      "sounds:scorpion/scorpion_death2"
+    ]
+  },
+  "scorpion_death3": {
+    "sounds": [
+      "sounds:scorpion/scorpion_death3"
+    ]
+  },
+  "scorpion_death4": {
+    "sounds": [
+      "sounds:scorpion/scorpion_death4"
+    ]
+  },
+  "scorpion_death5": {
+    "sounds": [
+      "sounds:scorpion/scorpion_death5"
+    ]
+  },
+  "scorpion_death6": {
+    "sounds": [
+      "sounds:scorpion/scorpion_death6"
+    ]
+  },
+  "scorpion_death7": {
+    "sounds": [
+      "sounds:scorpion/scorpion_death7"
+    ]
+  },
+  "elemental_fire_ambient1": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_ambient1"
+    ]
+  },
+  "elemental_fire_ambient2": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_ambient2"
+    ]
+  },
+  "elemental_fire_ambient3": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_ambient3"
+    ]
+  },
+  "elemental_fire_ambient4": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_ambient4"
+    ]
+  },
+  "elemental_fire_ambient5": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_ambient5"
+    ]
+  },
+  "elemental_fire_hurt1": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_hurt1"
+    ]
+  },
+  "elemental_fire_hurt2": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_hurt2"
+    ]
+  },
+  "elemental_fire_hurt3": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_hurt3"
+    ]
+  },
+  "elemental_fire_hurt4": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_hurt4"
+    ]
+  },
+  "elemental_fire_hurt5": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_hurt5"
+    ]
+  },
+  "elemental_fire_hurt6": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_hurt6"
+    ]
+  },
+  "elemental_fire_hurt7": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_hurt7"
+    ]
+  },
+  "elemental_fire_hurt8": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_hurt8"
+    ]
+  },
+  "elemental_fire_hurt9": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_hurt9"
+    ]
+  },
+  "elemental_fire_hurt10": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_hurt10"
+    ]
+  },
+  "elemental_fire_attack1": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_attack1"
+    ]
+  },
+  "elemental_fire_attack2": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_attack2"
+    ]
+  },
+  "elemental_fire_attack3": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_attack3"
+    ]
+  },
+  "elemental_fire_attack4": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_attack4"
+    ]
+  },
+  "elemental_fire_attack5": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_attack5"
+    ]
+  },
+  "elemental_fire_attack6": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_attack6"
+    ]
+  },
+  "elemental_fire_attack7": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_attack7"
+    ]
+  },
+  "elemental_fire_attack8": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_attack8"
+    ]
+  },
+  "elemental_fire_attack9": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_attack9"
+    ]
+  },
+  "elemental_fire_attack10": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_attack10"
+    ]
+  },
+  "elemental_fire_step1": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_step1"
+    ]
+  },
+  "elemental_fire_death1": {
+    "sounds": [
+      "sounds:elemental_fire/elemental_fire_death1"
+    ]
+  },
   "spell_kneebreaker": {
     "sounds": [
       "sounds:spell/spell_kneebreaker"
@@ -1699,14 +1994,14 @@
       "sounds:spell/spell_whirlwind"
     ]
   },
-  "spell_deadlymagnet": {
-    "sounds": [
-      "sounds:spell/spell_deadlymagnet"
-    ]
-  },
   "spell_leap": {
     "sounds": [
       "sounds:spell/spell_leap"
+    ]
+  },
+  "spell_deadlymagnet": {
+    "sounds": [
+      "sounds:spell/spell_deadlymagnet"
     ]
   },
   "spell_stealth": {
@@ -1819,21 +2114,6 @@
       "sounds:spell/spell_holyshield_hit"
     ]
   },
-  "spell_majestic": {
-    "sounds": [
-      "sounds:spell/spell_majestic"
-    ]
-  },
-  "spell_snowball": {
-    "sounds": [
-      "sounds:spell/spell_snowball"
-    ]
-  },
-  "spell_snowball_hit": {
-    "sounds": [
-      "sounds:spell/spell_snowball_hit"
-    ]
-  },
   "spell_explosiveshot": {
     "sounds": [
       "sounds:spell/spell_explosiveshot"
@@ -1859,24 +2139,64 @@
       "sounds:spell/spell_icetrap_hit"
     ]
   },
+  "spell_launchredstone": {
+    "sounds": [
+      "sounds:spell/npc/spell_launch_redstone"
+    ]
+  },
+  "spell_launchwater": {
+    "sounds": [
+      "sounds:spell/npc/spell_launchwater"
+    ]
+  },
+  "spell_expulse": {
+    "sounds": [
+      "sounds:spell/npc/spell_expulse"
+    ]
+  },
+  "spell_spawntrident": {
+    "sounds": [
+      "sounds:spell/npc/spell_spawntrident"
+    ]
+  },
+  "spell_force": {
+    "sounds": [
+      "sounds:spell/npc/spell_force"
+    ]
+  },
+  "spell_majestic": {
+    "sounds": [
+      "sounds:spell/npc/spell_majestic"
+    ]
+  },
+  "spell_snowball": {
+    "sounds": [
+      "sounds:spell/npc/spell_snowball"
+    ]
+  },
+  "spell_snowball_hit": {
+    "sounds": [
+      "sounds:spell/npc/spell_snowball_hit"
+    ]
+  },
   "spell_spideregg": {
     "sounds": [
-      "sounds:spider/spell/spell_spideregg"
+      "sounds:spell/npc/spell_spideregg"
     ]
   },
   "spell_spideregg_hit": {
     "sounds": [
-      "sounds:spider/spell/spell_spideregg_hit"
+      "sounds:spell/npc/spell_spideregg_hit"
     ]
   },
   "spell_cobweb": {
     "sounds": [
-      "sounds:spider/spell/spell_cobweb"
+      "sounds:spell/npc/spell_cobweb"
     ]
   },
   "spell_cobweb_hit": {
     "sounds": [
-      "sounds:spider/spell/spell_cobweb_hit"
+      "sounds:spell/npc/spell_cobweb_hit"
     ]
   },
   "quest_started": {
@@ -1897,6 +2217,21 @@
   "quest_failed": {
     "sounds": [
       "sounds:quest/quest_failed"
+    ]
+  },
+  "announce": {
+    "sounds": [
+      "sounds:quest/announce"
+    ]
+  },
+  "announce2": {
+    "sounds": [
+      "sounds:quest/announce2"
+    ]
+  },
+  "level60": {
+    "sounds": [
+      "sounds:quest/level60"
     ]
   },
   "levelup": {
